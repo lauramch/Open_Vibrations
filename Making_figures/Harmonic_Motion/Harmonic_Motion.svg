@@ -24,6 +24,21 @@
      id="defs2">
     <marker
        inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker6718"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path6716" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
        style="overflow:visible;"
        id="marker23433"
        refX="0.0"
@@ -104,7 +119,8 @@
        refX="0"
        id="Arrow1Mstart"
        style="overflow:visible"
-       inkscape:isstock="true">
+       inkscape:isstock="true"
+       inkscape:collect="always">
       <path
          id="path31813"
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
@@ -19595,9 +19611,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="2"
-     inkscape:cx="397.74104"
-     inkscape:cy="547.85157"
+     inkscape:zoom="1"
+     inkscape:cx="202.56932"
+     inkscape:cy="494.22878"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -20821,8 +20837,8 @@
          y="170.51015"
          style="font-style:italic;stroke-width:0.26458332">A</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker9009)"
-       d="m 34.308091,173.63694 c 0.01559,-1.45773 -0.260442,-2.55008 -1.8475,-4.06918"
+       style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker6718);marker-end:url(#marker9009)"
+       d="m 34.382505,173.38889 c -0.174579,-2.40031 -0.260442,-2.55008 -1.8475,-4.06918"
        id="path8999"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
