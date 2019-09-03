@@ -247,6 +247,7 @@
 			
 			\begin{equation}
 				{x}(t) = \frac{\sqrt{\omega_n^2x_0^2+v_0^2}}{\omega_n}\text{sin}\Bigg(\omega_n t + \bigg( \text{tan}^{-1}\bigg(\frac{x_0\omega_n}{v_0}\bigg)\bigg)\Bigg)
+				\label{eq:response_simple_harmonic_motion}
 			\end{equation}
 			
 			\noindent This equation provides a mathematical solutions that relates displacement of the mass to the initial conditions $x_0$ and $v_0$. The solution is considered a free response because no input is applied after t=0. The relationship between the initial conditions ($x_0$ and $v_0$) and the amplitude and phase of the response can be expressed using the Pythagorean theorem, $a^2 + b^2 = c^2$, as annotated in figure \ref{fig:Trigonometric_relationship}.
@@ -258,12 +259,34 @@
 				\label{fig:Trigonometric_relationship}
 			\end{figure}
 
+		\subsubsection{Special considerations for $v_0=0$}
+		
+			Upon close inspection of the temporal solution in equation \ref{eq:response_simple_harmonic_motion}, it becomes evident that any system without initial velocity (i.e. $v_0=0$) results in an undefined number for $(x_0\omega_n)/v_0$. A solution to this challenge lies in the fact that limit of tan$^{-1}(x)$ approaches $-\pi/2$ at $-\infty$ and  $\pi/2$ at $\infty$, as depicted in figure \ref{fig:arctan_plot}. Therefore, the solution at $-\infty$ and $\infty$ is undefined, resulting in the expression:
+			
+			\begin{equation}
+				\bigg(\frac{x_0\omega_n}{v_0}\bigg) = \pm \frac{\pi}{2}, \text{ when } v_0=0
+			\end{equation}			
+			
+			This step is applied in IEEE floating point arithmetic (IEEE 754) and results in either $\pi/2$ or $\pm \pi/2$ depending on the rounding format used. From the practitioner's side, it becomes important to recognize the situation $v_0=0$ and correct this value as needed. 
+			
+			\begin{figure}[H]
+				\centering
+				\includegraphics[]{../figures/arctan_plot.png}
+				\caption{Response of tan$^{-1}$ (or arctan) for  $x$=-60 to 60 showing that the tan$^{-1}$ is undefined as $x$ approaches $-\infty$ and $\infty$.}
+				\label{fig:arctan_plot}
+			\end{figure}		
+			
 
 \begin{example}
 		
 			A vehicle wheel, tire, and suspension can be modeled as a SDOF spring and mass. The mass is measured to be 300 kg, its frequency of oscillation is observed to be 10 rad/sec. What is the stiffness of the wheel assembly?\\
 			
-			\noindent\textbf{Solution:} Knowing $k=m\omega_n^2=(300$ $\text{kg})(10$ $\text{rad/s})^2=30$ KN/m   
+			\noindent\textbf{Solution:} 
+			Considering:
+			\begin{equation}
+				\omega_n = \sqrt{\frac{k}{m}}
+			\end{equation}
+			therefore, $k=m\omega_n^2=(300$ $\text{kg})(10$ $\text{rad/s})^2=30$ KN/m   
 
 \end{example}
 
