@@ -259,7 +259,7 @@
 				\label{fig:Trigonometric_relationship}
 			\end{figure}
 
-		\subsubsection{Special considerations for $v_0=0$}
+		\subsubsection{Special Considerations for No Initial Velocity ($v_0=0$)}
 		
 			Upon close inspection of the temporal solution in equation \ref{eq:response_simple_harmonic_motion}, it becomes evident that any system without initial velocity (i.e. $v_0=0$) results in an undefined number for $(x_0\omega_n)/v_0$. A solution to this challenge lies in the fact that limit of tan$^{-1}(x)$ approaches $-\pi/2$ at $-\infty$ and  $\pi/2$ at $\infty$, as depicted in figure \ref{fig:arctan_plot}. Therefore, the solution at $-\infty$ and $\infty$ is undefined, resulting in the expression:
 			
@@ -277,53 +277,59 @@
 			\end{figure}		
 			
 
-\begin{example}
+			\begin{example}
 		
-			A vehicle wheel, tire, and suspension can be modeled as a SDOF spring and mass. The mass is measured to be 300 kg, its frequency of oscillation is observed to be 10 rad/sec. What is the stiffness of the wheel assembly?\\
+				A vehicle wheel, tire, and suspension can be modeled as a SDOF spring and mass as depicted below: The mass of the wheel and tire is measured to be 300 kg and its frequency of oscillation is observed to be 10 rad/sec. What is the stiffness of the wheel assembly?
+				
+				\begin{figure}[H]
+					\centering
+					\includegraphics[]{../figures/Vehicle_wheel_undamped.png}
+					\caption{Modeling of a vehicle wheel, tire, and suspension showing: (a) Graphical representation; and (b) a spring-mass model.}
+					\label{fig:vehicle_wheel_undamped}
+				\end{figure}				
+				
+				\noindent\textbf{Solution:} 
+				Considering:
+				\begin{equation}
+					\omega_n = \sqrt{\frac{k}{m}}
+				\end{equation}
+				therefore, $k=m\omega_n^2=(300$ $\text{kg})(10$ $\text{rad/s})^2=30$ KN/m. Note: radians are a dimensionless quantity and as such the units of  $m\omega_n^2$ become  $\frac{\rm{kg}}{\rm{s}^2}\cdot\frac{\rm{m}}{\rm{m}}$ where the unit value $\frac{\rm{m}}{\rm{m}}$ is added such that the stiffness of the spring can be expressed as $\frac{\rm{kg}\cdot \rm{m}}{\rm{s}^2}\cdot\frac{1}{\rm{m}}$ = $\frac{\rm{N}}{\rm{m}}$.
+			\end{example}
 			
-			\noindent\textbf{Solution:} 
-			Considering:
-			\begin{equation}
-				\omega_n = \sqrt{\frac{k}{m}}
-			\end{equation}
-			therefore, $k=m\omega_n^2=(300$ $\text{kg})(10$ $\text{rad/s})^2=30$ KN/m   
+			\begin{example}		
+				Consider the following 1-DOF system, where $k = 857.8$ N/m and $m=49.2\times10^{-3}$ kg, calculate the natural frequency in rad/s and Hz. Also find the period of oscillations and the maximum displacement if the spring is initially displaced $10$ mm with no initial velocity.  	
+				\begin{figure}[H]
+					\centering
+					\includegraphics[]{../figures/1-DOF-mass_vertical.png}
+					\caption{1-DOF spring-mass system.}
+				\end{figure}		
+	
+				\noindent\textbf{Solution:} 
+				\begin{equation}
+					\omega_n = \sqrt{\frac{k}{m}}= \sqrt{\frac{857.8}{49.2\times10^{-3}}} = 132 \hspace{1ex}\text{rad/sec}
+				\end{equation}	
+				In Hz, this is:
+				\begin{equation}
+					f_n = \frac{\omega_n}{2\pi} = 21 \hspace{1ex}\text{Hz}
+				\end{equation}						
+				The period is:
+				\begin{equation}
+					T = \frac{2\pi}{\omega_n} = 0.0476 \hspace{1ex}\text{s}
+				\end{equation}					
+				The maximum displacement will happen when sin($\omega_nt+\phi$)$=0$, therefore, the value of $A$ is the maximum displacement. For an undamped system, $	A = \frac{\sqrt{\omega_n^2x_0^2+v_0^2}}{\omega_n}$,  
+	
+	
+				\begin{equation}
+					A = \frac{\sqrt{\omega_n^2x_0^2+v_0^2}}{\omega_n} = \frac{\sqrt{132^2 0.01 ^2+0^2}}{132}=0.01 \hspace{1ex}\text{m}
+				\end{equation}
+	
+			\end{example}
 
-\end{example}
-
-\begin{example}		
-			Consider the following 1-DOF system, where $k = 857.8$ N/m and $m=49.2\times10^{-3}$, calculate the natural frequency in rad/s and Hz. Also find the period of oscillations and the maximum displacement if the spring is initially displaced $10$ mm with no initial velocity.  	
-			\begin{figure}[H]
-				\centering
-				\includegraphics[]{../figures/1-DOF-mass_vertical.png}
-				\caption{1-DOF spring-mass system.}
-			\end{figure}		
-
-			\noindent\textbf{Solution:} 
-			\begin{equation}
-				\omega_n = \sqrt{\frac{k}{m}}= \sqrt{\frac{857.8}{49.2\times10^{-3}}} = 132 \hspace{1ex}\text{rad/sec}
-			\end{equation}	
-			In Hz, this is:
-			\begin{equation}
-				f_n = \frac{\omega_n}{2\pi} = 21 \hspace{1ex}\text{Hz}
-			\end{equation}						
-			The period is:
-			\begin{equation}
-				T = \frac{2\pi}{\omega_n} = 0.0476 \hspace{1ex}\text{s}
-			\end{equation}					
-			The maximum displacement will happen when sin($\omega_nt+\phi$)$=0$, therefore, the value of $A$ is the maximum displacement. For an undamped system, $	A = \frac{\sqrt{\omega_n^2x_0^2+v_0^2}}{\omega_n}$,  
-
-
-			\begin{equation}
-				A = \frac{\sqrt{\omega_n^2x_0^2+v_0^2}}{\omega_n} = \frac{\sqrt{132^2 0.01 ^2+0^2}}{132}=0.01 \hspace{1ex}\text{m}
-			\end{equation}
-
-\end{example}
-
-\subsection{General Solution for Vibrating Systems}
+	\subsection{General Solution for Vibrating Systems}
 
 		The EOM for a vibrating system has many solutions and can be be expressed in various forms including a general solution. These forms offer different mathematical approaches to solve the same 1-DOF spring-mass system and relate to each other through Euler's equations.
 				
-	\begin{review}
+		\begin{review}
 			Vibration analysis uses complex numbers to solve the EOM's differential equation. In this text the imaginary number is termed $j$ (sometimes referred to as $i$): such that:
 			
 			\begin{equation}
@@ -333,7 +339,7 @@
 			\begin{equation}
 				j^2 = -1
 			\end{equation}	
-			a general complex number. $x$ can be expressed as 
+			A general complex number, $x$, can be expressed as:
 			\begin{equation}
 				x=a+bj
 			\end{equation}			 	
@@ -349,8 +355,8 @@
 			
 			\definitionbox{con·ju·gate (adjective)}{Coupled, connected, or related.}
 
-	\end{review}			
-	\begin{review}
+		\end{review}			
+		\begin{review}
 		
 			Euler's (pronounced oy-ler) formula, named after Swiss engineer and mathematician Leonhard Euler (1707-1783), is a mathematical formula in complex analysis that establishes the fundamental relationship between the trigonometric functions and the complex exponential function. Euler's formula states that for any real number $x$,
 			\begin{equation}
@@ -366,9 +372,9 @@
 				\includegraphics[]{../figures/Eulers_formula.png}
 				\caption{Euler's formula illustrated on the unit circle in the complex plane.}
 			\end{figure}
-	\end{review}
+		\end{review}
 		
-		\subsubsection{Formulating the General solution for a 1-DOF Spring-Mass System}
+		\subsubsection{Formulating the General Solution for a 1-DOF Spring-Mass System}
 			We can also solve the following EOM as an elementary differential equation:
 			\begin{equation}
 				m\ddot{x}+kx=0
@@ -377,7 +383,7 @@
 			\begin{equation}
 				x(t) = ae^{\lambda t}
 			\end{equation}
-			is assumed where, $a$ and $t$ are nonzeros constants that need to be determined.  Using successive differentiation,the assumed sollution becomes:
+			is assumed where, $a$ and $t$ are nonzero constants that need to be determined. Using successive differentiation,the assumed solution becomes:
 			\begin{equation}
 				\dot{x}(t) = \lambda ae^{\lambda t}
 			\end{equation}
@@ -409,27 +415,37 @@
 			\begin{equation}
 				x(t) = a_1e^{+\omega_n j t} + a_2e^{-\omega_n j t}
 			\end{equation}
-			where $a_1$ and $a_2$ are complex valued constants of integration. This equation derived using Euler's formula is equivalent to the $A\text{sin}(\omega_n+\phi)$. To recover the previously assumed solution, the knowledge that $a_1$ and $a_2$ are complex congregate pairs and as such the magnitude can be expressed as $a_1=a_2$ is leveraged. Using Euler's polar notation, $a_1$ and $a_2$ can be expressed as 
-			\begin{equation}
-				a_1 = a_2 = ae^{j\psi}
-			\end{equation}	
-			where $a$ and $\psi$ are real numbers, the equation becomes:		
-			\begin{equation}
-				x(t) = ae^{j(\omega_n t+\psi)} + ae^{-j(\omega_n t+\psi)}
-			\end{equation}			
-			this becomes:
-			\begin{equation}
-				x(t) = a(e^{j(\omega_n t+\psi)} + e^{-j(\omega_n t+\psi)})
-			\end{equation}				
-			Remembering Euler's equations from before, this becomes:
-			\begin{equation}
-				x(t) = a\big(\text{cos}(\omega_n t+\psi) + j \text{sin}(\omega_n t+\psi) + \text{cos}(\omega_n t+\psi) - j \text{sin}(\omega_n t+\psi)\big)
-			\end{equation}				
-			combining the ``cos'' terms and canceling out the ``sin'' terms this becomes:
-			\begin{equation}
-				x(t) = 2a \cdot \text{cos}(\omega_n t+\psi)
-			\end{equation}						
-			This is equivalent to $	{x}(t) = A\text{sin}(\omega_n t + \phi)$ considering that $A=2a$ and knowing sin($\phi$) = cos($\phi + \psi$). Euler's equation states:
+			where $a_1$ and $a_2$ are complex valued constants of integration.
+			
+			\begin{example}
+				Show that $	x(t) = a_1e^{+\omega_n j t} + a_2e^{-\omega_n j t}$ is equal to $A\text{sin}(\omega_n+\phi)$. \\
+				
+				\noindent\textbf{Solution:} 
+				This equation was derived using Euler's formula and it can be shown that this equation is equivalent to the $A\text{sin}(\omega_n+\phi)$. To recover the previously assumed solution, the knowledge that $a_1$ and $a_2$ are complex congregate pairs and as such the magnitude can be expressed as $a_1=a_2$ is leveraged. Using Euler's polar notation, $a_1$ and $a_2$ can be expressed as 
+				\begin{equation}
+					a_1 = a_2 = ae^{j\psi}
+				\end{equation}	
+				where $a$ and $\psi$ are real numbers, the equation becomes:		
+				\begin{equation}
+					x(t) = ae^{j(\omega_n t+\psi)} + ae^{-j(\omega_n t+\psi)}
+				\end{equation}			
+				this becomes:
+				\begin{equation}
+					x(t) = a(e^{j(\omega_n t+\psi)} + e^{-j(\omega_n t+\psi)})
+				\end{equation}				
+				Remembering Euler's equations from before, this becomes:
+				\begin{equation}
+					x(t) = a\big(\text{cos}(\omega_n t+\psi) + j \text{sin}(\omega_n t+\psi) + \text{cos}(\omega_n t+\psi) - j \text{sin}(\omega_n t+\psi)\big)
+				\end{equation}				
+				combining the ``cos'' terms and canceling out the ``sin'' terms this becomes:
+				\begin{equation}
+					x(t) = 2a \cdot \text{cos}(\omega_n t+\psi)
+				\end{equation}						
+				This is equivalent to $	{x}(t) = A\text{sin}(\omega_n t + \phi)$ considering that $A=2a$ and knowing sin($\phi$) = cos($\phi + \psi$). 			
+			\end{example}
+
+			
+			Next, a general solution for the EOM is obtained. Using the previous solution:
 			\begin{equation}
 				x(t) = a_1e^{+\omega_n j t} + a_2e^{-\omega_n j t}
 			\end{equation}			
@@ -475,6 +491,38 @@
 				\phi = \text{tan}^{-1}\bigg(\frac{x_0\omega_n}{v_0}\bigg)
 			\end{equation}		
 
+
+			\begin{example}			
+				Using the general solution: 
+				\begin{equation}
+					x(t) = A_1\text{cos}(\omega_n t) + A_2\text{sin}(\omega_n t)
+				\end{equation}			
+				Calculate the values of $A_1$ and $A_2$ in terms of their initial conditions $x_0$ and $v_0$.
+				
+				\noindent\textbf{Solution:} Knowing the following for $x$ and $\dot{x}$:
+				\begin{equation}
+					x(t) = A_1\text{cos}(\omega_n t) + A_2\text{sin}(\omega_n t)
+				\end{equation}	
+				\begin{equation}
+					\dot{x}(t) = -A_1\omega_n\text{sin}(\omega_n t) + A_2\omega_n\text{cos}(\omega_n t)
+				\end{equation}	
+				Now apply the initial conditions, $x(0)=0$ and $v(0)=0$, this yields:
+				\begin{equation}
+					x(0) = x_0 = A_1
+				\end{equation}	
+				\begin{equation}
+					\dot{x}(0)= v_0  =  A_2\omega_n
+				\end{equation}
+				Solving for $A_1$ and $A_2$ shows us:
+				\begin{equation}
+					A_1 = x_0 \text{, and } A_2 = \frac{v_0}{\omega_n}
+				\end{equation}
+				thus:
+				\begin{equation}
+					x(t) = x_0\text{cos}(\omega_n t) + \frac{v_0}{\omega_n}\text{sin}(\omega_n t)
+				\end{equation}				
+			\end{example}
+
 		\subsubsection{Solution of 1-DOF System in Three Forms}
 			Form one, for $m\ddot{x} + kx =0$ subject to nonzero initial conditions can be written as:  		
 			\begin{equation}
@@ -496,89 +544,57 @@
 			\end{align}
 			Which follow from trigonometric identities and the Euler's formulas. 
 
-\begin{example}			
-	Using the general solution: 
-			\begin{equation}
-				x(t) = A_1\text{cos}(\omega_n t) + A_2\text{sin}(\omega_n t)
-			\end{equation}			
-			Calculate the values of $A_1$ and $A_2$ in terms of their initial conditions $x_0$ and $v_0$.
-			
-			\noindent\textbf{Solution:} Knowing the following for $x$ and $\dot{x}$:
-			\begin{equation}
-				x(t) = A_1\text{cos}(\omega_n t) + A_2\text{sin}(\omega_n t)
-			\end{equation}	
-			\begin{equation}
-				\dot{x}(t) = -A_1\omega_n\text{sin}(\omega_n t) + A_2\omega_n\text{cos}(\omega_n t)
-			\end{equation}	
-			Now apply the initial conditions, $x(0)=0$ and $v(0)=0$, this yields:
-			\begin{equation}
-				x(0) = x_0 = A_1
-			\end{equation}	
-			\begin{equation}
-				\dot{x}(0)= v_0  =  A_2\omega_n
-			\end{equation}
-			Solving for $A_1$ and $A_2$ shows us:
-			\begin{equation}
-				A_1 = x_0 \text{, and } A_2 = \frac{v_0}{\omega_n}
-			\end{equation}
-			thus:
-			\begin{equation}
-				x(t) = x_0\text{cos}(\omega_n t) + \frac{v_0}{\omega_n}\text{sin}(\omega_n t)
-			\end{equation}				
-\end{example}
+
 	
 	\subsection{Damping}
 	
+	
+		The response of a spring-mass system predicts that a system will oscillate indefinitely. However, we know that this is not true from observing real-world solutions. So based on real-world observations and mathematical conveniences, we need to add a term that will remove ``energy'' from the system with time. To do this the idea of the ideal dashpot is introduced. A linear dashpot is diagrammed in figure \ref{fig:linear_dashpot} and is a mechanical device that resits motion via viscous friction and therefore converts the mechanical energy of the system into thermal energy that is dissipated.
 		
-			The response of a spring-mass system predicts that a system will oscillate indefinitely. However, we know that this is not true from observing real-world solutions. So based on real-world observations and mathematical conveniences, we need to add a term that will remove ``energy'' from the system with time. To do this the idea of the ideal dashpot is introduced. A linear dashpot is diagrammed in figure \ref{fig:linear_dashpot} and is a mechanical device that resits motion via viscous friction and therefore converts the mechanical energy of the system into thermal energy that is dissipated.
-			
-			\begin{figure}[H]
-				\centering
-				\includegraphics[]{../figures/linear_dashpot.png}
-				\caption{Schematic of a liner dashpot showing the damping force ($f_c$) acting in the opposite direction of the displacement ($x$).}
-				\label{fig:linear_dashpot}
-			\end{figure}
-			
-			Just as spring forms a physical model of the cause vibration, through its storage and release of energy, a dashpot (sometimes called a damper) forms a physical model for dissipating energy. Dashpots create a resisting or damping force that acts opposite to the direction of travel (as annotated in figure \ref{fig:linear_dashpot}) and is proportional to the velocity. Therefore, the damping forces $f_c$ can be computed as:
-			\begin{equation}
-				f_c = c \dot{x}
-			\end{equation}
-			the constant $c$, called the damping coefficient, has the units of kg/s. Dashpots are a mathematical representation of viscous dampers installed in automobiles, aircraft, structures, and other mechanical devices. However, all systems have inherent damping not just systems with physical dampers. The spring-mass system can be used as a representations of real-world systems with inherent damping as demonstrated by the rubber engine mount depicted in figure \ref{fig:rubber_engine_mount}.
-			
-			
-			\begin{figure}[H]
-				\centering
-				\includegraphics[]{../figures/engine_mount_model.png}
-				\caption{Modeling of a rubber engine mount as an spring-dashpot-mass model showing (a) the rubber engine mount; (b) idealized model of the rubber month; and (c) the FBD of the idealized model}
-				\label{fig:rubber_engine_mount}
-			\end{figure}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[]{../figures/linear_dashpot.png}
+			\caption{Schematic of a liner dashpot showing the damping force ($f_c$) acting in the opposite direction of the displacement ($x$).}
+			\label{fig:linear_dashpot}
+		\end{figure}
+		
+		Just as spring forms a physical model of the cause vibration, through its storage and release of energy, a dashpot (sometimes called a damper) forms a physical model for dissipating energy. Dashpots create a resisting or damping force that acts opposite to the direction of travel (as annotated in figure \ref{fig:linear_dashpot}) and is proportional to the velocity. Therefore, the damping forces $f_c$ can be computed as:
+		\begin{equation}
+			f_c = c \dot{x}
+		\end{equation}
+		the constant $c$, called the damping coefficient, has the units of kg/s. Dashpots are a mathematical representation of viscous dampers installed in automobiles, aircraft, structures, and other mechanical devices. However, all systems have inherent damping not just systems with physical dampers. The spring-mass system can be used as a representations of real-world systems with inherent damping as demonstrated by the rubber engine mount depicted in figure \ref{fig:rubber_engine_mount}.
+		
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[]{../figures/engine_mount_model.png}
+			\caption{Modeling of a rubber engine mount as an spring-dashpot-mass model showing (a) the rubber engine mount; (b) idealized model of the rubber month; and (c) the FBD of the idealized model}
+			\label{fig:rubber_engine_mount}
+		\end{figure}
 
-			Depending on the amount of damping present in a system, the temporal response of the system will represent itself in various way, as represented in figure \ref{fig:damping_cases}. To reiterate, an undamped case will oscillates around the equilibrium and does not decay. If a limited amount of damping is present in a system it will oscillates around the equilibrium and slowly decay with time to the equilibrium position, this is termed underdamped. If an excessive amount of damping is present, the system will not oscillate but decay directly to the equilibrium position, this is termed the overdamped case. Lastly, there exists a special case that results in the system converging as quickly to possible to the equilibrium without oscillations; this cases is termed the critically damped case. Furthermore, the amount of damping required to obtain a critically damped system is the damping value that the underdamped and overdamped cases for a specific system. To recap, the key types of damping are:
-			
-			\begin{itemize}
-				\item \textbf{Undamped} - Oscillates around the equilibrium and does not decay.
-				\item \textbf{Underdamped} - Oscillates around the equilibrium and slowly decays  and is the most common case.
-				\item \textbf{Overdamped} - Does not pass the equilibrium position and is a simple a decay with no oscillation.
-				\item \textbf{Critically damped} - provides the quickest approach to zero amplitude for a damped oscillator.
-			\end{itemize}
-			
-			
-			\begin{figure}[H]
-				\centering
-				\includegraphics[]{../figures/damping_cases.png}
-				\caption{Temporal responses for the three types of damping: underdamped, over damped, and critically damped.}
-				\label{fig:damping_cases}
-			\end{figure}
-			
-
-
+		Depending on the amount of damping present in a system, the temporal response of the system will represent itself in various way, as represented in figure \ref{fig:damping_cases}. To reiterate, an undamped case will oscillates around the equilibrium and does not decay. If a limited amount of damping is present in a system it will oscillates around the equilibrium and slowly decay with time to the equilibrium position, this is termed underdamped. If an excessive amount of damping is present, the system will not oscillate but decay directly to the equilibrium position, this is termed the overdamped case. Lastly, there exists a special case that results in the system converging as quickly as possible to the equilibrium position without oscillations; this cases is termed the critically damped case. Furthermore, the amount of damping required to obtain a critically damped system is the damping value that the underdamped and overdamped cases for a specific system. To recap, the key types of damping are:
+		
+		\begin{itemize}
+			\item \textbf{Undamped} - Oscillates around the equilibrium and does not decay.
+			\item \textbf{Underdamped} - Oscillates around the equilibrium and slowly decays  and is the most common case.
+			\item \textbf{Overdamped} - Does not pass the equilibrium position and is a simple a decay with no oscillation.
+			\item \textbf{Critically damped} - provides the quickest approach to zero amplitude for a damped oscillator.
+		\end{itemize}
+		
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[]{../figures/damping_cases.png}
+			\caption{Temporal responses for the three types of damping: underdamped, over damped, and critically damped.}
+			\label{fig:damping_cases}
+		\end{figure}
 			
 		\subsubsection{Modeling Vibrating Systems with Damping}
 				
 			The spring-mass system of chapter 1 can be expanded to a spring-dashpot-mass system that considers the damping component of the system. A mathematical model of the 	spring-dashpot-mass system can be developed for the case present in figure \ref{fig:/1-DOF-mass_horizontal_damping_FBD}. Using the FBD for the system, it can conclude that the EOM for this system:
 			\begin{figure}[H]
 				\centering
-				\includegraphics[]{../figures/1-DOF-mass_horizontal_damping_FBD.png}
+				\includegraphics[]{../figures/1_DOF_spring_dashpot_mass_horizontal_FBD.png}
 				\caption{Spring-dashpot-mass model showing: (a) a schematic of the system; and (b) the FBD of the system. }
 				\label{fig:/1-DOF-mass_horizontal_damping_FBD}
 			\end{figure}			

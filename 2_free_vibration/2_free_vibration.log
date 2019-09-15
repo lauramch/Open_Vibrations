@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.21)  3 SEP 2019 09:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.21)  5 SEP 2019 21:18
 entering extended mode
 **./2_free_vibration.tex
 (2_free_vibration.tex
@@ -1300,161 +1300,178 @@ Overfull \hbox (0.32047pt too wide) in paragraph at lines 282--283
 s a SDOF
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
-
- []
-
+<../figures/Vehicle_wheel_undamped.png, id=42, 385.9218pt x 170.0754pt>
+File: ../figures/Vehicle_wheel_undamped.png Graphic file (type png)
+<use ../figures/Vehicle_wheel_undamped.png>
+Package pdftex.def Info: ../figures/Vehicle_wheel_undamped.png  used on input l
+ine 286.
+(pdftex.def)             Requested size: 385.92085pt x 170.07497pt.
 [7 <../figures/arctan_plot.png>]
-<../figures/1-DOF-mass_vertical.png, id=49, 79.7379pt x 136.1085pt>
+<../figures/1-DOF-mass_vertical.png, id=50, 79.7379pt x 136.1085pt>
 File: ../figures/1-DOF-mass_vertical.png Graphic file (type png)
 <use ../figures/1-DOF-mass_vertical.png>
 Package pdftex.def Info: ../figures/1-DOF-mass_vertical.png  used on input line
- 297.
+ 303.
 (pdftex.def)             Requested size: 79.7377pt x 136.10815pt.
-
-
-Package mdframed Warning: You got a bad break
-(mdframed)                because the last box will be empty
-(mdframed)                you have to change it manually
-(mdframed)                by changing the text, the space
-(mdframed)                or something else on input line 320.
-
-[8 <../figures/1-DOF-mass_vertical.png>]
-<../figures/complex_plane.png, id=54, 291.0072pt x 190.311pt>
+ [8 <../figures/Vehicle_wheel_undamped.png> <../figures/1-DOF-mass_vertical.png
+>]
+<../figures/complex_plane.png, id=56, 291.0072pt x 190.311pt>
 File: ../figures/complex_plane.png Graphic file (type png)
 <use ../figures/complex_plane.png>
-Package pdftex.def Info: ../figures/complex_plane.png  used on input line 344.
+Package pdftex.def Info: ../figures/complex_plane.png  used on input line 350.
 (pdftex.def)             Requested size: 291.00648pt x 190.31052pt.
  [9]
-<../figures/Eulers_formula.png, id=58, 227.4096pt x 184.2885pt>
+<../figures/Eulers_formula.png, id=60, 268.6035pt x 222.3507pt>
 File: ../figures/Eulers_formula.png Graphic file (type png)
 <use ../figures/Eulers_formula.png>
-Package pdftex.def Info: ../figures/Eulers_formula.png  used on input line 366.
+Package pdftex.def Info: ../figures/Eulers_formula.png  used on input line 372.
 
-(pdftex.def)             Requested size: 227.40904pt x 184.28804pt.
- [10 <../figures/complex_plane.png>] [11 <../figures/Eulers_formula.png>] [12]
+(pdftex.def)             Requested size: 268.60284pt x 222.35014pt.
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 375.
+ [10 <../figures/complex_plane.png>]
+[11 <../figures/Eulers_formula.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 421--422
+
+ []
+
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 445.
+[12]
 <../figures/trigonometric_relationship_undamped_free_general_solution.png, id=7
-0, 433.3791pt x 143.3355pt>
+2, 433.3791pt x 143.3355pt>
 File: ../figures/trigonometric_relationship_undamped_free_general_solution.png 
 Graphic file (type png)
 <use ../figures/trigonometric_relationship_undamped_free_general_solution.png>
 Package pdftex.def Info: ../figures/trigonometric_relationship_undamped_free_ge
-neral_solution.png  used on input line 467.
+neral_solution.png  used on input line 483.
 (pdftex.def)             Requested size: 433.37805pt x 143.33513pt.
- [13 <../figures/trigonometric_relationship_undamped_free_general_solution.png>
-]
+ [13]
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
-(mdframed)              on input line 528.
- [14]
-<../figures/linear_dashpot.png, id=79, 133.4586pt x 54.2025pt>
+(mdframed)              on input line 524.
+ [14 <../figures/trigonometric_relationship_undamped_free_general_solution.png>
+]
+<../figures/linear_dashpot.png, id=81, 133.4586pt x 54.2025pt>
 File: ../figures/linear_dashpot.png Graphic file (type png)
 <use ../figures/linear_dashpot.png>
-Package pdftex.def Info: ../figures/linear_dashpot.png  used on input line 537.
+Package pdftex.def Info: ../figures/linear_dashpot.png  used on input line 556.
 
 (pdftex.def)             Requested size: 133.45827pt x 54.20236pt.
- [15 <../figures/linear_dashpot.png>]
-<../figures/engine_mount_model.png, id=84, 389.2944pt x 102.1416pt>
+ [15]
+<../figures/engine_mount_model.png, id=85, 389.2944pt x 102.1416pt>
 File: ../figures/engine_mount_model.png Graphic file (type png)
 <use ../figures/engine_mount_model.png>
 Package pdftex.def Info: ../figures/engine_mount_model.png  used on input line 
-551.
+570.
 (pdftex.def)             Requested size: 389.29344pt x 102.14134pt.
- [16 <../figures/engine_mount_model.png>]
-<../figures/damping_cases.png, id=89, 433.62pt x 216.81pt>
+ [16 <../figures/linear_dashpot.png> <../figures/engine_mount_model.png>]
+<../figures/damping_cases.png, id=91, 433.62pt x 216.81pt>
 File: ../figures/damping_cases.png Graphic file (type png)
 <use ../figures/damping_cases.png>
-Package pdftex.def Info: ../figures/damping_cases.png  used on input line 568.
+Package pdftex.def Info: ../figures/damping_cases.png  used on input line 587.
 (pdftex.def)             Requested size: 433.61894pt x 216.80946pt.
-<../figures/1-DOF-mass_horizontal_damping_FBD.png, id=90, 374.8404pt x 79.7379p
-t>
-File: ../figures/1-DOF-mass_horizontal_damping_FBD.png Graphic file (type png)
-<use ../figures/1-DOF-mass_horizontal_damping_FBD.png>
-Package pdftex.def Info: ../figures/1-DOF-mass_horizontal_damping_FBD.png  used
- on input line 581.
-(pdftex.def)             Requested size: 374.83948pt x 79.7377pt.
- [17 <../figures/damping_cases.png> <../figures/1-DOF-mass_horizontal_damping_F
-BD.png>] [18] [19] [20]
-<../figures/trigonometric_relationship_underdamped.png, id=106, 271.0125pt x 15
+<../figures/1_DOF_spring_dashpot_mass_horizontal_FBD.png, id=92, 319.4334pt x 7
+9.7379pt>
+File: ../figures/1_DOF_spring_dashpot_mass_horizontal_FBD.png Graphic file (typ
+e png)
+<use ../figures/1_DOF_spring_dashpot_mass_horizontal_FBD.png>
+Package pdftex.def Info: ../figures/1_DOF_spring_dashpot_mass_horizontal_FBD.pn
+g  used on input line 597.
+(pdftex.def)             Requested size: 319.4326pt x 79.7377pt.
+ [17 <../figures/damping_cases.png>] [18 <../figures/1_DOF_spring_dashpot_mass_
+horizontal_FBD.png>] [19] [20]
+<../figures/trigonometric_relationship_underdamped.png, id=108, 271.0125pt x 15
 4.176pt>
 File: ../figures/trigonometric_relationship_underdamped.png Graphic file (type 
 png)
 <use ../figures/trigonometric_relationship_underdamped.png>
 Package pdftex.def Info: ../figures/trigonometric_relationship_underdamped.png 
- used on input line 741.
+ used on input line 757.
 (pdftex.def)             Requested size: 271.01183pt x 154.1756pt.
-
-[21 <../figures/trigonometric_relationship_underdamped.png>]
-<../figures/Under_damped_various_initial_conditions.png, id=111, 433.62pt x 216
+ [21]
+<../figures/Under_damped_various_initial_conditions.png, id=112, 433.62pt x 216
 .81pt>
 File: ../figures/Under_damped_various_initial_conditions.png Graphic file (type
  png)
 <use ../figures/Under_damped_various_initial_conditions.png>
 Package pdftex.def Info: ../figures/Under_damped_various_initial_conditions.png
-  used on input line 764.
+  used on input line 780.
 (pdftex.def)             Requested size: 433.61894pt x 216.80946pt.
- [22 <../figures/Under_damped_various_initial_conditions.png>]
-<../figures/Over_damped_various_initial_conditions.png, id=116, 433.62pt x 216.
+ [22 <../figures/trigonometric_relationship_underdamped.png>]
+<../figures/Over_damped_various_initial_conditions.png, id=117, 433.62pt x 216.
 81pt>
 File: ../figures/Over_damped_various_initial_conditions.png Graphic file (type 
 png)
 <use ../figures/Over_damped_various_initial_conditions.png>
 Package pdftex.def Info: ../figures/Over_damped_various_initial_conditions.png 
- used on input line 790.
+ used on input line 806.
 (pdftex.def)             Requested size: 433.61894pt x 216.80946pt.
- [23 <../figures/Over_damped_various_initial_conditions.png>]
-<../figures/1_DOF_spring_dashpot_mass_vertical.png, id=121, 79.7379pt x 136.108
+ [23 <../figures/Under_damped_various_initial_conditions.png>] [24 <../figures/
+Over_damped_various_initial_conditions.png>]
+<../figures/1_DOF_spring_dashpot_mass_vertical.png, id=126, 79.7379pt x 136.108
 5pt>
 File: ../figures/1_DOF_spring_dashpot_mass_vertical.png Graphic file (type png)
 
 <use ../figures/1_DOF_spring_dashpot_mass_vertical.png>
 Package pdftex.def Info: ../figures/1_DOF_spring_dashpot_mass_vertical.png  use
-d on input line 837.
+d on input line 853.
 (pdftex.def)             Requested size: 79.7377pt x 136.10815pt.
-Package mdframed Info: Not enough space on this page on input line 859.
- [24]
-Package mdframed Info: Not enough space on this page on input line 859.
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 875.
  [25 <../figures/1_DOF_spring_dashpot_mass_vertical.png>]
-Package mdframed Info: Not enough space on this page on input line 878.
-<../figures/rubber_mounted_mass.png, id=130, 323.7696pt x 132.495pt>
+
+Package mdframed Warning: You got a bad break
+(mdframed)                because the last box will be empty
+(mdframed)                you have to change it manually
+(mdframed)                by changing the text, the space
+(mdframed)                or something else on input line 894.
+
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 894.
+[26]
+<../figures/rubber_mounted_mass.png, id=135, 323.7696pt x 132.495pt>
 File: ../figures/rubber_mounted_mass.png Graphic file (type png)
 <use ../figures/rubber_mounted_mass.png>
 Package pdftex.def Info: ../figures/rubber_mounted_mass.png  used on input line
- 884.
+ 900.
 (pdftex.def)             Requested size: 323.76881pt x 132.49466pt.
-<../figures/rubber_mounted_mass_FBD.png, id=131, 434.1018pt x 141.6492pt>
+<../figures/rubber_mounted_mass_FBD.png, id=136, 434.1018pt x 141.6492pt>
 File: ../figures/rubber_mounted_mass_FBD.png Graphic file (type png)
 <use ../figures/rubber_mounted_mass_FBD.png>
 Package pdftex.def Info: ../figures/rubber_mounted_mass_FBD.png  used on input 
-line 890.
+line 906.
 (pdftex.def)             Requested size: 434.10075pt x 141.64883pt.
- [26 <../figures/rubber_mounted_mass.png>]
-<../figures/Logarithmic_decrement.png, id=136, 433.62pt x 216.81pt>
+ [27 <../figures/rubber_mounted_mass.png> <../figures/rubber_mounted_mass_FBD.p
+ng>]
+<../figures/Logarithmic_decrement.png, id=142, 433.62pt x 216.81pt>
 File: ../figures/Logarithmic_decrement.png Graphic file (type png)
 <use ../figures/Logarithmic_decrement.png>
 Package pdftex.def Info: ../figures/Logarithmic_decrement.png  used on input li
-ne 928.
+ne 944.
 (pdftex.def)             Requested size: 433.61894pt x 216.80946pt.
- [27 <../figures/rubber_mounted_mass_FBD.png>] [28 <../figures/Logarithmic_decr
-ement.png>]
-Overfull \hbox (7.76598pt too wide) in paragraph at lines 983--984
+ [28] [29 <../figures/Logarithmic_decrement.png>]
+Overfull \hbox (7.76598pt too wide) in paragraph at lines 999--1000
 []\OT1/ptm/m/n/14.4 Calculate the damp-ing co-ef-fi-cient of the prob-lem ex-pr
 essed above
  []
 
-Package mdframed Info: Not enough space on this page on input line 998.
-[29]
-Package mdframed Info: Not enough space on this page on input line 998.
- [30] (2_free_vibration.aux) ) 
+Package mdframed Info: Not enough space on this page on input line 1014.
+[30]
+Package mdframed Info: Not enough space on this page on input line 1014.
+ [31] (2_free_vibration.aux) ) 
 Here is how much of TeX's memory you used:
- 24744 strings out of 492973
- 484217 string characters out of 3135923
- 517456 words of memory out of 3000000
- 28199 multiletter control sequences out of 15000+200000
+ 24756 strings out of 492973
+ 484593 string characters out of 3135923
+ 518648 words of memory out of 3000000
+ 28210 multiletter control sequences out of 15000+200000
  578781 words of font info for 126 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,13n,78p,1051b,1014s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,13n,78p,1059b,1018s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base
 /8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Prog
@@ -1465,9 +1482,9 @@ a/Roaming/MiKTeX/2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Users/adowney2/AppData
 9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw
 /times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on 2_free_vibration.pdf (30 pages, 1246947 bytes).
+Output written on 2_free_vibration.pdf (31 pages, 1328177 bytes).
 PDF statistics:
- 181 PDF objects out of 1000 (max. 8388607)
+ 187 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 118 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 123 words of extra memory for PDF output out of 10000 (max. 10000000)
 

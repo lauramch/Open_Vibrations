@@ -9504,8 +9504,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1.713674"
-     inkscape:cx="216.52773"
-     inkscape:cy="154.92813"
+     inkscape:cx="234.94049"
+     inkscape:cy="286.12965"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -9534,13 +9534,14 @@
      id="layer1"
      transform="translate(0,-68.399983)">
     <path
-       style="fill:none;stroke:#ff0000;stroke-width:0.36519095;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 67.950566,226.91455 V 250.2908"
+       style="fill:none;stroke:#ff0000;stroke-width:0.36500001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 82.452271,214.57221 v 26.63785"
        id="path15597"
        inkscape:connector-curvature="0"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
+       inkscape:export-ydpi="300"
+       sodipodi:nodetypes="cc" />
     <image
        y="-238.98357"
        x="-138.06702"
@@ -10081,8 +10082,8 @@
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.44058535;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker7899-4)"
-       d="M 31.294491,250.22147 H 88.537955"
+       style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker7899-4)"
+       d="M 31.294491,241.14257 H 107.62011"
        id="path7889-4"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
@@ -10090,8 +10091,8 @@
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.44058535;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker7899-2-9)"
-       d="M 58.281526,277.45673 V 216.72447"
+       style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker7899-2-9)"
+       d="m 67.277677,277.45673 0,-77.73511"
        id="path7889-0-8"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
@@ -10101,55 +10102,55 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.23314305"
-       x="90.934769"
-       y="251.67712"
+       x="102.66882"
+       y="245.73291"
        id="text9166-7"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          id="tspan9164-9"
-         x="90.934769"
-         y="251.67712"
+         x="102.66882"
+         y="245.73291"
          style="font-size:4.23333311px;stroke-width:0.23314305">Re </tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.23314305"
-       x="51.858864"
-       y="215.48825"
+       x="61.354179"
+       y="204.21741"
        id="text9170-8"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          id="tspan9168-2"
-         x="51.858864"
-         y="215.48825"
+         x="61.354179"
+         y="204.21741"
          style="font-size:4.23333311px;stroke-width:0.23314305">Im<tspan
    style="font-style:italic;font-size:4.23333311px;stroke-width:0.23314305"
    id="tspan9198-7" /></tspan></text>
     <circle
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.23048158;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.28172654;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path7018"
-       cx="58.291969"
-       cy="250.23009"
-       r="25.230927"
+       cx="67.26532"
+       cy="241.17018"
+       r="30.840734"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.23314305"
-       x="55.639606"
-       y="223.74594"
+       x="64.881363"
+       y="209.02975"
        id="text7022"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          id="tspan7020"
-         x="55.639606"
-         y="223.74594"
+         x="64.881363"
+         y="209.02975"
          style="font-style:italic;font-size:4.23333311px;stroke-width:0.23314305">j</tspan></text>
     <text
        xml:space="preserve"
@@ -10165,16 +10166,16 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.23314305"
-       x="80.568977"
-       y="253.82298"
+       x="98.842865"
+       y="245.66861"
        id="text7022-3"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          id="tspan7020-8"
-         x="80.568977"
-         y="253.82298"
+         x="98.842865"
+         y="245.66861"
          style="font-size:4.23333311px;stroke-width:0.23314305">1</tspan></text>
     <use
        style="fill:#000000;fill-opacity:1"
@@ -10184,7 +10185,7 @@
        xlink:href="#glyph0-6-15"
        width="100%"
        height="100%"
-       transform="matrix(0.31985849,0,0,0.31985849,-5.8443412,80.221151)"
+       transform="matrix(0.31985849,0,0,0.31985849,8.6468619,66.894536)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -10196,7 +10197,7 @@
        xlink:href="#glyph6-1-5"
        width="100%"
        height="100%"
-       transform="matrix(0.31985849,0,0,0.31985849,-5.8443412,80.221151)"
+       transform="matrix(0.31985849,0,0,0.31985849,8.6468619,66.894536)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -10208,7 +10209,7 @@
        xlink:href="#glyph7-1-1"
        width="100%"
        height="100%"
-       transform="matrix(0.31985849,0,0,0.31985849,-5.8443412,80.221151)"
+       transform="matrix(0.31985849,0,0,0.31985849,8.6468619,66.894536)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -10220,7 +10221,7 @@
        xlink:href="#glyph3-2-7"
        width="100%"
        height="100%"
-       transform="matrix(0.31985849,0,0,0.31985849,-5.8443412,80.221151)"
+       transform="matrix(0.31985849,0,0,0.31985849,8.6468619,66.894536)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -10232,7 +10233,7 @@
        xlink:href="#glyph1-9-6"
        width="100%"
        height="100%"
-       transform="matrix(0.31985849,0,0,0.31985849,-5.8443412,80.221151)"
+       transform="matrix(0.31985849,0,0,0.31985849,8.6468619,66.894536)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -10244,7 +10245,7 @@
        xlink:href="#glyph1-10-3"
        width="100%"
        height="100%"
-       transform="matrix(0.31985849,0,0,0.31985849,-5.8443412,80.221151)"
+       transform="matrix(0.31985849,0,0,0.31985849,8.6468619,66.894536)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -10256,7 +10257,7 @@
        xlink:href="#glyph1-15-47"
        width="100%"
        height="100%"
-       transform="matrix(0.31985849,0,0,0.31985849,-5.8443412,80.221151)"
+       transform="matrix(0.31985849,0,0,0.31985849,8.6468619,66.894536)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -10268,7 +10269,7 @@
        xlink:href="#glyph3-3-7"
        width="100%"
        height="100%"
-       transform="matrix(0.31985849,0,0,0.31985849,-5.8443412,80.221151)"
+       transform="matrix(0.31985849,0,0,0.31985849,8.6468619,66.894536)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -10280,7 +10281,7 @@
        xlink:href="#glyph8-1-76"
        width="100%"
        height="100%"
-       transform="matrix(0.31985849,0,0,0.31985849,-5.8443412,80.221151)"
+       transform="matrix(0.31985849,0,0,0.31985849,8.6468619,66.894536)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -10292,7 +10293,7 @@
        xlink:href="#glyph3-4-9"
        width="100%"
        height="100%"
-       transform="matrix(0.31985849,0,0,0.31985849,-5.8443412,80.221151)"
+       transform="matrix(0.31985849,0,0,0.31985849,8.6468619,66.894536)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -10304,7 +10305,7 @@
        xlink:href="#glyph3-1-1"
        width="100%"
        height="100%"
-       transform="matrix(0.31985849,0,0,0.31985849,-5.8443412,80.221151)"
+       transform="matrix(0.31985849,0,0,0.31985849,8.6468619,66.894536)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -10316,7 +10317,7 @@
        xlink:href="#glyph0-4-4"
        width="100%"
        height="100%"
-       transform="matrix(0.31985849,0,0,0.31985849,-5.8443412,80.221151)"
+       transform="matrix(0.31985849,0,0,0.31985849,8.6468619,66.894536)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -10328,7 +10329,7 @@
        xlink:href="#glyph1-15-47"
        width="100%"
        height="100%"
-       transform="matrix(0.31985849,0,0,0.31985849,-5.8443412,80.221151)"
+       transform="matrix(0.31985849,0,0,0.31985849,8.6468619,66.894536)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -10340,7 +10341,7 @@
        xlink:href="#glyph1-6-34"
        width="100%"
        height="100%"
-       transform="matrix(0.31985849,0,0,0.31985849,-5.8443412,80.221151)"
+       transform="matrix(0.31985849,0,0,0.31985849,8.6468619,66.894536)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -10352,7 +10353,7 @@
        xlink:href="#glyph1-2-01"
        width="100%"
        height="100%"
-       transform="matrix(0.31985849,0,0,0.31985849,-5.8443412,80.221151)"
+       transform="matrix(0.31985849,0,0,0.31985849,8.6468619,66.894536)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -10364,7 +10365,7 @@
        xlink:href="#glyph3-3-7"
        width="100%"
        height="100%"
-       transform="matrix(0.31985849,0,0,0.31985849,-5.8443412,80.221151)"
+       transform="matrix(0.31985849,0,0,0.31985849,8.6468619,66.894536)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -10376,7 +10377,7 @@
        xlink:href="#glyph8-1-76"
        width="100%"
        height="100%"
-       transform="matrix(0.31985849,0,0,0.31985849,-5.8443412,80.221151)"
+       transform="matrix(0.31985849,0,0,0.31985849,8.6468619,66.894536)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -10388,7 +10389,7 @@
        xlink:href="#glyph3-4-9"
        width="100%"
        height="100%"
-       transform="matrix(0.31985849,0,0,0.31985849,-5.8443412,80.221151)"
+       transform="matrix(0.31985849,0,0,0.31985849,8.6468619,66.894536)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -10400,7 +10401,7 @@
        xlink:href="#glyph1-15-47"
        width="100%"
        height="100%"
-       transform="matrix(0.33071811,0,0,0.33071811,-40.26278,93.422251)"
+       transform="matrix(0.33071811,0,0,0.33071811,-25.925972,81.3308)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -10412,7 +10413,7 @@
        xlink:href="#glyph1-6-34"
        width="100%"
        height="100%"
-       transform="matrix(0.33071811,0,0,0.33071811,-40.26278,93.422251)"
+       transform="matrix(0.33071811,0,0,0.33071811,-25.925972,81.3308)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -10424,7 +10425,7 @@
        xlink:href="#glyph1-2-01"
        width="100%"
        height="100%"
-       transform="matrix(0.33071811,0,0,0.33071811,-40.26278,93.422251)"
+       transform="matrix(0.33071811,0,0,0.33071811,-25.925972,81.3308)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -10436,7 +10437,7 @@
        xlink:href="#glyph3-3-7"
        width="100%"
        height="100%"
-       transform="matrix(0.33071811,0,0,0.33071811,-40.26278,93.422251)"
+       transform="matrix(0.33071811,0,0,0.33071811,-25.925972,81.3308)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -10448,7 +10449,7 @@
        xlink:href="#glyph8-1-76"
        width="100%"
        height="100%"
-       transform="matrix(0.33071811,0,0,0.33071811,-40.26278,93.422251)"
+       transform="matrix(0.33071811,0,0,0.33071811,-25.925972,81.3308)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -10460,7 +10461,7 @@
        xlink:href="#glyph3-4-9"
        width="100%"
        height="100%"
-       transform="matrix(0.33071811,0,0,0.33071811,-40.26278,93.422251)"
+       transform="matrix(0.33071811,0,0,0.33071811,-25.925972,81.3308)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -10472,7 +10473,7 @@
        xlink:href="#glyph1-9-6"
        width="100%"
        height="100%"
-       transform="matrix(0.33071811,0,0,0.33071811,-28.284637,104.94788)"
+       transform="matrix(0.33071811,0,0,0.33071811,-18.270899,95.403952)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -10484,7 +10485,7 @@
        xlink:href="#glyph1-10-3"
        width="100%"
        height="100%"
-       transform="matrix(0.33071811,0,0,0.33071811,-28.284637,104.94788)"
+       transform="matrix(0.33071811,0,0,0.33071811,-18.270899,95.403952)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -10496,7 +10497,7 @@
        xlink:href="#glyph1-15-47"
        width="100%"
        height="100%"
-       transform="matrix(0.33071811,0,0,0.33071811,-28.284637,104.94788)"
+       transform="matrix(0.33071811,0,0,0.33071811,-18.270899,95.403952)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -10508,7 +10509,7 @@
        xlink:href="#glyph3-3-7"
        width="100%"
        height="100%"
-       transform="matrix(0.33071811,0,0,0.33071811,-28.284637,104.94788)"
+       transform="matrix(0.33071811,0,0,0.33071811,-18.270899,95.403952)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -10520,7 +10521,7 @@
        xlink:href="#glyph8-1-76"
        width="100%"
        height="100%"
-       transform="matrix(0.33071811,0,0,0.33071811,-28.284637,104.94788)"
+       transform="matrix(0.33071811,0,0,0.33071811,-18.270899,95.403952)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -10532,21 +10533,21 @@
        xlink:href="#glyph3-4-9"
        width="100%"
        height="100%"
-       transform="matrix(0.33071811,0,0,0.33071811,-28.284637,104.94788)"
+       transform="matrix(0.33071811,0,0,0.33071811,-18.270899,95.403952)"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
-       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.36519095;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.36500001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path15611"
        sodipodi:type="arc"
-       sodipodi:cx="-226.73599"
-       sodipodi:cy="121.04628"
-       sodipodi:rx="3.5974774"
-       sodipodi:ry="3.5974774"
+       sodipodi:cx="-215.0927"
+       sodipodi:cy="128.32672"
+       sodipodi:rx="6.6226349"
+       sodipodi:ry="6.6226349"
        sodipodi:start="0.15647093"
        sodipodi:end="1.3089969"
-       d="m -223.18246,121.60689 a 3.5974774,3.5974774 0 0 1 -2.62244,2.91429"
+       d="m -208.55097,129.35875 a 6.6226349,6.6226349 0 0 1 -4.82766,5.36495"
        sodipodi:open="true"
        transform="rotate(-75)"
        inkscape:export-filename="Eulers_formula.png"
@@ -10554,7 +10555,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.23314305px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker15079)"
-       d="m 58.363578,250.42895 9.413827,-23.1345"
+       d="M 67.296548,241.34821 82.261182,214.85424"
        id="path15068"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
@@ -10563,7 +10564,7 @@
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:0.36519095;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 68.091173,250.20931 H 58.48694"
+       d="M 82.636931,241.12857 H 67.41991"
        id="path15597-8"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
@@ -10573,16 +10574,16 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.16202369"
-       x="48.746315"
-       y="248.33638"
+       x="57.679287"
+       y="239.25563"
        id="text15756"
        inkscape:export-filename="Eulers_formula.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          id="tspan15754"
-         x="48.746315"
-         y="248.33638"
+         x="57.679287"
+         y="239.25563"
          style="font-size:4.23333311px;stroke-width:0.16202369">(0,0)</tspan></text>
     <flowRoot
        xml:space="preserve"
@@ -10604,7 +10605,19 @@
            height="287.85715"
            x="2460"
            y="1651.0911" /></flowRegion><flowPara
-         id="flowPara18034" /></flowRoot>  </g>
+         id="flowPara18034" /></flowRoot>    <use
+       style="fill:#000000;fill-opacity:1"
+       id="use12748-4-8"
+       y="453.36499"
+       x="290.276"
+       xlink:href="#glyph8-1-76"
+       width="100%"
+       height="100%"
+       transform="matrix(0.33071811,0,0,0.33071811,-26.498512,89.603011)"
+       inkscape:export-filename="Eulers_formula.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+  </g>
   <style
      id="style5799">text.intmath,text.intmathItalic{stroke:none;fill:#000;font-weight:400}@font-face{font-family:MathJax_Math-italic;src:url(/includes/cssjs/katex/fonts/MathJax_Math-Italic.woff2) format('woff2'),url(/includes/cssjs/katex/fonts/MathJax_Math-Italic.woff) format('woff')}@font-face{font-family:MathJax_Main;src:url(/includes/cssjs/katex/fonts/MathJax_Main-Regular.woff2) format('woff2'),url(/includes/cssjs/katex/fonts/MathJax_Main-Regular.woff) format('woff')}path.grids{shape-rendering:crispEdges}text.intmath{font-size:14.4px;font-family:MathJax_Main,'Times New Roman',Times,serif}text.intmathItalic{font-size:16px;font-style:normal;font-family:MathJax_Math-italic,'Times New Roman',Times,serif}</style>
 </svg>
