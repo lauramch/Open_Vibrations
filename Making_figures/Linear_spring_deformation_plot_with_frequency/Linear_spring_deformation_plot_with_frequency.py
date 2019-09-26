@@ -33,10 +33,11 @@ plt.close('all')
 
 #%% plot the resonant response
 
-stiffness = 9810
+stiffness = 16350.
 kg = np.array([5,10,15,20,25,30])
-displacement = np.array([0.001,0.004,0.007,0.01,0.013,0.016])
 force = kg*9.81
+displacement = force/stiffness # np.array([0.001,0.004,0.007,0.01,0.013,0.016])
+
 omega_n = np.sqrt(stiffness/kg)
 
 plt.figure(figsize=(6,3))
@@ -48,8 +49,8 @@ plt.tight_layout()
 plt.savefig('Linear_spring_deformation_plot_with_frequency_force',dpi=300)
 
 plt.figure(figsize=(6,3))
-plt.plot(displacement,omega_n,'o--')
-plt.xlabel('displacement (m)')
+plt.plot(kg,omega_n,'o--')
+plt.xlabel('mass (kg)')
 plt.ylabel('$\omega_n$')
 plt.grid(True)
 plt.tight_layout()

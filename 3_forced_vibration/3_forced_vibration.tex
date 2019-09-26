@@ -2,12 +2,7 @@
 \usepackage{mathptmx} % added for time new roman font
 \usepackage[left=1in,right=1in,top=1in,bottom=1in]{geometry}
 \usepackage[latin1]{inputenc}
-
-
 \usepackage{amsmath}
-
-
-
 
 % defines all example enviorment
 \usepackage[framemethod=tikz]{mdframed} % added for the box around examples
@@ -15,23 +10,54 @@
 \numberwithin{ex}{section} % allows for the use of example numbers that lign up with the section numbers
 \newenvironment{example}{\begin{mdframed}[middlelinewidth=0.5mm]\begin{ex}\normalfont}{\end{ex}\end{mdframed}}
 
+% defines all review enviorment
+\usepackage[framemethod=tikz]{mdframed} % added for the box around examples
+\newtheorem{re}{Review}
+\numberwithin{re}{section} % allows for the use of example numbers that lign up with the section numbers
+\newenvironment{review}{\begin{mdframed}[middlelinewidth=2mm,roundcorner=20pt]\begin{re}\normalfont}{\end{re}\end{mdframed}}
+
 % defines the quotation enviorment 
 \usepackage{xcolor}
 \newcommand{\quotebox}[2]{\begin{center}\fcolorbox{white}{blue!15!gray!15}{\begin{minipage}{0.9\linewidth}\vspace{10pt}\center\begin{minipage}{0.8\linewidth}{\space\Huge``}{#1}{\Huge''}{\break\null\hfill} {\small #2}  \end{minipage}\medbreak\end{minipage}}\end{center}}
 
+% defines the definition enviorment 
+\newcommand{\definitionbox}[2]{\begin{center}\fcolorbox{white}{blue!15!gray!15}{\begin{minipage}{0.9\linewidth}\vspace{10pt}\center\begin{minipage}{0.8\linewidth} {{\textbf{Definition} - }{#1}: {#2}}\end{minipage}\medbreak\end{minipage}}\end{center}}
 
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{booktabs}
-\usepackage{parskip} % remove all the paragraph indents
-
+%\usepackage{parskip} % remove all the paragraph indents
 
 \usepackage{setspace}
-\usepackage[colorlinks=true]{hyperref}
+%\usepackage[colorlinks=true]{hyperref}
 \usepackage{textcomp} 
 \usepackage{multicol} 
+
+
+%%%%%%%		define the symbols for positive directions		%%%%%%
+\makeatletter													%%	
+																%%					
+\newcommand*\curveplus{% positive counterclockwise				%%
+  \mathbin{\rotatebox[origin=c]{90}{$\m@th\curvearrowleft$}+}}	%%
+																%%
+\newcommand*\rightplus{% positive right							%%
+  \mathpalette\@rightplus\relax}								%%
+\newcommand*\@rightplus[1]{%									%%
+  \mathbin{\vcenter{\hbox{$\m@th\overset{#1+}{\to}$}}}}			%%
+																%%	
+\newcommand*\upplus{% positive up								%%
+  \mathbin{+\mathord\uparrow}}									%%
+																%%			
+\newcommand*\downplus{% positive down							%%		
+  \mathbin{+\mathord\downarrow}}								%%
+  																%%		
+\newcommand*\downrightplus{% positive down and right			%%	
+  \mathbin{+ \rotatebox[origin=c]{-30}{$\m@th\rightarrow$}}}	%%
+\makeatother 													%%	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 \usepackage{mathtools}          %loads amsmath as well added for the piece wise function
 \DeclarePairedDelimiter\Floor\lfloor\rfloor
@@ -45,23 +71,30 @@
 \newcommand{\InvLap}[1]{\ensuremath{\mathcal{L}^{-1}{\left[#1\right]}}}
 \renewcommand{\textuparrow}{$\uparrow$}
 
-\begin{document}
 
+\begin{document}
+	\large{}
+	
+	\setcounter{section}{2}
 		\section{Forced Vibrations}
 
-	
+			Mechanical systems are ofter subjected to an external loading. For example, a piston in a engine if forced up and down my a crankshaft or a seat in an airplane my vibrate due to movement of the jet engines transmitted through the aircraft structure. 
+			
 		\subsection{Harmonic excitations of undamped systems}
 
-			Consider the system
+			
+			Investigating a single-degree of freedom system for a harmonic input is a useful as it can be solved mathematically with straightforward techniques. Consider the system:
 			\begin{figure}[H]
 				\centering
-				\includegraphics[width=0.7\textwidth]{../Figures/forced_spring_mass_system_with_FBD.png}
+				\includegraphics[]{../Figures/1-DOF-spring_mass_horizontal_forced_FBD.png}
+				\caption{1-DOF system with an external force ($F(t)$) applied, showing: (a) the system configuration; and (b) the free body diagram}
+				\label{fig:1-DOF-spring_mass_horizontal_forced_FBD}
 			\end{figure}	
-			For simplicity, let us consider a harmonic excitation for $F(t)$ such that:
+			\noindent where $F(t)$ is the external force applied to the mass. For simplicity, let us consider a harmonic excitation for $F(t)$ such that:
 			\begin{equation}
 				F(t) = F_0\text{cos}(\omega t)
 			\end{equation}							
-			note that here, $\omega$ has no subscript and is the frequency in rad/sec of the driving force. $F_0$ represents the magnitude of the applied force. This is often called the \textbf{input frequency, driving frequency, or forcing frequency}. Summing the forces in the above figure in the $x$ direction yields:
+			note that here, $\omega$ has no subscript and is the frequency in rad/sec of the driving force. $F_0$ represents the magnitude of the applied force. This is often called the input frequency, driving frequency, or forcing frequency. Building the EOM for system in figure \ref{fig:1-DOF-spring_mass_horizontal_forced_FBD} yields:
 			\begin{equation}
 				m \ddot{x}(t)+kx(t) = F_0\text{cos}(\omega t)
 			\end{equation}			
@@ -73,15 +106,15 @@
 			\begin{equation}
 				f_0 = \frac{F_0}{m}
 			\end{equation}	
-			Again, this is a linear, nonhomogeneous, O.D.E. that we need to solve. It is nonhomogeneous because there are no terms related to $x$ on the right-hand side of the equation. One way to solve such an equation to recall that the solution for a nonhomogeneous equation is the sum of the homogeneous and particular solutions. 
+			The EOM in this form is a second order, linear nonhomogeneous differential equation. It is nonhomogeneous because there are no terms related to $x$ on the right-hand side of the equation. One way to solve such such an ODE is to recall that the solution for a nonhomogeneous equation is the sum of the homogeneous and particular solutions. 
 			\begin{equation}
 				x(t) = x_h(t) + x_p(t)
 			\end{equation}	
-			First, knowing that the solution is the sum of two parts, vibration caused by the forcing function and the oscillations caused by the system of springs and masses, we set the equation for the homogeneous solution to be:
+			First, knowing that the solution is the sum of two parts: 1) oscillations caused by the spring/mass system; and 2) vibrations caused by the forcing function. The oscillations caused by the spring/mass system will form the homogeneous while the vibrations caused by the forcing function will form the particular solution. As we know the solution for oscillations caused by the spring/mass system form our prior investigation of unforced system we set the equation for the homogeneous solution to be:
 			\begin{equation}
 				x_h(t) = A\text{sin}(\omega_n t + \phi)
 			\end{equation}			
-			Next, we will denote the particular solution as $x_p$. $x_p$ can be determined by observing the systems and assuming that it is in form of the forcing function, therefore:
+			Next, we will denote the particular solution as $x_p$. $x_p$ can be determined by assuming that it is in form of the forcing function, therefore:
 			\begin{equation}
 				f_0\text{cos}(\omega t)
 			\end{equation}	
@@ -89,7 +122,7 @@
 			\begin{equation}
 				x_p = x_p(t) =X\text{cos}(\omega t)
 			\end{equation}						
-			where, $x_p$ is the particular solution and $X$ is the amplitude of the forced response. Our total solution now becomes:
+			where, $x_p$ is the particular solution and $X$ is the amplitude of the forced response. Our total solution for the harmonic excitations of undamped systems now becomes:
 			\begin{equation}
 				x(t) = A\text{sin}(\omega_n t + \phi) + X\text{cos}(\omega t) 
 			\end{equation}				
@@ -108,15 +141,15 @@
 			\begin{equation}
 				X = \frac{f_0}{\omega_n^2-\omega^2}
 			\end{equation}		
-			Therefore, as long as $\omega_n \neq \omega$, the particular solution can take the form
+			Therefore, as long as $\omega_n \neq \omega$, the particular solution can take the form:
 			\begin{equation}
 				x_p = \frac{f_0}{\omega_n^2-\omega^2}\text{cos}(\omega t)
 			\end{equation}						
-			This then expands to the total form
+			This then expands to the total form:
 			\begin{equation}
 				x(t) = A\text{sin}(\omega_n t + \phi) + \frac{f_0}{\omega_n^2-\omega^2}\text{cos}(\omega t)
 			\end{equation}				
-			expanding this to the general form for the homogeneous solution obtains the equation
+			Expanding this to the general form for the homogeneous solution obtains the equation:
 			\begin{equation}
 				x(t) = A_1\text{sin}(\omega_n t) + A_2\text{cos}(\omega_n t) + \frac{f_0}{\omega_n^2-\omega^2}\text{cos}(\omega t)
 			\end{equation}				
@@ -157,12 +190,31 @@
 			\begin{equation}
 				X = \frac{f_0}{\omega_n^2-\omega^2}
 			\end{equation}				
-			The forced and unforced plots can relate to each other as (Note that the forcing function uses the axis on the right):
-			\begin{figure}[H]
-				\centering
-				\includegraphics[width=0.9\textwidth]{../Figures/forced_unforced_plot.png}
-			\end{figure}	
-			for a system with $k$ = 10 N/m, $m$ = 2.5 kg, $\omega$ = 4 rad/sec, $F_0$ = 0.1 kN, $x_0$ = 1 mm, and $v_0$ = 0 mm. 
+			
+			\begin{example}
+				For a the 1-DOF system:
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.5\textwidth]{../Figures/1-DOF-spring_mass_horizontal_forced.png}
+					\caption{1-DOF spring-mass system subjected to an external force $F(t)$.}
+				\end{figure}
+				with with $k$ = 10 N/m, $m$ = 2.5 kg, $\omega$ = 4 rad/sec, $F_0$ = 0.1 kN, $x_0$ = 1 mm, and $v_0$ = 0 mm plot the temporal responses of system considering the free-vibration case and the excited case. Plot these on a single plot to compare the responses. 
+							
+				\noindent\textbf{Solution:} The free-vibration response can be plotted using the expression:
+				\begin{equation}
+					x(t) = x_0\text{cos}(\omega_n t) + \frac{v_0}{\omega_n}\text{sin}(\omega_n t)
+				\end{equation}				
+				while the force vibration is expressed using:
+				\begin{equation}
+					x(t) = \Big(\frac{v_0}{\omega_n}\Big)\text{sin}(\omega_n t) + \Big(x_0-\frac{f_0}{\omega_n^2-\omega^2}\Big)\text{cos}(\omega_n t) + \frac{f_0}{\omega_n^2-\omega^2}\text{cos}(\omega t)
+				\end{equation}	
+				These temporal responses are plotted as (Note that the forcing function uses the axis on the right):
+				\begin{figure}[H]
+					\centering
+					\includegraphics[width=0.9\textwidth]{../Figures/free_and_forced_temporal_response.png}
+					\caption{Comparison of the temporal response for a 1-DOF system; expressing how the forcing function changes the vibrational  temporal response of the system.}
+				\end{figure}	
+			\end{example}
 			
 			
 		\subsection{Harmonic resonance}			
@@ -195,10 +247,11 @@
 			
 			\begin{figure}[H]
 				\centering
-				\includegraphics[width=0.5\textwidth]{../Figures/forced_spring_mass_system.png}
+				\includegraphics[width=0.5\textwidth]{../Figures/1-DOF-spring_mass_horizontal_forced.png}
+				\caption{1-DOF spring-mass system subjected to an external force $F(t)$.}
 			\end{figure}
 			
-			First, make sure that the system is not in resonance. Calculating that $\omega_n = \sqrt{1000/10} = 10$ shows us that $\omega_n \neq \omega$. Next knowing that $f_0 = F_o/m = 10$ we can find the homogeneous and partial solutions as:
+			\noindent\textbf{Solution:} First, make sure that the system is not in resonance. Calculating that $\omega_n = \sqrt{1000/10} = 10$ shows us that $\omega_n \neq \omega$. Next knowing that $f_0 = F_o/m = 10$ we can find the homogeneous and partial solutions as:
 			\begin{equation}
 				x_h(t) = A\text{sin}(\omega_n t + \phi)
 			\end{equation}				
@@ -231,9 +284,10 @@
 			Considering the following system, write the equation of motion and calculate the response assuming a) that the system is initially at rest, and b) that the system has an initial displacement of 0.005 m. Use $k$ = 2000 N/m, $m$ = 100 kg, $F(t)$ = 10sin(10t) N.
 			\begin{figure}[H]
 				\centering
-				\includegraphics[width=0.5\textwidth]{../Figures/forced_spring_mass_system.png}
+				\includegraphics[width=0.5\textwidth]{../Figures/1-DOF-spring_mass_horizontal_forced.png}
+				\caption{1-DOF spring-mass system subjected to an external force $F(t)$.}
 			\end{figure}
-			The equation of motion is
+			\noindent\textbf{Solution:} The equation of motion is
 			\begin{equation}
 				m\ddot{x}+kx=10\text{sin}(10t)
 			\end{equation}
@@ -287,16 +341,17 @@
 	
 		\subsection{Harmonic excitations of underdamped systems}
 
-			Consider the system
+			Consider the system:
 			\begin{figure}[H]
 				\centering
-				\includegraphics[width=0.7\textwidth]{../Figures/system_and_FBD_1DOF_damped_forced_horiziontal.png}
+				\includegraphics[]{../Figures/1-DOF-spring_dashpot_mass_horizontal_forced_FBD.png}
+				\caption{Damped 1-DOF system with an external force ($F(t)$) applied, showing: (a) the system configuration; and (b) the free body diagram}
 			\end{figure}	
-			Again, for simplicity let us consider a harmonic excitation for $F(t)$ such that:
+			\noindent Again, for simplicity let us consider a harmonic excitation for $F(t)$ such that:
 			\begin{equation}
 				F(t) = F_0\text{cos}(\omega t)
 			\end{equation}							
-			Summing the forces in the above figure in the $x$ direction yields:
+			Building the EOM for the above system results in:
 			\begin{equation}
 				m \ddot{x}(t)+c\dot{x}(t)+kx(t) = F_0\text{cos}(\omega t)
 			\end{equation}			
@@ -316,7 +371,7 @@
 			\begin{equation}
 				x_p(t) = X \text{cos}(\omega t - \phi_p)
 			\end{equation}
-			where $\phi_p$ represents the phase shift. Note: $\phi_p$ is represented in other texts as $\theta$, $\theta_p$, or even just $\phi$ but we will use $\phi_p$ throughout the remainder of this course. Again, the phase shift is expected because of the effect of the damping force. Now, our total equation is:
+			where $\phi_p$ represents the phase shift. Note: $\phi_p$ is represented in other texts as $\theta$, $\theta_p$, or even just $\phi$ but we will use $\phi_p$ throughout the remainder of this text. Again, the phase shift is expected because of the effect of the damping force. Now, our total equation is:
 			\begin{equation}
 				x(t) = Ae^{-\zeta \omega_n t}\text{sin}(\omega_d t + \phi) +  X \text{cos}(\omega t - \phi_p)
 			\end{equation}			
@@ -334,7 +389,11 @@
 			\begin{equation}
 				\ddot{x}_p(t) = -\omega^2 A_s \text{cos}(\omega t) - \omega^2 B_s  \text{sin}(\omega t)
 			\end{equation}				
-			Recall that the homogeneous and partial solutions are each solution on their own, therefor the EOM can be used to describe just the partial solution. Substituting $x_p$. $\dot{x}_p$, and $\ddot{x}_p$ for $x$. $\dot{x}$, and $\ddot{x}$ in the EOM in standard form $\ddot{x}(t)+2 \zeta \omega_n \dot{x}(t) +\omega_n^2x(t) = f_0\text{cos}(\omega t)$ yields:
+			Recall that the homogeneous and partial solutions are each solutions on their own, therefor, the EOM can be used to describe just the partial solution. Substituting $x_p$. $\dot{x}_p$, and $\ddot{x}_p$ for $x$. $\dot{x}$, and $\ddot{x}$ in the EOM in standard form:
+			\begin{equation}
+			 	\ddot{x}(t)+2 \zeta \omega_n \dot{x}(t) +\omega_n^2x(t) = f_0\text{cos}(\omega t)
+			\end{equation}
+			yields:
 			\begin{equation}
 			 	\big(	-\omega^2 A_s \text{cos}(\omega t) - \omega^2 B_s  \text{sin}(\omega t) \big)(t)+2 \zeta \omega_n  \big( -\omega A_s \text{sin}(\omega t) + \omega B_s  \text{cos}(\omega t)  \big) (t) +
 			\end{equation}
@@ -348,7 +407,7 @@
 			\begin{equation*}
 				(-\omega^2 B_s - 2 \zeta \omega_n \omega A_s + \omega_n^2 B_s)\text{sin}(\omega t) =0
 			\end{equation*}	
-			considering the two special moments in time $t=(\pi/2)\omega$ and $t=0$ where cos($\omega t$) and sin($\omega t$) equal zero, respectively. Considering $t=(\pi/2)\omega$ results in cos($\omega t$)=0, sin($\omega t$)=1 and the equation simplifies to:
+			From this expression it is clear that there are two special moments in time where cos($\omega t$) and sin($\omega t$) equal zero. First, considering that $t=\pi/(2\omega)$ results in cos($\omega t$)=0, sin($\omega t$)=1 and the equation simplifies to:
 			\begin{equation}
 				(-2\zeta \omega_n \omega)A_s + (\omega_n^2 - \omega^2)B_s = 0
 			\end{equation}	
@@ -376,7 +435,7 @@
 			\begin{equation}
 				B_s = \frac{2\zeta \omega_n \omega f_0}{(\omega_n^2 - \omega^2)^2 +  (2\zeta \omega_n \omega)^2}
 			\end{equation}	
-			From out trigonometric relationships, 
+			From trigonometric relationships we can see that, 
 			\begin{equation}
 				X = \sqrt{A_s^2 + B_s^2}
 			\end{equation}	
@@ -402,7 +461,7 @@
 				A = \frac{x_0 -X \text{cos}(\phi_p)}{\text{sin}(\phi)}
 			\end{equation}			 
 			\begin{equation}
-				\phi =  \text{tan}^-1\bigg(\frac{\omega_d ( x_0 -X \text{cos}(\phi_p))}{v_0 + (x_0 - X \text{cos}(\phi_p)) \zeta \omega_n - \omega X \text{sin}(\phi_p) }\bigg)
+				\phi =  \text{tan}^-1\bigg(\frac{\omega_d \big( x_0 -X \text{cos}(\phi_p)\big)}{v_0 + \big(x_0 - X \text{cos}(\phi_p)\big) \zeta \omega_n - \omega X \text{sin}(\phi_p) }\bigg)
 			\end{equation}			
 			Finally, assembling all the terms:
 			\begin{equation}
@@ -423,24 +482,25 @@
 			Let's consider how these equation play out in a real system. Again, consider the system
 			\begin{figure}[H]
 				\centering
-				\includegraphics[width=0.7\textwidth]{../Figures/system_and_FBD_1DOF_damped_forced_horiziontal.png}
+				\includegraphics[]{../Figures/1-DOF-spring_dashpot_mass_horizontal_forced_FBD.png}
+				\caption{Damped 1-DOF system with an external force ($F(t)$) applied, showing: (a) the system configuration; and (b) the free body diagram}
 			\end{figure}			
 			If we plot the total, transient, and steady state responses for $k=100$ N/m, $m=10$ kg,  $c=10$ kg/s, $F_0=1$ N, $\omega=3.162$ rad/sec, and no initial conditions we get:
 			\begin{figure}[H]
 				\centering
 				\includegraphics[width=0.7\textwidth]{../Figures/example_1_1.png}
 			\end{figure}			
-			If we increase the forcing function $F_0$ to 3 N we get:
+			\noindent If we increase the forcing function $F_0$ to 3 N we get:
 			\begin{figure}[H]
 				\centering
 				\includegraphics[width=0.7\textwidth]{../Figures/example_1_2.png}
 			\end{figure}			
-			now, using $F_0=1$ N, but setting $\omega=5$ rad/sec we get:
+			\noindent now, using $F_0=1$ N, but setting $\omega=5$ rad/sec we get:
 			\begin{figure}[H]
 				\centering
 				\includegraphics[width=0.7\textwidth]{../Figures/example_1_3.png}
 			\end{figure}				
-			This is because $\omega$ is closer to the natural frequency $\omega_n$. Setting $\omega=\omega_n$ we get
+			\noindent This is because $\omega$ is closer to the natural frequency $\omega_n$. Setting $\omega=\omega_n$ we get
 			\begin{figure}[H]
 				\centering
 				\includegraphics[width=0.7\textwidth]{../Figures/example_1_4.png}
@@ -529,13 +589,12 @@
 			Consider the simple spring mass system, 
 			\begin{figure}[H]
 				\centering
-				\includegraphics[width=0.4\textwidth]{../Figures/system_1DOF_horiziontal_damped_forced.png}
+				\includegraphics[]{../Figures/1-DOF-spring_dashpot_mass_horizontal_forced.png}
+				\caption{Damped 1-DOF spring-mass system subjected to an external force $F(t)$.}
 			\end{figure}				
 			where $\omega_n = 132$ rad/sec and $\zeta$ = 0.0085. Calculate the displacements of the steady-state response for $\omega$=132 and 125 rad/sec. In both cases, use $f_0$ = 10 N/kg. 
 
-			\textbf{Solution}
-			
-			From before, we know the solution for the displacement of the partial solution for $\omega$=132 rad/sec is:
+			\noindent\textbf{Solution:}	From before, we know the solution for the displacement of the partial solution for $\omega$=132 rad/sec is:
 			\begin{equation}
 				X = \frac{f_0}{\sqrt{(\omega_n^2 - \omega^2)^2 +  (2\zeta \omega_n \omega)^2}} = \frac{10}{2(0.0085)(132)^2} = 0.034 \text{ m}
 			\end{equation}							
@@ -553,12 +612,12 @@
 			The steady state response for an engineered system must not surpass 1 cm, if the system can be modeled as the spring and mass system below, what value of $c$ must be used?  
 			\begin{figure}[H]
 				\centering
-				\includegraphics[width=0.4\textwidth]{../Figures/system_1DOF_horiziontal_damped_forced.png}
+				\includegraphics[]{../Figures/1-DOF-spring_dashpot_mass_horizontal_forced.png}
+				\caption{Damped 1-DOF spring-mass system subjected to an external force $F(t)$.}
 			\end{figure}	
 			Use $k$ = 2000 N/m, $m$ = 100 kg, $F(t)$ = 20 cos($6.3t$) N. 			
 
-			\textbf{Solution}
-			The steady state solution is:
+			\noindent\textbf{Solution:} The steady state solution is:
 			\begin{equation}
 				x_p(t) = X \text{cos}(\omega t - \phi_p)
 			\end{equation}			 
@@ -739,9 +798,7 @@ Again, note the key location $r=\sqrt{2}$. At $r=\sqrt{2}$ the force transmitted
 
 			For a given system 1-DOF excited at the base should the system be excited above or below the natural frequency if the transmitted force is the design limitation? Consider the under damped with $\zeta=0.1$, and the over damped with $\zeta=2$ conditions. 
 
-			\textbf{Solution}
-			
-			We can plot the transmissibility of both the force and displacement onto one plot. For $\zeta=0.1$
+			\noindent\textbf{Solution:} We can plot the transmissibility of both the force and displacement onto one plot. For $\zeta=0.1$
 			\begin{figure}[H]
 				\centering
 				\includegraphics[width=0.8\textwidth]{../Figures/example_1_force_displacement_transmissibility_1.png}
@@ -764,9 +821,7 @@ Again, note the key location $r=\sqrt{2}$. At $r=\sqrt{2}$ the force transmitted
 			\end{figure}				
 			where $k$ = 400,000 N, $m$ = 1007 kg, $c$ = 20,000 kg/s, the period of road roughness = 6m, and eight of road roughness = 0.02 m. What is the defection experience by the car at $v$ = 20 km/h?
 			
-			\textbf{Solution}
-
-			The road is applying a base excitation that can be approximated as 
+			\noindent\textbf{Solution:} The road is applying a base excitation that can be approximated as 
 			\begin{equation}
 				Y = 0.01 \text{ m}
 			\end{equation} 				
@@ -807,7 +862,7 @@ Again, note the key location $r=\sqrt{2}$. At $r=\sqrt{2}$ the force transmitted
 				\includegraphics[width=0.35\textwidth]{../Figures/base_excited_structure.png}
 			\end{figure}				
 						
-			\textbf{Solution a)}
+			\noindent\textbf{Solution (a):}
 				
 			For simplicity, we can rearrange the system as what follows:
 			\begin{figure}[H]
@@ -849,8 +904,7 @@ Again, note the key location $r=\sqrt{2}$. At $r=\sqrt{2}$ the force transmitted
 				Y = -\frac{A}{\omega^2}
 			\end{equation} 			
 			
-			\textbf{Solution b)}
-			From the plots we solved for before, we can see that we want a critical damping coefficient that is as low as possible. This means any damping added to the system will decrease its safety. This may seem counter-intuitive, but this is because we are attempting to drive the structure at a frequency higher than its natural frequency, something that does not commonalty happen. Typically excitations for a structure are well below its natural frequency.  			
+			\noindent\textbf{Solution (b):} From the plots we solved for before, we can see that we want a critical damping coefficient that is as low as possible. This means any damping added to the system will decrease its safety. This may seem counter-intuitive, but this is because we are attempting to drive the structure at a frequency higher than its natural frequency, something that does not commonalty happen. Typically excitations for a structure are well below its natural frequency.  			
 			
 \end{example}			
 	
@@ -860,7 +914,7 @@ Again, note the key location $r=\sqrt{2}$. At $r=\sqrt{2}$ the force transmitted
 Consider the following system
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\textwidth]{../Figures/system_input_output.png}
+	\includegraphics[]{../Figures/system_input_output.png}
 \end{figure}
 where $F(s)$ is the input, $H(s)$ is the system, and $X(s)$ is the output from the system. This formulation is called the transfer-function approach and is commonly used for the formulation and solution of dynamic problems in the control literature. It can also be used for solving the various forced-vibration problems including those from complex or stochastic inputs. 
 
@@ -940,7 +994,7 @@ The procedure for using the Laplace transform to solve equations of motion expre
 Consider the undamped single-DOF system:
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.4\textwidth]{../Figures/1-DOF-mass_horizontal.png}
+	\includegraphics[]{../Figures/1-DOF-spring_mass_horizontal.png}
 \end{figure}
 that can be described the the EOM in standard form:
 \begin{equation}
@@ -1142,9 +1196,7 @@ in the following figure. This allows a crude analysis of the response of the tru
 	\caption{Dump truck being loaded with roosters showing (a) roosters going into the truck bed; and (b) the single-degree-of-freedom vibration model.}
 \end{figure}
 
-\textbf{Solution }
-
-First, setting the load applied to the truck as 1 unit, it can be seen that this is a unit step loading condition and a broken damper represents an undamped case. To obtain a rough idea about the nature of static and dynamic displacement, the undamped displacement is
+\noindent\textbf{Solution:} First, setting the load applied to the truck as 1 unit, it can be seen that this is a unit step loading condition and a broken damper represents an undamped case. To obtain a rough idea about the nature of static and dynamic displacement, the undamped displacement is
 
 \begin{equation}
 	x(t) = \frac{1}{k}\big(1-\text{cos}(\omega_n t)\big) = \frac{m_dg}{k}\big(1-\text{cos}(\omega_n t)\big)
@@ -1173,9 +1225,7 @@ would potentially break, or permanently deform, when subjected to the same mass 
 
 In testing, an hammer is used to excite a 1-DOF system with an impact (i.e. impulse), however, the hammer ascendantly impacts the system twice. The first impact has a force of 0.2 N, while the second has a force of 0.1 N and happens 0.1 seconds after the first impact. Plot the response for the double impact. The system has the parameters $m$ = 1 kg, $c$ = 0.5 kg/s, k = 4 N/m. 
 
-\textbf{Solution }
-
-First, we can define the forcing function as:
+\noindent\textbf{Solution:} First, we can define the forcing function as:
 
 \begin{equation}
 	F(t) = 0.2 \delta (t) + 0.1 \delta(t-\tau)
@@ -1452,9 +1502,7 @@ Considering the forced system:
 \end{figure}
 Set the forcing function to be $F_0 \sin(\omega t)$ and calculate the transfer function. 
 
-\textbf{Solution}
-
-that can be expressed as the equation of motion
+\noindent\textbf{Solution:} That can be expressed as the equation of motion
 \begin{equation}
 	m\ddot{x} + c\dot{x} +kx = F_0 \sin(\omega t)
 \end{equation}
@@ -1497,9 +1545,7 @@ Consider the following system
 
 Calculate the PSD of the response $x(t)$ given that the PSD of the applied force $S_{ff}(\omega)$ is white noise. 
 
-\textbf{Solution}
-
-From the system we know that the EOM is 
+\noindent\textbf{Solution:} From the system we know that the EOM is 
 
 \begin{equation}
 m\ddot{x} +c\dot{x} + kx = F(t)
@@ -1539,9 +1585,7 @@ Using various values for the elements in the system, the PSD for the system cons
 
 For the same system as example 1, calculate the mean-square response of the system. 
 
-\textbf{Solution}
-
-Again, as the forcing function $S_{ff}(\omega)$ is constant across the frequency spectrum $S_{ff}(\omega)=S_0$ the mean-square response can be calculated as:
+\noindent\textbf{Solution:} Again, as the forcing function $S_{ff}(\omega)$ is constant across the frequency spectrum $S_{ff}(\omega)=S_0$ the mean-square response can be calculated as:
 \begin{equation}
 E[x^2] = \bar{x^2} =   S_{0} \int_{-\infty}^{\infty} |H(j\omega)|^2 d\omega
 \end{equation}
