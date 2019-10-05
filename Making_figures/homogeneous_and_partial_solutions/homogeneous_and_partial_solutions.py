@@ -6,13 +6,12 @@ Created on Thu Nov 10 09:30:27 2016
 @author: downey
 """
 
-# %% import modules
+#%% import modules and set default fonts and colors
 
 import IPython as IP
 IP.get_ipython().magic('reset -sf')
 import matplotlib.pyplot as plt
 import matplotlib as mpl
-import os as os
 import numpy as np
 import pandas as PD
 import scipy as sp
@@ -21,19 +20,23 @@ import pickle
 import time
 import re
 import json as json
-
 import pylab
-plt.rcParams.update({'font.size': 9})
 
-
+# set default fonts and plot colors
+plt.rcParams.update({'image.cmap': 'viridis'})
 cc = plt.rcParams['axes.prop_cycle'].by_key()['color']
+plt.rcParams.update({'font.serif':['Times New Roman', 'Times', 'DejaVu Serif',
+ 'Bitstream Vera Serif', 'Computer Modern Roman', 'New Century Schoolbook',
+ 'Century Schoolbook L',  'Utopia', 'ITC Bookman', 'Bookman', 
+ 'Nimbus Roman No9 L', 'Palatino', 'Charter', 'serif']})
+plt.rcParams.update({'font.family':'serif'})
+plt.rcParams.update({'font.size': 10})
+plt.rcParams.update({'mathtext.rm': 'serif'})
+plt.rcParams.update({'mathtext.fontset': 'custom'})
 plt.close('all')
 
+
 #%% Load the expermintal data
-
-
-
-
 
 tt = np.linspace(0,12,1000)
 
@@ -65,12 +68,13 @@ plt.figure(figsize=(6,3))
 plt.plot(tt,xx_h*1000,':',lw=1.5,label='homogeneous solution')
 plt.plot(tt,xx_p*1000,'--',lw=1.5,label='partial solution')
 plt.plot(tt,xx_underdamped*1000,'-',lw=1,label='total solution')
+plt.xlim(0,12)
 plt.grid('on')
 plt.ylabel('amplitude (mm)')
 plt.xlabel('time (s)')
 plt.tight_layout()
 plt.legend(loc=1,ncol=3,framealpha=1,bbox_to_anchor=[0,0,1,1.09])
-plt.savefig('figures/example_1.png',dpi=300)
+plt.savefig('homogeneous_and_partial_solutions.png',dpi=300)
 
 
 

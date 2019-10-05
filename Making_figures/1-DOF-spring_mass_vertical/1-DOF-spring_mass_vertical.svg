@@ -16,7 +16,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="1-DOF-mass_vertical.svg"
+   sodipodi:docname="1-DOF-spring_mass_vertical.svg"
    inkscape:export-filename="/home/austin/Documents/Dropbox/Teaching/EMCH-330/Class_notes/class_10/figures/impulse_time_history.png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300">
@@ -10318,16 +10318,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.2117505"
-     inkscape:cx="278.04627"
-     inkscape:cy="416.28147"
+     inkscape:zoom="0.856837"
+     inkscape:cx="379.04233"
+     inkscape:cy="558.46065"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1072"
-     inkscape:window-y="673"
+     inkscape:window-width="1600"
+     inkscape:window-height="847"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:snap-global="false"
      units="in" />
@@ -12981,9 +12981,9 @@
            sodipodi:role="line">mg</tspan></text>
     </g>
     <g
-       transform="translate(313.62561,38.422386)"
+       transform="translate(484.69568,188.49469)"
        id="g5155-7"
-       inkscape:export-filename="C:\Users\adowney2\Dropbox\Teaching\EMCH-330\Class_notes\Class_1\figures\1-DOF-mass_vertical_FBD.png"
+       inkscape:export-filename="1-DOF-spring_mass_vertical_FBD.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300">
       <rect
@@ -13048,69 +13048,69 @@
        id="rect3745-0-3-8-8"
        width="15.63527"
        height="15.63527"
-       x="44.878563"
-       y="59.934738"
+       x="194.95087"
+       y="-126.48114"
        style="fill:none;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\adowney2\Dropbox\Teaching\EMCH-330\Class_notes\Class_1\figures\1-DOF-mass_vertical_FBD.png"
+       inkscape:export-filename="1-DOF-spring_mass_vertical_FBD.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"
        transform="rotate(90)" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:Amiri;-inkscape-font-specification:Amiri;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-70.207016"
-       y="54.141907"
+       x="116.20887"
+       y="204.2142"
        id="text4554-6-6-0-5"
-       inkscape:export-filename="C:\Users\adowney2\Dropbox\Teaching\EMCH-330\Class_notes\Class_1\figures\1-DOF-mass_vertical_FBD.png"
+       inkscape:export-filename="1-DOF-spring_mass_vertical_FBD.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          id="tspan4552-1-4-8-5"
-         x="-70.207016"
-         y="54.141907"
+         x="116.20887"
+         y="204.2142"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.26458332">m</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker3722-8-1)"
-       d="M -67.752361,44.484683 V 35.397519"
+       d="m 118.66362,194.55698 v -9.08716"
        id="path3457-63-0"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="C:\Users\adowney2\Dropbox\Teaching\EMCH-330\Class_notes\Class_1\figures\1-DOF-mass_vertical_FBD.png"
+       inkscape:export-filename="1-DOF-spring_mass_vertical_FBD.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker3722-7-4-5)"
-       d="m -67.752361,60.946621 v 9.087164"
+       d="m 118.66362,211.01892 v 9.08717"
        id="path3457-6-5-9"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="C:\Users\adowney2\Dropbox\Teaching\EMCH-330\Class_notes\Class_1\figures\1-DOF-mass_vertical_FBD.png"
+       inkscape:export-filename="1-DOF-spring_mass_vertical_FBD.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-65.228043"
-       y="64.544716"
+       x="121.18785"
+       y="214.61702"
        id="text4408-0-2"
-       inkscape:export-filename="C:\Users\adowney2\Dropbox\Teaching\EMCH-330\Class_notes\Class_1\figures\1-DOF-mass_vertical_FBD.png"
+       inkscape:export-filename="1-DOF-spring_mass_vertical_FBD.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          id="tspan4406-3-5"
-         x="-65.228043"
-         y="64.544716"
+         x="121.18785"
+         y="214.61702"
          style="font-style:italic;stroke-width:0.26458332">mg</tspan></text>
     <text
        id="text4404-0-0"
-       y="42.961662"
-       x="-64.222763"
+       y="193.03397"
+       x="122.19314"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        xml:space="preserve"
-       inkscape:export-filename="C:\Users\adowney2\Dropbox\Teaching\EMCH-330\Class_notes\Class_1\figures\1-DOF-mass_vertical_FBD.png"
+       inkscape:export-filename="1-DOF-spring_mass_vertical_FBD.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          style="font-style:italic;stroke-width:0.26458332"
-         y="42.961662"
-         x="-64.222763"
+         y="193.03397"
+         x="122.19314"
          id="tspan4402-6-7"
          sodipodi:role="line">k<tspan
    style="font-style:normal"
@@ -26039,7 +26039,9 @@
 
 
 
+
 t</tspan>
+
 
 
 
@@ -33371,44 +33373,43 @@ t</tspan>
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 95.207386,156.2428 v 7.79576 l 1.446941,0.61776 -1.446941,0.61775 -1.44694,0.61776 1.44694,0.61775 1.446941,0.61776 -1.446941,0.61775 -1.44694,0.61776 1.44694,0.61775 1.446941,0.61775 -1.446941,0.61776 -1.44694,0.61775 1.44694,0.61776 1.446941,0.61774 -1.446941,0.61776 -1.44694,0.61775 1.44694,0.61776 1.446941,0.61775 -1.446941,0.61775 -1.44694,0.61776 1.44694,0.61775 v 8.5281"
+       d="m 87.178827,113.0121 v 7.79576 l 1.446941,0.61776 -1.446941,0.61775 -1.44694,0.61776 1.44694,0.61775 1.446941,0.61776 -1.446941,0.61775 -1.44694,0.61776 1.44694,0.61775 1.446941,0.61775 -1.446941,0.61776 -1.44694,0.61775 1.44694,0.61776 1.446941,0.61774 -1.446941,0.61776 -1.44694,0.61775 1.44694,0.61776 1.446941,0.61775 -1.446941,0.61775 -1.44694,0.61776 1.44694,0.61775 v 8.5281"
        id="path3728-3-4-1-0"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccccccccccccc"
-       inkscape:export-filename="1-DOF-mass_vertical.png"
+       inkscape:export-filename="1-DOF-spring_mass_vertical.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <rect
        id="rect3745-0-6-99"
        width="15.63527"
        height="15.63527"
-       x="87.382118"
-       y="140.44763"
+       x="79.353561"
+       y="97.216927"
        style="fill:none;stroke:#000000;stroke-width:0.26458332;stroke-opacity:1"
-       inkscape:export-filename="1-DOF-mass_vertical.png"
+       inkscape:export-filename="1-DOF-spring_mass_vertical.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:Amiri;-inkscape-font-specification:Amiri;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="93.726974"
-       y="149.17581"
+       x="85.698418"
+       y="105.94511"
        id="text4554-6-1-22"
-       inkscape:export-filename="1-DOF-mass_vertical.png"
+       inkscape:export-filename="1-DOF-spring_mass_vertical.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          id="tspan4552-1-2-4"
-         x="93.726974"
-         y="149.17581"
+         x="85.698418"
+         y="105.94511"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.26458332">m</tspan></text>
     <g
-       transform="matrix(-1.0087068,0,0,-1.0087068,199.80322,440.64973)"
+       transform="matrix(-1.0087068,0,0,-1.0087068,191.77466,397.41903)"
        id="g4991-5-6-57-3"
-       inkscape:export-filename="1-DOF-mass_vertical.png"
+       inkscape:export-filename="1-DOF-spring_mass_vertical.png"
        inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"
-       style="">
+       inkscape:export-ydpi="300">
       <path
          inkscape:connector-curvature="0"
          id="path4556-6-9-7-19-72"
@@ -33478,48 +33479,48 @@ t</tspan>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:Amiri;-inkscape-font-specification:Amiri;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="90.767433"
-       y="171.31129"
+       x="82.738876"
+       y="128.0806"
        id="text5083-7-0-0"
-       inkscape:export-filename="1-DOF-mass_vertical.png"
+       inkscape:export-filename="1-DOF-spring_mass_vertical.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          id="tspan5081-4-1-56"
-         x="90.767433"
-         y="171.31129"
+         x="82.738876"
+         y="128.0806"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.26458332">k</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 86.302517,156.17138 h -4.016"
+       d="m 78.273958,112.94068 h -4.016"
        id="path1167-8-8"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="1-DOF-mass_vertical.png"
+       inkscape:export-filename="1-DOF-spring_mass_vertical.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend-9-4)"
-       d="m 84.294517,156.21862 v 6.71227"
+       d="m 76.265958,112.98792 v 6.71227"
        id="path1169-6-4"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
-       inkscape:export-filename="1-DOF-mass_vertical.png"
+       inkscape:export-filename="1-DOF-spring_mass_vertical.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333333px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
-       x="83.584808"
-       y="165.78502"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="75.556252"
+       y="122.55431"
        id="text1497-5-3"
-       inkscape:export-filename="1-DOF-mass_vertical.png"
+       inkscape:export-filename="1-DOF-spring_mass_vertical.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          id="tspan1495-5-1"
-         x="83.584808"
-         y="165.78502"
-         style="font-style:italic;stroke-width:0.26458332;font-size:4.23333333px;">x</tspan></text>
+         x="75.556252"
+         y="122.55431"
+         style="font-style:italic;font-size:4.23333311px;stroke-width:0.26458332">x</tspan></text>
   </g>
   <style
      id="style5799">text.intmath,text.intmathItalic{stroke:none;fill:#000;font-weight:400}@font-face{font-family:MathJax_Math-italic;src:url(/includes/cssjs/katex/fonts/MathJax_Math-Italic.woff2) format('woff2'),url(/includes/cssjs/katex/fonts/MathJax_Math-Italic.woff) format('woff')}@font-face{font-family:MathJax_Main;src:url(/includes/cssjs/katex/fonts/MathJax_Main-Regular.woff2) format('woff2'),url(/includes/cssjs/katex/fonts/MathJax_Main-Regular.woff) format('woff')}path.grids{shape-rendering:crispEdges}text.intmath{font-size:14.4px;font-family:MathJax_Main,'Times New Roman',Times,serif}text.intmathItalic{font-size:16px;font-style:normal;font-family:MathJax_Math-italic,'Times New Roman',Times,serif}</style>
