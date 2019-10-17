@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.21)  1 OCT 2019 10:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.21)  7 OCT 2019 15:46
 entering extended mode
 **./2_free_vibration.tex
 (2_free_vibration.tex
@@ -1272,7 +1272,7 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 135.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [3 <../figures/harmonic_motion_2.png>] [4]
-Overfull \hbox (12.71481pt too wide) in paragraph at lines 222--224
+Overfull \hbox (12.71481pt too wide) in paragraph at lines 223--225
 \OT1/ptm/m/n/14.4 From these equa-tions a value for $\OML/ztmcm/m/it/14.4 $ \O
 T1/ptm/m/n/14.4 can be ob-tained know-ing that $[]\OT1/ztmcm/m/n/14.4 (\OML/ztm
 cm/m/it/14.4 \OT1/ztmcm/m/n/14.4 )[] + [](\OML/ztmcm/m/it/14.4 \OT1/ztmcm/m/n
@@ -1286,16 +1286,16 @@ File: ../figures/trigonometric_relationship_undamped_free.png Graphic file (typ
 e png)
 <use ../figures/trigonometric_relationship_undamped_free.png>
 Package pdftex.def Info: ../figures/trigonometric_relationship_undamped_free.pn
-g  used on input line 257.
+g  used on input line 258.
 (pdftex.def)             Requested size: 248.36728pt x 165.97968pt.
  [6 <../figures/trigonometric_relationship_undamped_free.png>]
 <../figures/arctan_plot.png, id=41, 433.62pt x 216.81pt>
 File: ../figures/arctan_plot.png Graphic file (type png)
 <use ../figures/arctan_plot.png>
-Package pdftex.def Info: ../figures/arctan_plot.png  used on input line 274.
+Package pdftex.def Info: ../figures/arctan_plot.png  used on input line 275.
 (pdftex.def)             Requested size: 433.61894pt x 216.80946pt.
 
-Overfull \hbox (0.32047pt too wide) in paragraph at lines 282--283
+Overfull \hbox (0.32047pt too wide) in paragraph at lines 283--284
 []\OT1/ptm/m/n/14.4 A ve-hi-cle wheel, tire, and sus-pen-sion can be mod-eled a
 s a SDOF
  []
@@ -1304,41 +1304,41 @@ s a SDOF
 File: ../figures/Vehicle_wheel_undamped.png Graphic file (type png)
 <use ../figures/Vehicle_wheel_undamped.png>
 Package pdftex.def Info: ../figures/Vehicle_wheel_undamped.png  used on input l
-ine 286.
+ine 287.
 (pdftex.def)             Requested size: 385.92085pt x 170.07497pt.
 [7 <../figures/arctan_plot.png>]
 <../figures/1-DOF-mass_vertical.png, id=50, 79.7379pt x 136.1085pt>
 File: ../figures/1-DOF-mass_vertical.png Graphic file (type png)
 <use ../figures/1-DOF-mass_vertical.png>
 Package pdftex.def Info: ../figures/1-DOF-mass_vertical.png  used on input line
- 303.
+ 304.
 (pdftex.def)             Requested size: 79.7377pt x 136.10815pt.
  [8 <../figures/Vehicle_wheel_undamped.png> <../figures/1-DOF-mass_vertical.png
 >]
 <../figures/complex_plane.png, id=56, 291.0072pt x 190.311pt>
 File: ../figures/complex_plane.png Graphic file (type png)
 <use ../figures/complex_plane.png>
-Package pdftex.def Info: ../figures/complex_plane.png  used on input line 350.
+Package pdftex.def Info: ../figures/complex_plane.png  used on input line 351.
 (pdftex.def)             Requested size: 291.00648pt x 190.31052pt.
  [9]
 <../figures/Eulers_formula.png, id=60, 268.6035pt x 222.3507pt>
 File: ../figures/Eulers_formula.png Graphic file (type png)
 <use ../figures/Eulers_formula.png>
-Package pdftex.def Info: ../figures/Eulers_formula.png  used on input line 372.
+Package pdftex.def Info: ../figures/Eulers_formula.png  used on input line 373.
 
 (pdftex.def)             Requested size: 268.60284pt x 222.35014pt.
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
-(mdframed)              on input line 375.
+(mdframed)              on input line 376.
  [10 <../figures/complex_plane.png>]
 [11 <../figures/Eulers_formula.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 421--422
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
 
  []
 
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
-(mdframed)              on input line 445.
+(mdframed)              on input line 446.
 [12]
 <../figures/trigonometric_relationship_undamped_free_general_solution.png, id=7
 2, 433.3791pt x 143.3355pt>
@@ -1346,18 +1346,18 @@ File: ../figures/trigonometric_relationship_undamped_free_general_solution.png
 Graphic file (type png)
 <use ../figures/trigonometric_relationship_undamped_free_general_solution.png>
 Package pdftex.def Info: ../figures/trigonometric_relationship_undamped_free_ge
-neral_solution.png  used on input line 483.
+neral_solution.png  used on input line 484.
 (pdftex.def)             Requested size: 433.37805pt x 143.33513pt.
  [13]
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
-(mdframed)              on input line 524.
+(mdframed)              on input line 525.
  [14 <../figures/trigonometric_relationship_undamped_free_general_solution.png>
 ]
 <../figures/linear_dashpot.png, id=81, 133.4586pt x 54.2025pt>
 File: ../figures/linear_dashpot.png Graphic file (type png)
 <use ../figures/linear_dashpot.png>
-Package pdftex.def Info: ../figures/linear_dashpot.png  used on input line 556.
+Package pdftex.def Info: ../figures/linear_dashpot.png  used on input line 557.
 
 (pdftex.def)             Requested size: 133.45827pt x 54.20236pt.
  [15]
@@ -1365,13 +1365,13 @@ Package pdftex.def Info: ../figures/linear_dashpot.png  used on input line 556.
 File: ../figures/engine_mount_model.png Graphic file (type png)
 <use ../figures/engine_mount_model.png>
 Package pdftex.def Info: ../figures/engine_mount_model.png  used on input line 
-570.
+571.
 (pdftex.def)             Requested size: 389.29344pt x 102.14134pt.
  [16 <../figures/linear_dashpot.png> <../figures/engine_mount_model.png>]
 <../figures/damping_cases.png, id=91, 433.62pt x 216.81pt>
 File: ../figures/damping_cases.png Graphic file (type png)
 <use ../figures/damping_cases.png>
-Package pdftex.def Info: ../figures/damping_cases.png  used on input line 587.
+Package pdftex.def Info: ../figures/damping_cases.png  used on input line 588.
 (pdftex.def)             Requested size: 433.61894pt x 216.80946pt.
 <../figures/1_DOF_spring_dashpot_mass_horizontal_FBD.png, id=92, 319.4334pt x 7
 9.7379pt>
@@ -1379,7 +1379,7 @@ File: ../figures/1_DOF_spring_dashpot_mass_horizontal_FBD.png Graphic file (typ
 e png)
 <use ../figures/1_DOF_spring_dashpot_mass_horizontal_FBD.png>
 Package pdftex.def Info: ../figures/1_DOF_spring_dashpot_mass_horizontal_FBD.pn
-g  used on input line 597.
+g  used on input line 598.
 (pdftex.def)             Requested size: 319.4326pt x 79.7377pt.
  [17 <../figures/damping_cases.png>] [18 <../figures/1_DOF_spring_dashpot_mass_
 horizontal_FBD.png>] [19] [20] [21]
@@ -1389,7 +1389,7 @@ File: ../figures/Trigonometric_relationship_underdamped.png Graphic file (type
 png)
 <use ../figures/Trigonometric_relationship_underdamped.png>
 Package pdftex.def Info: ../figures/Trigonometric_relationship_underdamped.png 
- used on input line 758.
+ used on input line 759.
 (pdftex.def)             Requested size: 271.01183pt x 154.1756pt.
  [22 <../figures/Trigonometric_relationship_underdamped.png>]
 <../figures/Under_damped_various_initial_conditions.png, id=116, 433.62pt x 216
@@ -1398,7 +1398,7 @@ File: ../figures/Under_damped_various_initial_conditions.png Graphic file (type
  png)
 <use ../figures/Under_damped_various_initial_conditions.png>
 Package pdftex.def Info: ../figures/Under_damped_various_initial_conditions.png
-  used on input line 782.
+  used on input line 783.
 (pdftex.def)             Requested size: 433.61894pt x 216.80946pt.
 <../figures/1_DOF_spring_dashpot_mass_vertical.png, id=117, 79.7379pt x 136.108
 5pt>
@@ -1406,7 +1406,7 @@ File: ../figures/1_DOF_spring_dashpot_mass_vertical.png Graphic file (type png)
 
 <use ../figures/1_DOF_spring_dashpot_mass_vertical.png>
 Package pdftex.def Info: ../figures/1_DOF_spring_dashpot_mass_vertical.png  use
-d on input line 790.
+d on input line 791.
 (pdftex.def)             Requested size: 79.7377pt x 136.10815pt.
  [23 <../figures/Under_damped_various_initial_conditions.png>] [24 <../figures/
 1_DOF_spring_dashpot_mass_vertical.png>]
@@ -1415,7 +1415,7 @@ t>
 File: ../figures/rubber_mounted_mass_with_spring.png Graphic file (type png)
 <use ../figures/rubber_mounted_mass_with_spring.png>
 Package pdftex.def Info: ../figures/rubber_mounted_mass_with_spring.png  used o
-n input line 839.
+n input line 840.
 (pdftex.def)             Requested size: 165.01607pt x 151.28482pt.
 <../figures/rubber_mounted_mass_with_spring_spring_dashpot_system.png, id=127, 
 101.178pt x 152.0079pt>
@@ -1423,7 +1423,7 @@ File: ../figures/rubber_mounted_mass_with_spring_spring_dashpot_system.png Grap
 hic file (type png)
 <use ../figures/rubber_mounted_mass_with_spring_spring_dashpot_system.png>
 Package pdftex.def Info: ../figures/rubber_mounted_mass_with_spring_spring_dash
-pot_system.png  used on input line 850.
+pot_system.png  used on input line 851.
 (pdftex.def)             Requested size: 101.17773pt x 152.00752pt.
 <../figures/rubber_mounted_mass_with_spring_FBD.png, id=128, 299.1978pt x 112.7
 412pt>
@@ -1431,11 +1431,11 @@ File: ../figures/rubber_mounted_mass_with_spring_FBD.png Graphic file (type png
 )
 <use ../figures/rubber_mounted_mass_with_spring_FBD.png>
 Package pdftex.def Info: ../figures/rubber_mounted_mass_with_spring_FBD.png  us
-ed on input line 861.
+ed on input line 862.
 (pdftex.def)             Requested size: 299.19705pt x 112.7409pt.
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
-(mdframed)              on input line 891.
+(mdframed)              on input line 892.
  [25 <../figures/rubber_mounted_mass_with_spring.png>] [26 <../figures/rubber_m
 ounted_mass_with_spring_spring_dashpot_system.png> <../figures/rubber_mounted_m
 ass_with_spring_FBD.png>] [27]
@@ -1445,31 +1445,31 @@ File: ../figures/Over_damped_various_initial_conditions.png Graphic file (type
 png)
 <use ../figures/Over_damped_various_initial_conditions.png>
 Package pdftex.def Info: ../figures/Over_damped_various_initial_conditions.png 
- used on input line 915.
+ used on input line 916.
 (pdftex.def)             Requested size: 433.61894pt x 216.80946pt.
  [28 <../figures/Over_damped_various_initial_conditions.png>]
 <../figures/engine_valve.png, id=147, 435.5472pt x 192.4791pt>
 File: ../figures/engine_valve.png Graphic file (type png)
 <use ../figures/engine_valve.png>
-Package pdftex.def Info: ../figures/engine_valve.png  used on input line 965.
+Package pdftex.def Info: ../figures/engine_valve.png  used on input line 966.
 (pdftex.def)             Requested size: 435.54611pt x 192.4786pt.
 <../figures/engine_valve_FBD.png, id=148, 355.0866pt x 107.6823pt>
 File: ../figures/engine_valve_FBD.png Graphic file (type png)
 <use ../figures/engine_valve_FBD.png>
 Package pdftex.def Info: ../figures/engine_valve_FBD.png  used on input line 97
-8.
+9.
 (pdftex.def)             Requested size: 355.08571pt x 107.68202pt.
 
 [29]
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
-(mdframed)              on input line 1001.
+(mdframed)              on input line 1002.
  [30 <../figures/engine_valve.png> <../figures/engine_valve_FBD.png>]
 <../figures/Logarithmic_decrement.png, id=158, 433.62pt x 216.81pt>
 File: ../figures/Logarithmic_decrement.png Graphic file (type png)
 <use ../figures/Logarithmic_decrement.png>
 Package pdftex.def Info: ../figures/Logarithmic_decrement.png  used on input li
-ne 1014.
+ne 1015.
 (pdftex.def)             Requested size: 433.61894pt x 216.80946pt.
 
 [31] [32 <../figures/Logarithmic_decrement.png>]
@@ -1477,18 +1477,18 @@ ne 1014.
 File: ../figures/Logarithmic_decrement_with_noise.png Graphic file (type png)
 <use ../figures/Logarithmic_decrement_with_noise.png>
 Package pdftex.def Info: ../figures/Logarithmic_decrement_with_noise.png  used 
-on input line 1074.
+on input line 1075.
 (pdftex.def)             Requested size: 433.61894pt x 216.80946pt.
-Package mdframed Info: Not enough space on this page on input line 1093.
+Package mdframed Info: Not enough space on this page on input line 1094.
  [33]
-Package mdframed Info: Not enough space on this page on input line 1093.
+Package mdframed Info: Not enough space on this page on input line 1094.
  [34 <../figures/Logarithmic_decrement_with_noise.png>] [35] (2_free_vibration.
 aux) ) 
 Here is how much of TeX's memory you used:
- 24792 strings out of 492973
- 486030 string characters out of 3135923
- 522916 words of memory out of 3000000
- 28242 multiletter control sequences out of 15000+200000
+ 24793 strings out of 492973
+ 486052 string characters out of 3135923
+ 522924 words of memory out of 3000000
+ 28243 multiletter control sequences out of 15000+200000
  578781 words of font info for 126 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,13n,78p,1059b,1018s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1502,7 +1502,7 @@ type1/urw/symbol/usyr.pfb><C:/Users/adowney2/AppData/Roaming/MiKTeX/2.9/fonts/t
 ype1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utm
 b8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on 2_free_vibration.pdf (35 pages, 1549290 bytes).
+Output written on 2_free_vibration.pdf (35 pages, 1549622 bytes).
 PDF statistics:
  211 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

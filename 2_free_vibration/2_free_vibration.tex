@@ -152,7 +152,7 @@
 			\end{equation}
 			Substituting $x$ and $\ddot{x}$ into the EOM for the considered 1-DOF system ($m\ddot{x}(t) + kx(t) = 0$) yields:
 			\begin{equation}
-				m\big(-A\omega_n^2\text{sin}(\omega_n t + \phi)\big) + k\big(A\omega_n\text{sin}(\omega_n t + \phi)\big) = 0
+				m\big(-A\omega_n^2\text{sin}(\omega_n t + \phi)\big) + k\big(A\text{sin}(\omega_n t + \phi)\big) = 0
 			\end{equation}
 			Thereafter, dividing both sides by $A\text{sin}(\omega_n t + \phi)$ results in the expression:
 			\begin{equation}
@@ -161,8 +161,9 @@
 			This expression can be rearranged into the more useful standard form:
 			\begin{equation}
 				\omega_n= \sqrt{\frac{k}{m}}
+				\label{eq:natural_frequency}
 			\end{equation}
-			This form is not an ODE so the equation is solvable and testable. This equation relates the frequency of a system to stiffness and mass. This equation leads to:
+			Equation \ref{eq:natural_frequency} represents a solution to the EOM  presented in equation \ref{eq:EOM}. This solution is not in the form of an ODE  so, therefore, we can experientially prove that this is the correct solution. For example, we could build a systems with known mass and stiffness and measure the natural frequency of the system. Equation \ref{eq:natural_frequency} equation leads to:
 			\begin{equation}
 				T= \frac{2 \pi}{\omega_n}
 			\end{equation}
@@ -441,7 +442,7 @@
 				\begin{equation}
 					x(t) = 2a \cdot \text{cos}(\omega_n t+\psi)
 				\end{equation}						
-				This is equivalent to $	{x}(t) = A\text{sin}(\omega_n t + \phi)$ considering that $A=2a$ and knowing sin($\phi$) = cos($\phi + \psi$). 			
+				This is equivalent to $	{x}(t) = A\text{sin}(\omega_n t + \phi)$ considering that $A=2a$ and knowing sin($\phi$) = cos($\phi + \psi$). To expand, this is because the sin and cos are only differentiated by a phase shift. 			
 			\end{example}
 
 			
