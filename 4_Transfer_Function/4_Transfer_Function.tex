@@ -92,54 +92,67 @@
 			Consider the following system
 			\begin{figure}[H]
 				\centering
-				\includegraphics[]{../figures/system_input_output.png}
+				\includegraphics[]{../figures/transfer_function_system.png}
 			\end{figure}
-			where $F(s)$ is the input, $H(s)$ is the system, and $X(s)$ is the output from the system. This formulation is called the transfer-function approach and is commonly used for the formulation and solution of dynamic problems in the control literature. It can also be used for solving the various forced-vibration problems including those from complex or stochastic inputs. 
+			\noindent where $F(s)$ is the input, $H(s)$ is the system, and $X(s)$ is the output from the system. This formulation is called the transfer-function approach and is commonly used for the formulation and solution of dynamic problems in the control literature. It can also be used for solving the various forced-vibration problems including those from complex or stochastic inputs. 
 
 
-
-		\subsection{Review of Laplace Transforms}
-		\label{sec:Laplace_review}
+\begin{review}
+	\label{sec:Laplace_review}
+				
+		Laplace transforms, or more boradly integral transform, are a procedure for integrating the time dependence of a function into a function of an alternative variable, or parameter. These functions can often be manipulated algebraically. 
 		
-			An integral transform is the procedure of integrating the time dependence of a function into becoming a function of an alternative variable, or parameter, which can be manipulated algebraically. 
-			
-			Of interest to this class is the Laplace transform ($\Laplace{f(t)}$) of the function $f(t)$. Here, a Laplace transform is used as a method of solving the differential equations of motion by reducing the computation needed to that of integration and algebraic manipulation. 
-			
-			The definition of the Laplace transform of the function $f(t)$ is:
-			
+		Of interest to this class is the Laplace transform ($\Laplace{\hspace{1ex}}$) of the function $f(t)$, expressed as $\Laplace{f(t)}$. Here, a Laplace transform is used as a method of solving the differential equations of motion by reducing the computation needed to that of integration and algebraic manipulation. 
+		
+		The definition of the Laplace transform of the function $f(t)$ is:
+		
+		\begin{equation}
+				\Laplace{f(t)} = F(s) = \int_{0}^{\infty} f(t)e^{-st}dt
+		\end{equation}
+		where $s$ represents a variable in the complex plane and $f(t)=0$ for all values of $t<0$. Here, the $s$ is a complex value. Lastly, the term $F(s)$ is a generic term that  represents the input to a system. As this class needs the derivative of functions, we will calculate that next:
+		\begin{equation}
+			\Laplace{\dot{f}(t)} = \int_{0}^{\infty} \dot{f}(t)e^{-st}dt = \int_{0}^{\infty} e^{-st}\frac{d[f(t)]}{dt}dt 
+		\end{equation}		
+		integration by parts yields
+		\begin{equation}
+			\Laplace{\dot{f}(t)} = e^{-st}f(t)\Big|_0^\infty+s\int_{0}^{\infty}e^{-st}f(t)dt
+		\end{equation}
+		Astutely, it can be noticed that the second term $s\int_{0}^{\infty}e^{-st}f(t)dt$
+		is the input to the system $F(s)$. Therefor, with a little rearranging this becomes:
+		\begin{equation}
+			\Laplace{\dot{f}(t)} = sF(s)-f(0)
+		\end{equation}
+		Successive iteration yields:
+		\begin{equation}
+			\Laplace{\ddot{f}(t)} = s^2F(s)-sf(0)-\dot{f}(0)
+		\end{equation}
+		
+		A few key points of the Laplace transforms are:
+				
+		\begin{itemize}
+			\item the domain of the problem from the real number line ($t$) to the complex plane ($s$).
+			\item The integration of the Laplace transform changes differentiation into multiplication.
+			\item The transform procedure is linear. Therefore, the transform of the linear combination of two transforms is the same as the linear transformation of these functions. 
+			\item to move from the time domain to the complex number plane we typically use tables of pre-solved integral. 
+			\item The function $x(t)$ can be obtained by taking the inverse Laplace transform defined as $x(t) = \Laplace{X(s)}^{-1}$
+		\end{itemize}
+
+			The Laplace transform can be calculated in symbolic form. In particular interest to this text is the Laplace form of the system input $F(s)$ and output $X(s)$. To expand the symbolic form of the Laplace transform for the system inputs are 
+			and for system outputs:
 			\begin{equation}
-					\Laplace{f(t)} = F(s) = \int_{0}^{\infty} f(t)e^{-st}dt
-			\end{equation}
-			where $f(t)=0$ for all values of $t$ less than 0. Here, the $s$ is a complex value. Lastly, the term $F(s)$is a generic term that  represents the input to a system. As this class needs the derivative of functions, we will calculate that next:
-			\begin{equation}
-				\Laplace{\dot{f}(t)} = \int_{0}^{\infty} \dot{f}(t)e^{-st}dt = \int_{0}^{\infty} e^{-st}\frac{d[f(t)]}{dt}dt 
+				\label{eq:laplace_f}
+				\Laplace{f(t)} = F(s)
 			\end{equation}		
-			integration by parts yields
 			\begin{equation}
-				\Laplace{\dot{f}(t)} = e^{-st}f(t)\Big|_0^\infty+s\int_{0}^{\infty}e^{-st}f(t)dt
-			\end{equation}
-			Astutely, it can be noticed that the second term $s\int_{0}^{\infty}e^{-st}f(t)dt$
-			is the input to the system $F(s)$. Therefor, with a little rearranging this becomes:
+				\label{eq:laplace_f'}
+				\Laplace{\dot{f}(t)} = sF(s)-x(0)
+			\end{equation}	
 			\begin{equation}
-				\Laplace{\dot{f}(t)} = sF(s)-f(0)
-			\end{equation}
-			Successive iteration yields:
-			\begin{equation}
-				\Laplace{\ddot{f}(t)} = s^2F(s)-sf(0)-\dot{f}(0)
-			\end{equation}
-			
-			A few key points of the Laplace transforms are:
-					
-			\begin{itemize}
-				\item the domain of the problem from the real number line ($t$) to the complex plane ($s$).
-				\item The integration of the Laplace transform changes differentiation into multiplication.
-				\item The transform procedure is linear. Therefore, the transform of the linear combination of two transforms is the same as the linear transformation of these functions. 
-				\item to move from the time domain to the complex number plane we typically use tables of pre-solved integral. 
-				\item The function $x(t)$ can be obtained by taking the inverse Laplace transform defined as $x(t) = \Laplace{X(s)}^{-1}$
-			\end{itemize}
-			
-			The Laplace transform can be calculated in symbolic form. In particular interest to this class is the Laplace form of the system output $X(s)$
-	
+				\label{eq:laplace_f''}
+				\Laplace{\ddot{f}(t)} = s^2F(s)-sx(0) - \dot{x}(0)
+			\end{equation}	
+			here, $f(0)$ and $\dot{f}(0)$ are the initial values of the function $f(t)$. 				
+			and for system outputs:
 			\begin{equation}
 				\label{eq:laplace_x}
 				\Laplace{x(t)} = X(s)
@@ -152,31 +165,35 @@
 				\label{eq:laplace_x''}
 				\Laplace{\ddot{x}(t)} = s^2X(s)-sx(0) - \dot{x}(0)
 			\end{equation}	
-			here, $x(0)$ and $\dot{x}(0)$ are the initial values of the function $x(t)$. 
+			here, $x(0)$ and $\dot{x}(0)$ are the initial values of the function $x(t)$. 		
 	
-			The procedure for using the Laplace transform to solve equations of motion expressed as an inhomogeneous ordinary differential equation is:
+\end{review}
+
+		\subsection{Transfer Function Method for Solving Vibrating Systems}
+		
+			As mentioned in the introduction to this chapter, a variety of systems can be solved for using the transfer function method. The procedure for using the Laplace transform to solve equations of motion expressed as an inhomogeneous ordinary differential equation is:
 			\begin{enumerate}
 				\item Take the Laplace transform of both sides of the EOM while treating the time derivatives symbolically.
 				\item Solve for $X(s)$ in the obtained equation.
 				\item Apply the inverse transform $x(t) = \Laplace{X(s)}^{-1}$
 			\end{enumerate}
-
-		\subsection{Transfer Function Method for Free Vibration Systems}
-
+				
+			\subsubsection{Free Vibration for Undamped Systems}
 			Consider the undamped single-DOF system:
 			\begin{figure}[H]
 				\centering
 				\includegraphics[]{../figures/1-DOF-spring_mass_horizontal.png}
+				\caption{A spring mass model of a 1-DOF system.}
 			\end{figure}
 			\noindent The EOM for this system is a homogeneous differential equation becasue the right-hand side is equal to zero:
 			\begin{equation}
 				m\ddot{x}(t) + kx(t) = 0 
 			\end{equation}
-			Here we will leave the ``$(t)$'' for clarity to differentiate the time domain solution from Laplace solution ``$(s)$'' in the complex plane, as discussed in section \ref{sec:Laplace_review}. The EOM can be rewritten in standard form as:
+			Here we will leave the ``$(t)$'' for clarity to differentiate the time domain solution from Laplace solution ``$(s)$'' in the complex plane, as discussed in review \ref{sec:Laplace_review}. The EOM can be rewritten in standard form as:
 			\begin{equation}
 				\ddot{x}(t) + \omega_n^2x(t) = 0 
 			\end{equation}
-			where the initial conditions at $t=0$ are $x(0)=x_0$ and $\dot{x}(0) = v_0$. Taking the Laplace transforms of both sides of the EOM yields:
+			where the initial conditions at $t=0$ are $x(0)=x_0$ and $\dot{x}(0) = v_0$. Taking the Laplace transforms, in symbplic form using equations \ref{eq:laplace_x} - \ref{eq:laplace_x''}, of both sides of the EOM yields:
 			\begin{equation}
 				\big[s^2X(s) -sx_0 -v_0 \big] + \big[ \omega_n^2X(s) \big] =0
 			\end{equation}
@@ -184,7 +201,7 @@
 			\begin{equation}
 			X(s) = \frac{sx_0 + v_0}{s^2 + \omega_n^2}
 			\end{equation}
-			We can expand this form of $X(s)$ to obtain equations listed in our Laplace Transform table:
+			The full derivation of the above step is presented in appendix [X]. We can expand this form of $X(s)$ to obtain equations listed in our Laplace Transform table:
 			\begin{equation}
 			X(s) = \frac{sx_0}{s^2 + \omega_n^2} + \frac{v_0}{s^2 + \omega_n^2}\cdot \frac{\omega_n}{\omega_n}
 			\end{equation}
@@ -205,7 +222,7 @@
 			x(t) = x_0 \text{cos}(\omega_n t) + \frac{v_0}{\omega_n}\text{sin}(\omega_n t)
 			\end{equation}
 			
-			The same procedure works for calculating the under damped and forced responses, however, in these responses calculating the algebraic solution for $X(s)$ often results in quotients of polynomials in $s$. These Polynomial ratios may not be found in simple Laplace tables and must be solved using the \textbf{method of partial fractions}. An example of this procedure can be found in Appendix B of Inman. 
+			The same procedure works for calculating the under damped and forced responses, however, in these responses calculating the algebraic solution for $X(s)$ often results in quotients of polynomials in $s$. These Polynomial ratios may not be found in simple Laplace tables and must be solved using the method of partial fractions. An example of this procedure can be found in Appendix B of Inman. 
 
 % this example may not bee needed. Check and replace with a better one. 
 %			\begin{example}
@@ -247,6 +264,7 @@ A very common source of vibration is the sudden application for a short-duration
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.5\textwidth]{../figures/impulse_time_history.png}
+	\caption{An impulse function. }
 \end{figure}
 
 The impulse response function can be solved for analytically, however, we will solve it using the transfer function approach. Here we will consider the under-damped spring-mass system. First, assume that the system is at rest (no initial conditions). Next, we write the EOM as:
@@ -257,7 +275,7 @@ Taking the Laplace transform of both sides of the equation yields
 \begin{equation}
 m\big(s^2X(s)-sx(0) - \dot{x}(0)\big) + c\big(sX(s)-x(0)\big) +kX(s) =1
 \end{equation}
-However, \textbf{if we assume zero initial conditions} (a system at rest when the impulse happens), the equation simplifies to. 
+note that the $\Laplace{\delta}=1$ per \#1 in the transform table. However, if we assume zero initial conditions (a system at rest when the impulse happens), the equation simplifies to. 
 \begin{equation}
 ms^2X(s) + csX(s) +kX(s) =1
 \end{equation}
@@ -265,7 +283,7 @@ or
 \begin{equation}
 (ms^2 + cs +k)X(s) =1
 \end{equation}
-note that the $\Laplace{\delta}=1$ per \#1 in the transform table. Solving this equation for $X(s)$:
+Solving this equation for $X(s)$:
 \begin{equation}
 X(s) = \frac{1}{m} \cdot \frac{1}{s^2 + 2 \zeta \omega_n s + \omega_n^2}
 \end{equation}
@@ -281,6 +299,7 @@ Below is a typical response for both a undamped and underdamped 1-DOF system sub
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.75\textwidth]{../figures/response_impulse.png}
+	\caption{Temporal responses from a underdamped and undamped 1-DOF systems to a impulse response function.}
 \end{figure}
 
 
@@ -291,6 +310,7 @@ Now consider a unit step function $\Phi$:
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.5\textwidth]{../figures/unit_step_function.png}
+	\caption{A Step function. }
 \end{figure}
 
 A step function is a common loading situation and can represent the dropping of a load into a truck, a car going over a curve, or a motor starting up. 
@@ -304,7 +324,7 @@ This also lines up with Laplace Transform \# 3 from the attached table. This wou
 
 \subsubsection{Undamped spring-mass system}
 
-For a spring-mass system subjected to a unit step, \textbf{assuming both initial conditions are zero}, the solution can be obtained using the transform method. First, the EOM is 
+For a spring-mass system subjected to a unit step, assuming both initial conditions are zero, the solution can be obtained using the transform method. First, the EOM is 
 \begin{equation}
 m\ddot{x}(t) + kx(t) = \Phi(t)
 \end{equation}
@@ -355,6 +375,7 @@ After obtaining equations for the undamped and under damped cases, the responses
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.75\textwidth]{../figures/unit_step.png}
+	\caption{Temporal responses from a underdamped and undamped 1-DOF systems to a impulse response function.}
 \end{figure}
 Note that the system will settle out around $F_0/k$ where $F_0  \Phi$ is a scaling factor for the step loading.
 
@@ -433,7 +454,7 @@ where this is the general solution for a damped system subjected to an impulse l
 Next, using the knowledge that the systems are linear and that the Laplace transform of a linear combination of two transforms is the same as the linear transformation of these functions we can build the piecewise function:
 
 \[
-  x(t) = x_1(t) + x_2(t) =
+  x(t) = 
   \begin{cases}
 \frac{0.2}{m \omega_d} e^{-\zeta \omega_n t} \text{sin}(\omega_dt) & \text{if } t < \tau \\
 \frac{0.2}{m \omega_d} e^{-\zeta \omega_n t} \text{sin}(\omega_dt)  + \frac{0.1}{m \omega_d} e^{-\zeta \omega_n (t-\tau)} \text{sin}(\omega_d(t-\tau) & \text{if } \tau \leq t 
@@ -457,7 +478,7 @@ For the mass, damping, and stiffness values given above this can be plotted as:
 Again, consider the following system
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\textwidth]{../figures/system_input_output.png}
+	\includegraphics[]{../figures/transfer_function_system.png}
 \end{figure}
 For this system representation, F(s) is the Laplace of the transform of the driving force and H(s) is the Laplace transform of the response of the system h(t). 
 
@@ -496,8 +517,9 @@ Considering the forced system:
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.4\textwidth]{../figures/forced_spring_mass_damper_system.png}
+	\caption{A spring-dashpot-mass model of a 1-DOF system with external excitation.}
 \end{figure}
-that can be expressed as the equation of motion
+\noindent that can be expressed as the equation of motion
 \begin{equation}
 	m\ddot{x} + c\dot{x} +kx = F_0 \cos(\omega t)
 \end{equation}
@@ -525,7 +547,7 @@ or
 \begin{equation}
 H(s) = \frac{1}{ms^2+cs+k}
 \end{equation}
-This ratio is termed the \textbf{transfer function of a system} and is an important tool in vibration analysis.
+This ratio is termed the transfer function of a system and is an important tool in vibration analysis.
 
 Recall that $s$ is a complex number, if the value of $s$ is restricted to lie along the imaginary axis in the complex plane (i.e., if $s = j\omega$), the transfer function becomes:
 \begin{equation}
@@ -535,7 +557,7 @@ rearranging into a standard form yields:
 \begin{eqnarray}
 H(j\omega) = \frac{1}{k-m\omega^2+c\omega j}
 \end{eqnarray}
-recall that $j^2=-1$. This is the \textbf{frequency response function of the system}. Therefore, it can bee seen that the frequency response function of the system is the transfer function of the system evaluated along the imaginary axis $s=j\omega$. However, this expression contains imaginary values (that help to account for the phase in the system) and therefore can be challenging to work with. If we ignore the phase component and only consider the amplitude $|H(j\omega)|$ of the response (the real portion of the equation) we get:
+recall that $j^2=-1$. This is the frequency response function of the system. Therefore, it can bee seen that the frequency response function of the system is the transfer function of the system evaluated along the imaginary axis $s=j\omega$. However, this expression contains imaginary values (that help to account for the phase in the system) and therefore can be challenging to work with. If we ignore the phase component and only consider the amplitude $|H(j\omega)|$ of the response (the real portion of the equation) we get:
 \begin{eqnarray}
 H(\omega) = |H(j\omega)| = \frac{1}{\sqrt{(k-m\omega^2)^2+c^2\omega^2}}
 \end{eqnarray}
@@ -543,11 +565,11 @@ where $|H(j\omega)|$ represents only the amplitude of the frequency response fun
 
 
 
-To recap, for a single DOF damped spring-mass system the \textbf{transfer function} is:
+To recap, for a single DOF damped spring-mass system the transfer function is:
 \begin{equation}
 H(s) = \frac{1}{ms^2+cs+k}
 \end{equation}
-And the \textbf{frequency response function} is:
+And the frequency response function is:
 \begin{eqnarray}
 H(j\omega) = \frac{1}{k-m\omega^2+c\omega j}
 \end{eqnarray}
@@ -576,9 +598,10 @@ First, let us consider two inputs, a deterministic input (typical sin wave), and
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{../figures/Response_to_random_input_inputs.png}
+	\caption{Two arbitrary inputs: (a) a sinusoidal; and (b) uniform random noise}
 \end{figure}
 
-One of the fist factors to consider is the \textbf{mean of the random signal} $x(t)$, defined as:
+One of the first factors to consider is the mean of the random signal $x(t)$, defined as:
 
 \begin{equation}
 E[x] = \bar{x} = \lim\limits_{T \rightarrow \infty} \frac{1}{T} \int_{0}^{T}x(t)dt
@@ -590,9 +613,9 @@ where $T$ is the length in time of the data collected. However, for random signa
 x'(t) = x(t) - \bar{x}
 \end{equation} 
 
-where the $x'(t)$ is now centered around zero. As mentioned before, it is important to consider whether or not the input signals are stationary. A signal is \textbf{stationary} if its statistical properties (usually expressed by its mean) do not change with time. Here, it can be seen that for our inputs considered the signals are stationary if a long enough time period is considered. 
+where the $x'(t)$ is now centered around zero. As mentioned before, it is important to consider whether or not the input signals are stationary. A signal is stationary if its statistical properties (usually expressed by its mean) do not change with time. Here, it can be seen that for our inputs considered the signals are stationary if a long enough time period is considered. 
 
-Another important variable is \textbf{variance} (or mean-square value) of the random variable $x(t)$ defined as:
+Another important variable is variance (or mean-square value) of the random variable $x(t)$ defined as:
 \begin{equation}
 E[x^2] = \bar{x^2} = \lim\limits_{T \rightarrow \infty} \frac{1}{T} \int_{0}^{T}x^2(t)dt
 \end{equation}
@@ -602,7 +625,7 @@ and provides a measure of the magnitude of the fluctuations in the signal $x(t)$
 x_\text{rms} = \sqrt{\bar{x^2}} 
 \end{equation}
 
-Now, considering the actual signal, a important measure of interests is how fast the value of the variables change. This is important to understand as it address how long it takes to measure enough samples of the variable before a meaningful statistical value can be calculated. One way to quantify how fast the values of signal change is the \textbf{autocorrelation function}: 
+Now, considering the actual signal, a important measure of interests is how fast the value of the variables change. This is important to understand as it address how long it takes to measure enough samples of the variable before a meaningful statistical value can be calculated. One way to quantify how fast the values of signal change is the autocorrelation function: 
 \begin{equation}
 R_{xx}(\tau) = \lim\limits_{T \rightarrow \infty} \frac{1}{T} \int_{0}^{T}x(t)x(t+\tau)dt
 \end{equation}
