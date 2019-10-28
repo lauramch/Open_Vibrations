@@ -392,24 +392,24 @@ in the following figure. This allows a crude analysis of the response of the tru
 \noindent\textbf{Solution:} First, setting the load applied to the truck as 1 unit, it can be seen that this is a unit step loading condition and a broken damper represents an undamped case. To obtain a rough idea about the nature of static and dynamic displacement, the undamped displacement is
 
 \begin{equation}
-	x(t) = \frac{1}{k}\big(1-\text{cos}(\omega_n t)\big) = \frac{m_dg}{k}\big(1-\text{cos}(\omega_n t)\big)
+	x(t) = \frac{1}{k}\big(1-\text{cos}(\omega_n t)\big) = \frac{m_rg}{k}\big(1-\text{cos}(\omega_n t)\big)
 \end{equation}
  
-This equation has a maximum amplitude when the cos$(\omega_dt)=-1$, resulting in:
+This equation has a maximum amplitude when the cos$(\omega_t)=-1$, resulting in:
 \begin{equation}
-	x(t) = \frac{m_dg}{k}\big(1-(-1)\big)
+	x(t) = \frac{m_rg}{k}\big(1-(-1)\big)
 \end{equation}
 This can be rearranged for the maximum displacement value $x_\text{max} $ as:
 \begin{equation}
-	x_\text{max} = 2\frac{m_dg}{k}
+	x_\text{max} = 2\frac{m_rg}{k}
 \end{equation} 
-This is twice the static displacement (i.e., twice the distance the truck would be deflected if the dirt were placed gently and slowly onto it). Thus, if the truck were designed with springs based only on the static load, with no margins of safety, the springs in the truck
+This is twice the static displacement (i.e., twice the distance the truck would be deflected if the roosters were placed gently and slowly onto it). Thus, if the truck were designed with springs based only on the static load, with no margins of safety, the springs in the truck
 would potentially break, or permanently deform, when subjected to the same mass applied dynamically (e.g., dropped) into the truck. Hence, it is important to consider the vibration (dynamic) response in designing structures that could experience dynamic loading.
 
 %\textbf{Example 1 - under damped}
 %For the case where the truck has a damper with a value of $\zeta=0.5$, the displacement $(x)$ can be modeled as:
 %\begin{equation}
-%	x(t) = \frac{m_dg}{m \omega_n^2} \cdot \Big(1 - \frac{\omega_n}{\omega_d}e^{-\zeta \omega_n t}\text{sin}(\omega_dt + \phi)\Big)\text{, where } \phi = \text{cos}^{-1}(\zeta)
+%	x(t) = \frac{m_rg}{m \omega_n^2} \cdot \Big(1 - \frac{\omega_n}{\omega_d}e^{-\zeta \omega_n t}\text{sin}(\omega_dt + \phi)\Big)\text{, where } \phi = \text{cos}^{-1}(\zeta)
 %\end{equation}
 
 \end{example}
@@ -531,7 +531,7 @@ Therefore,
 \begin{equation}
 F(s) = \frac{F_0s}{s^2+\omega^2}
 \end{equation}
-Ignoring the initial conditions, and therefore considering only the partial solution, and taking the Laplace transform of the EOM equation yields:
+Ignoring the initial conditions, and therefore considering only the particular solution, and taking the Laplace transform of the EOM equation yields:
 \begin{equation}
 (ms^2 + cs +k)X(s) = \frac{F_0s}{s^2+\omega^2} 
 \end{equation}

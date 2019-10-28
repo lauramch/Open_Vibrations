@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.21)  21 OCT 2019 12:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.21)  24 OCT 2019 12:34
 entering extended mode
 **./3_forced_vibration.tex
 (3_forced_vibration.tex
@@ -1271,11 +1271,13 @@ File: ../Figures/1-DOF-spring_mass_horizontal_forced.png Graphic file (type png
 Package pdftex.def Info: ../Figures/1-DOF-spring_mass_horizontal_forced.png  us
 ed on input line 251.
 (pdftex.def)             Requested size: 223.45488pt x 93.50832pt.
-<../Figures/homogeneous_and_partial_solutions.png, id=35, 433.62pt x 216.81pt>
-File: ../Figures/homogeneous_and_partial_solutions.png Graphic file (type png)
-<use ../Figures/homogeneous_and_partial_solutions.png>
-Package pdftex.def Info: ../Figures/homogeneous_and_partial_solutions.png  used
- on input line 279.
+<../Figures/homogeneous_and_particular_solutions.png, id=35, 433.62pt x 216.81p
+t>
+File: ../Figures/homogeneous_and_particular_solutions.png Graphic file (type pn
+g)
+<use ../Figures/homogeneous_and_particular_solutions.png>
+Package pdftex.def Info: ../Figures/homogeneous_and_particular_solutions.png  u
+sed on input line 279.
 (pdftex.def)             Requested size: 433.61894pt x 216.80946pt.
 
 [6 <../Figures/resonance.png>]
@@ -1292,7 +1294,7 @@ File: ../Figures/response_1-DOF-spring_mass_forced.png Graphic file (type png)
 Package pdftex.def Info: ../Figures/response_1-DOF-spring_mass_forced.png  used
  on input line 337.
 (pdftex.def)             Requested size: 446.90977pt x 206.26607pt.
- [7 <../Figures/homogeneous_and_partial_solutions.png>]
+ [7 <../Figures/homogeneous_and_particular_solutions.png>]
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
 (mdframed)              on input line 339.
@@ -1313,37 +1315,37 @@ le (type png)
 Package pdftex.def Info: ../Figures/1-DOF-spring_dashpot_mass_horizontal_forced
 _FBD.png  used on input line 498.
 (pdftex.def)             Requested size: 374.83948pt x 102.38225pt.
-<../Figures/homogeneous_and_partial_solutions_in_resonance_a.png, id=65, 433.62
-pt x 216.81pt>
-File: ../Figures/homogeneous_and_partial_solutions_in_resonance_a.png Graphic f
-ile (type png)
-<use ../Figures/homogeneous_and_partial_solutions_in_resonance_a.png>
-Package pdftex.def Info: ../Figures/homogeneous_and_partial_solutions_in_resona
-nce_a.png  used on input line 508.
+<../Figures/homogeneous_and_particular_solutions_in_resonance_a.png, id=65, 433
+.62pt x 216.81pt>
+File: ../Figures/homogeneous_and_particular_solutions_in_resonance_a.png Graphi
+c file (type png)
+<use ../Figures/homogeneous_and_particular_solutions_in_resonance_a.png>
+Package pdftex.def Info: ../Figures/homogeneous_and_particular_solutions_in_res
+onance_a.png  used on input line 508.
 (pdftex.def)             Requested size: 433.61894pt x 216.80946pt.
-<../Figures/homogeneous_and_partial_solutions_in_resonance_b.png, id=66, 433.62
-pt x 216.81pt>
-File: ../Figures/homogeneous_and_partial_solutions_in_resonance_b.png Graphic f
-ile (type png)
-<use ../Figures/homogeneous_and_partial_solutions_in_resonance_b.png>
-Package pdftex.def Info: ../Figures/homogeneous_and_partial_solutions_in_resona
-nce_b.png  used on input line 515.
+<../Figures/homogeneous_and_particular_solutions_in_resonance_b.png, id=66, 433
+.62pt x 216.81pt>
+File: ../Figures/homogeneous_and_particular_solutions_in_resonance_b.png Graphi
+c file (type png)
+<use ../Figures/homogeneous_and_particular_solutions_in_resonance_b.png>
+Package pdftex.def Info: ../Figures/homogeneous_and_particular_solutions_in_res
+onance_b.png  used on input line 515.
 (pdftex.def)             Requested size: 433.61894pt x 216.80946pt.
-<../Figures/homogeneous_and_partial_solutions_in_resonance_c.png, id=67, 433.62
-pt x 216.81pt>
-File: ../Figures/homogeneous_and_partial_solutions_in_resonance_c.png Graphic f
-ile (type png)
-<use ../Figures/homogeneous_and_partial_solutions_in_resonance_c.png>
-Package pdftex.def Info: ../Figures/homogeneous_and_partial_solutions_in_resona
-nce_c.png  used on input line 522.
+<../Figures/homogeneous_and_particular_solutions_in_resonance_c.png, id=67, 433
+.62pt x 216.81pt>
+File: ../Figures/homogeneous_and_particular_solutions_in_resonance_c.png Graphi
+c file (type png)
+<use ../Figures/homogeneous_and_particular_solutions_in_resonance_c.png>
+Package pdftex.def Info: ../Figures/homogeneous_and_particular_solutions_in_res
+onance_c.png  used on input line 522.
 (pdftex.def)             Requested size: 433.61894pt x 216.80946pt.
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
 (mdframed)              on input line 525.
  [13]
-[14 <../Figures/homogeneous_and_partial_solutions_in_resonance_a.png>] [15 <../
-Figures/homogeneous_and_partial_solutions_in_resonance_b.png>] [16 <../Figures/
-homogeneous_and_partial_solutions_in_resonance_c.png>]
+[14 <../Figures/homogeneous_and_particular_solutions_in_resonance_a.png>]
+[15 <../Figures/homogeneous_and_particular_solutions_in_resonance_b.png>]
+[16 <../Figures/homogeneous_and_particular_solutions_in_resonance_c.png>]
 <../Figures/underdamped_frequency_response_amplitude.png, id=84, 469.755pt x 32
 5.215pt>
 File: ../Figures/underdamped_frequency_response_amplitude.png Graphic file (typ
@@ -1352,7 +1354,8 @@ e png)
 Package pdftex.def Info: ../Figures/underdamped_frequency_response_amplitude.pn
 g  used on input line 575.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
- [17]
+
+[17]
 <../Figures/underdamped_frequency_response_phase.png, id=88, 469.755pt x 325.21
 5pt>
 File: ../Figures/underdamped_frequency_response_phase.png Graphic file (type pn
@@ -1380,7 +1383,8 @@ Package pdftex.def Info: ../Figures/1-DOF-spring_dashpot_mass_horizontal_forced
  [20 <../Figures/1-DOF-spring_dashpot_mass_horizontal_forced.png>]
 LaTeX Font Info:    Try loading font information for TS1+ptm on input line 663.
 
- ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [21]
 <../Figures/1_DOF_spring_dashpot_mass_vertical_base_excited_FBD.png, id=106, 42
@@ -1391,9 +1395,8 @@ c file (type png)
 Package pdftex.def Info: ../Figures/1_DOF_spring_dashpot_mass_vertical_base_exc
 ited_FBD.png  used on input line 672.
 (pdftex.def)             Requested size: 429.76454pt x 167.66597pt.
-
-[22 <../Figures/1_DOF_spring_dashpot_mass_vertical_base_excited_FBD.png>]
-[23] [24]
+ [22 <../Figures/1_DOF_spring_dashpot_mass_vertical_base_excited_FBD.png>] [23]
+ [24]
 <../Figures/base_excitation_displacement_transmissibility.png, id=118, 469.755p
 t x 289.08pt>
 File: ../Figures/base_excitation_displacement_transmissibility.png Graphic file
@@ -1412,8 +1415,7 @@ line 786.
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
 (mdframed)              on input line 823.
-
-[26 <../Figures/vehicle_on_road_example.png>] [27]
+ [26 <../Figures/vehicle_on_road_example.png>] [27]
 <../Figures/base_excitation_force_transmissibility.png, id=132, 469.755pt x 289
 .08pt>
 File: ../Figures/base_excitation_force_transmissibility.png Graphic file (type 
@@ -1465,8 +1467,9 @@ File: ../Figures/base_excited_structure_simple.png Graphic file (type png)
 Package pdftex.def Info: ../Figures/base_excited_structure_simple.png  used on 
 input line 908.
 (pdftex.def)             Requested size: 156.42114pt x 98.31786pt.
- [30 <../Figures/base_excitation_force_and_displacement_transmissibility_2.png>
- <../Figures/base_excited_structure.png>]
+
+[30 <../Figures/base_excitation_force_and_displacement_transmissibility_2.png> 
+<../Figures/base_excited_structure.png>]
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
 (mdframed)              on input line 947.
@@ -1474,7 +1477,7 @@ Package mdframed Info: Box was splittet wrong
 ux) ) 
 Here is how much of TeX's memory you used:
  24743 strings out of 492973
- 486101 string characters out of 3135923
+ 486164 string characters out of 3135923
  526682 words of memory out of 3000000
  28206 multiletter control sequences out of 15000+200000
  575651 words of font info for 117 fonts, out of 3000000 for 9000
@@ -1489,7 +1492,7 @@ s/type1/urw/symbol/usyr.pfb><C:/Users/adowney2/AppData/Roaming/MiKTeX/2.9/fonts
 /type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/u
 tmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on 3_forced_vibration.pdf (32 pages, 2318368 bytes).
+Output written on 3_forced_vibration.pdf (32 pages, 2318409 bytes).
 PDF statistics:
  190 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

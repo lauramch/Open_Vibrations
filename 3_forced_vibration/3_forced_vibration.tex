@@ -244,7 +244,7 @@
 
 \begin{example}
 
-			Compute solutions for the homogeneous and partial solution separately, than compute the total response of a spring-mass system with the following values: $k$ = 1000 N/m, $m$ = 10 kg, subject to a harmonic force of magnitude $F_0$ = 100 N and frequency of 8.162 rad/s, and initial conditions given by $x_0$ = 0 m and $v_0$ = 0 m/s. Plot the response.
+			Compute solutions for the homogeneous and particular solution separately, than compute the total response of a spring-mass system with the following values: $k$ = 1000 N/m, $m$ = 10 kg, subject to a harmonic force of magnitude $F_0$ = 100 N and frequency of 8.162 rad/s, and initial conditions given by $x_0$ = 0 m and $v_0$ = 0 m/s. Plot the response.
 			
 			\begin{figure}[H]
 				\centering
@@ -252,7 +252,7 @@
 				\caption{1-DOF spring-mass system subjected to an external force $F(t)$.}
 			\end{figure}
 			
-			\noindent\textbf{Solution:} First, make sure that the system is not in resonance. Calculating that $\omega_n = \sqrt{1000/10} = 10$ shows us that $\omega_n \neq \omega$. Next knowing that $f_0 = F_o/m = 10$ we can find the homogeneous and partial solutions as:
+			\noindent\textbf{Solution:} First, make sure that the system is not in resonance. Calculating that $\omega_n = \sqrt{1000/10} = 10$ shows us that $\omega_n \neq \omega$. Next knowing that $f_0 = F_o/m = 10$ we can find the homogeneous and particular solutions as:
 			\begin{equation}
 				x_h(t) = A\text{sin}(\omega_n t + \phi)
 			\end{equation}				
@@ -276,7 +276,7 @@
 			This leads to the following results. 
 			\begin{figure}[H]
 				\centering
-				\includegraphics[]{../Figures/homogeneous_and_partial_solutions.png}
+				\includegraphics[]{../Figures/homogeneous_and_particular_solutions.png}
 			\end{figure}			
 
 \end{example}
@@ -368,7 +368,7 @@
 			\begin{equation}
 				x(t) = x_h(t) + x_p(t)
 			\end{equation}	
-			However, now that we have damping force to consider, out partial solution will have to consider this damping. Therefore:
+			However, now that we have damping force to consider, our particular solution will have to consider this damping. Therefore:
 			\begin{equation}
 				x_p(t) = X \text{cos}(\omega t - \phi_p)
 			\end{equation}
@@ -376,11 +376,11 @@
 			\begin{equation}
 				x(t) = Ae^{-\zeta \omega_n t}\text{sin}(\omega_d t + \phi) +  X \text{cos}(\omega t - \phi_p)
 			\end{equation}			
-			We can use the method of undetermined coefficients to obtain $X$ and $\phi_p$ for the partial solution. First, considering that we write the partial solution in equivalent form:
+			We can use the method of undetermined coefficients to obtain $X$ and $\phi_p$ for the particular solution. First, considering that we write the particular solution in equivalent form:
 			\begin{equation}
 				x_p(t) = X \text{cos}(\omega t - \phi_p) = A_s \text{cos}(\omega t) + B_s  \text{sin}(\omega t)
 			\end{equation}			 
-			Taking the derivative of the assumed forms of the partial solution yields:
+			Taking the derivative of the assumed forms of the particular solution yields:
 			\begin{equation}
 				x_p(t) = A_s \text{cos}(\omega t) + B_s  \text{sin}(\omega t)
 			\end{equation}	
@@ -390,7 +390,7 @@
 			\begin{equation}
 				\ddot{x}_p(t) = -\omega^2 A_s \text{cos}(\omega t) - \omega^2 B_s  \text{sin}(\omega t)
 			\end{equation}				
-			Recall that the homogeneous and partial solutions are each solutions on their own, therefor, the EOM can be used to describe just the partial solution. Substituting $x_p$. $\dot{x}_p$, and $\ddot{x}_p$ for $x$. $\dot{x}$, and $\ddot{x}$ in the EOM in standard form:
+			Recall that the homogeneous and particular solutions are each solutions on their own, therefor, the EOM can be used to describe just the particular solution. Substituting $x_p$. $\dot{x}_p$, and $\ddot{x}_p$ for $x$. $\dot{x}$, and $\ddot{x}$ in the EOM in standard form:
 			\begin{equation}
 			 	\ddot{x}(t)+2 \zeta \omega_n \dot{x}(t) +\omega_n^2x(t) = f_0\text{cos}(\omega t)
 			\end{equation}
@@ -443,7 +443,7 @@
 			\begin{equation}
 				\phi_p = \text{tan}^-1\bigg(\frac{B_s}{A_s}\bigg)
 			\end{equation}	
-			We can now derive values for our partial solution $x_p$:
+			We can now derive values for our particular solution $x_p$:
 			\begin{equation}
 				X = \frac{f_0}{\sqrt{(\omega_n^2 - \omega^2)^2 +  (2\zeta \omega_n \omega)^2}} 
 				\label{eq:X_damped}
@@ -451,14 +451,14 @@
 			\begin{equation}
 				\phi_p = \text{tan}^-1\bigg(\frac{2\zeta \omega_n \omega}{\omega_n^2 - \omega^2}\bigg)
 			\end{equation}				
-			Now we can build a solution for the partial equation ($x_p$), therefore, the total solution becomes:
+			Now we can build a solution for the particular equation ($x_p$), therefore, the total solution becomes:
 			\begin{equation}
 				x(t) = x_h(t) + x_p(t)
 			\end{equation}
 			\begin{equation}
 				x(t) = Ae^{-\zeta \omega_n t}\text{sin}(\omega_d t + \phi) +  X \text{cos}(\omega t - \phi_p)
 			\end{equation}				
-			Note for larger values of $t$, the homogeneous solution approaches zero resulting in the partial solution becoming the total solution. Therefore, the partial solution is sometimes called the \textbf{steady state response} and the homogeneous solution is called the \textbf{transient response}. Solving for the constants $A$ and $\phi$ using boundary conditions ($x_0=0$ and $v_0=0$) results a total solution expressed as:
+			Note for larger values of $t$, the homogeneous solution approaches zero resulting in the particular solution becoming the total solution. Therefore, the particular solution is sometimes called the \textbf{steady state response} and the homogeneous solution is called the \textbf{transient response}. Solving for the constants $A$ and $\phi$ using boundary conditions ($x_0=0$ and $v_0=0$) results a total solution expressed as:
 			\begin{equation}
 				A = \frac{x_0 -X \text{cos}(\phi_p)}{\text{sin}(\phi)}
 			\end{equation}			 
@@ -484,7 +484,7 @@
 				\label{eq:damped_forced_theta_p}
 			\end{equation}		
 			\begin{example}
-			\label{ex:homogeneous_and_partial_solutions_in_resonance}		
+			\label{ex:homogeneous_and_particular_solutions_in_resonance}		
 				Consider the damped 1-DOF system below, plot the total, steady state, and transient responses for the following system configurations with no initial conditions. For each configuration, comment on the temporal response and how it differs from the response of the previous configuration.    
 				
 				\begin{itemize}
@@ -505,27 +505,27 @@
 				\noindent\textbf{Solution a):} Therefore, plotting the temporal responses for configuration a yields:
 				\begin{figure}[H]
 					\centering
-					\includegraphics[]{../Figures/homogeneous_and_partial_solutions_in_resonance_a.png}
+					\includegraphics[]{../Figures/homogeneous_and_particular_solutions_in_resonance_a.png}
 					\caption{Temporal responses for a underdamped system with $k=100$ N/m, $m=10$ kg,  $c=10$ kg/s, $F_0=1$ N, and $\omega = 8.162$.}
 				\end{figure}			
 				 
 				\noindent\textbf{Solution b):} Configuration b increases the forcing function $F_0$ to 3 N. This results a similar response to configuration a but with a lineally scaled amplitude:
 				\begin{figure}[H]
 					\centering
-					\includegraphics[]{../Figures/homogeneous_and_partial_solutions_in_resonance_b.png}
+					\includegraphics[]{../Figures/homogeneous_and_particular_solutions_in_resonance_b.png}
 					\caption{Temporal responses for a underdamped system with $k=100$ N/m, $m=10$ kg,  $c=10$ kg/s, $F_0=3$ N, and $\omega = 8.162$.}
 				\end{figure}			
 				
 				\noindent\textbf{Solution c):} Now, using $\omega=3.162$ rad/sec we put the system into resonance as $\omega=\omega_n$. However, unlike the undamped system  the amplitude of the displacement is not unbounded as the damper absorbs energy from the system. Therefore, after about 7 seconds the systems enters an equilibrium state where any additional increase in amplitude caused by the system entering into resonance is canceled out by the damping in the system as demonstrated in the plot below:
 				\begin{figure}[H]
 					\centering
-					\includegraphics[]{../Figures/homogeneous_and_partial_solutions_in_resonance_c.png}
+					\includegraphics[]{../Figures/homogeneous_and_particular_solutions_in_resonance_c.png}
 					\caption{Temporal responses for a underdamped system with $k=100$ N/m, $m=10$ kg,  $c=10$ kg/s, $F_0=3$ N, and $\omega = 3.162$.}
 				\end{figure}				
 			\end{example}	
 
 		\subsection{Frequency Response of Underdamped Systems}						
-			From equations \ref{eq:damped_forced_x} through \ref{eq:damped_forced_theta_p} and the figures in example \ref{ex:homogeneous_and_partial_solutions_in_resonance} we can see that for larger values of $t$ the transient response dies out while only the steady state response controls the displacement of the total response. This is always true if the system has any significant damping. Therefore, it is often prudent to ignore the transient part and focus only on the steady-state response. Considering the equation for the partial solution: 
+			From equations \ref{eq:damped_forced_x} through \ref{eq:damped_forced_theta_p} and the figures in example \ref{ex:homogeneous_and_particular_solutions_in_resonance} we can see that for larger values of $t$ the transient response dies out while only the steady state response controls the displacement of the total response. This is always true if the system has any significant damping. Therefore, it is often prudent to ignore the transient part and focus only on the steady-state response. Considering the equation for the particular solution: 
 			\begin{equation}
 				x_p(t) = X \text{cos}(\omega t - \phi_p)
 			\end{equation}			 
@@ -610,7 +610,7 @@
 			\end{figure}				
 			where $\omega_n = 132$ rad/sec and $\zeta$ = 0.0085. Calculate the displacements of the steady-state response for $\omega$=132 and 125 rad/sec. In both cases, use $f_0$ = 10 N/kg. 
 
-			\noindent\textbf{Solution:}	From before, we know the solution for the displacement of the partial solution for $\omega$=132 rad/sec is:
+			\noindent\textbf{Solution:}	From before, we know the solution for the displacement of the particular solution for $\omega$=132 rad/sec is:
 			\begin{equation}
 				X = \frac{f_0}{\sqrt{(\omega_n^2 - \omega^2)^2 +  (2\zeta \omega_n \omega)^2}} = \frac{10}{2(0.0085)(132)^2} = 0.034 \text{ m}
 			\end{equation}							
@@ -715,12 +715,12 @@
 
 	
 			\subsubsection{Displacement Transmissibility Solution for Base Excitation}
-				The steady-state solution is often of more important than the transient solution when designing systems for continuous use. The particular solution for the base excited system annotated in figure \ref{fig:1_DOF_spring_dashpot_mass_vertical_base_excited_FBD} with the EOM presented in equation \ref{eq:standard_form_base_excitation_CD} can be expressed as $	x_p(t)$. To solve for this expression we will use the linearity of the system and solve for a solution that is the sum of two partial solutions. Resulting in:
+				The steady-state solution is often of more important than the transient solution when designing systems for continuous use. The particular solution for the base excited system annotated in figure \ref{fig:1_DOF_spring_dashpot_mass_vertical_base_excited_FBD} with the EOM presented in equation \ref{eq:standard_form_base_excitation_CD} can be expressed as $	x_p(t)$. To solve for this expression we will use the linearity of the system and solve for a solution that is the sum of two particular solutions. Resulting in:
 				\begin{equation}
 				 x_p(t) = 	x_p^{(1)}(t) + 	x_p^{(2)}(t)  
 				\end{equation}
 				
-				 Recall that the steady state solution for a harmonically excited spring-mass-damper can be expressed as $x_p(t) = X\text{cos}(\omega_b t - \phi_1)$. Therefore, for a base excited problem, the forcing function can be expressed as the sum of partial solutions:
+				 Recall that the steady state solution for a harmonically excited spring-mass-damper can be expressed as $x_p(t) = X\text{cos}(\omega_b t - \phi_1)$. Therefore, for a base excited problem, the forcing function can be expressed as the sum of particular solutions:
 				\begin{equation}
 					C \text{cos}(\omega_b t)  + D \text{sin}(\omega_b t)   = x_p = 	x_p^{(1)} + 	x_p^{(2)} 
 				\end{equation}
@@ -741,7 +741,7 @@
 				\begin{equation}
 					\phi_1 = \text{tan}^-1\bigg(\frac{2\zeta \omega_n \omega_b}{\omega_n^2 - \omega_b^2}\bigg)
 				\end{equation}	
-				Next, the partial solution associated with $x_p^{(2)} = X^{(2)} \text{sin}(\omega_b t - \phi_1)$ can be obtained using the same method of undetermined coefficients an setting $f_0$ from equation \ref{eq:X_damped} to the driving force for $x_p^{(2)}$ in equation  \ref{eq:standard_form_base_excitation}, $\omega_n^2$. This results in:
+				Next, the particular solution associated with $x_p^{(2)} = X^{(2)} \text{sin}(\omega_b t - \phi_1)$ can be obtained using the same method of undetermined coefficients an setting $f_0$ from equation \ref{eq:X_damped} to the driving force for $x_p^{(2)}$ in equation  \ref{eq:standard_form_base_excitation}, $\omega_n^2$. This results in:
 				\begin{equation}
 					x_p^{(2)} = \frac{\omega_n^2 Y}{\sqrt{(\omega_n^2 - \omega_b^2)^2 +  (2\zeta \omega_n \omega_b)^2}}  \text{sin}(\omega_b t - \phi_1)
 					\label{eq:xp_2}
