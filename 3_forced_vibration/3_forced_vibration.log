@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.21)  24 OCT 2019 12:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.21)  3 NOV 2019 12:57
 entering extended mode
 **./3_forced_vibration.tex
 (3_forced_vibration.tex
@@ -1424,7 +1424,8 @@ png)
 Package pdftex.def Info: ../Figures/base_excitation_force_transmissibility.png 
  used on input line 862.
 (pdftex.def)             Requested size: 469.75386pt x 289.07928pt.
-<../Figures/1_DOF_spring_dashpot_mass_vertical_base_excited.png, id=133, 114.90
+ [28 <../Figures/base_excitation_force_transmissibility.png>]
+<../Figures/1_DOF_spring_dashpot_mass_vertical_base_excited.png, id=137, 114.90
 93pt x 167.6664pt>
 File: ../Figures/1_DOF_spring_dashpot_mass_vertical_base_excited.png Graphic fi
 le (type png)
@@ -1433,7 +1434,7 @@ Package pdftex.def Info: ../Figures/1_DOF_spring_dashpot_mass_vertical_base_exc
 ited.png  used on input line 873.
 (pdftex.def)             Requested size: 114.90901pt x 167.66597pt.
 <../Figures/base_excitation_force_and_displacement_transmissibility_1.png, id=1
-34, 433.62pt x 216.81pt>
+38, 433.62pt x 216.81pt>
 File: ../Figures/base_excitation_force_and_displacement_transmissibility_1.png 
 Graphic file (type png)
 <use ../Figures/base_excitation_force_and_displacement_transmissibility_1.png>
@@ -1441,58 +1442,54 @@ Package pdftex.def Info: ../Figures/base_excitation_force_and_displacement_tran
 smissibility_1.png  used on input line 880.
 (pdftex.def)             Requested size: 433.61894pt x 216.80946pt.
 <../Figures/base_excitation_force_and_displacement_transmissibility_2.png, id=1
-35, 433.62pt x 216.81pt>
+39, 433.62pt x 216.81pt>
 File: ../Figures/base_excitation_force_and_displacement_transmissibility_2.png 
 Graphic file (type png)
 <use ../Figures/base_excitation_force_and_displacement_transmissibility_2.png>
 Package pdftex.def Info: ../Figures/base_excitation_force_and_displacement_tran
 smissibility_2.png  used on input line 886.
 (pdftex.def)             Requested size: 433.61894pt x 216.80946pt.
- [28 <../Figures/base_excitation_force_transmissibility.png>]
-Package mdframed Info: Not enough space on this page on input line 891.
-Package mdframed Info: Box was splittet wrong
- starting loop to iterate the splitting point
-(mdframed)              on input line 891.
- [29 <../Figures/1_DOF_spring_dashpot_mass_vertical_base_excited.png> <../Figur
-es/base_excitation_force_and_displacement_transmissibility_1.png>]
-<../Figures/base_excited_structure.png, id=145, 150.8034pt x 110.5731pt>
+ [29 <../Figures/1_DOF_spring_dashpot_mass_vertical_base_excited.png>]
+<../Figures/base_excited_structure.png, id=144, 150.8034pt x 110.5731pt>
 File: ../Figures/base_excited_structure.png Graphic file (type png)
 <use ../Figures/base_excited_structure.png>
 Package pdftex.def Info: ../Figures/base_excited_structure.png  used on input l
 ine 900.
 (pdftex.def)             Requested size: 156.42114pt x 114.69633pt.
-<../Figures/base_excited_structure_simple.png, id=146, 153.6942pt x 96.6009pt>
+<../Figures/base_excited_structure_simple.png, id=145, 153.6942pt x 96.6009pt>
 File: ../Figures/base_excited_structure_simple.png Graphic file (type png)
 <use ../Figures/base_excited_structure_simple.png>
 Package pdftex.def Info: ../Figures/base_excited_structure_simple.png  used on 
 input line 908.
 (pdftex.def)             Requested size: 156.42114pt x 98.31786pt.
-
-[30 <../Figures/base_excitation_force_and_displacement_transmissibility_2.png> 
-<../Figures/base_excited_structure.png>]
+ [30 <../Figures/base_excitation_force_and_displacement_transmissibility_1.png>
+ <../Figures/base_excitation_force_and_displacement_transmissibility_2.png>]
+Package mdframed Info: Not enough space on this page on input line 947.
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
 (mdframed)              on input line 947.
- [31 <../Figures/base_excited_structure_simple.png>] [32] (3_forced_vibration.a
-ux) ) 
+
+[31 <../Figures/base_excited_structure.png> <../Figures/base_excited_structure_
+simple.png>] [32] (3_forced_vibration.aux) ) 
 Here is how much of TeX's memory you used:
- 24743 strings out of 492973
- 486164 string characters out of 3135923
- 526682 words of memory out of 3000000
- 28206 multiletter control sequences out of 15000+200000
+ 24741 strings out of 492973
+ 486121 string characters out of 3135923
+ 526637 words of memory out of 3000000
+ 28204 multiletter control sequences out of 15000+200000
  575651 words of font info for 117 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,18n,78p,847b,910s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb><C:/Users/adowney2/AppData/Roaming/MiKTeX/2.9/font
-s/type1/urw/symbol/usyr.pfb><C:/Users/adowney2/AppData/Roaming/MiKTeX/2.9/fonts
-/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/u
-tmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on 3_forced_vibration.pdf (32 pages, 2318409 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/
+enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/a
+downey2/AppData/Roaming/MiKTeX/2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Users/ad
+owney2/AppData/Roaming/MiKTeX/2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
+mes/utmri8a.pfb>
+Output written on 3_forced_vibration.pdf (32 pages, 2318568 bytes).
 PDF statistics:
  190 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

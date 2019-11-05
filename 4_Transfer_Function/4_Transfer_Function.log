@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.21)  24 OCT 2019 21:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.21)  5 NOV 2019 18:18
 entering extended mode
 **./4_Transfer_Function.tex
 (4_Transfer_Function.tex
@@ -1266,7 +1266,7 @@ File: ../figures/response_impulse.png Graphic file (type png)
 <use ../figures/response_impulse.png>
 Package pdftex.def Info: ../figures/response_impulse.png  used on input line 30
 1.
-(pdftex.def)             Requested size: 352.31625pt x 176.1676pt.
+(pdftex.def)             Requested size: 433.61894pt x 216.80946pt.
  [6]
 <../figures/unit_step_function.png, id=41, 305.7021pt x 152.0079pt>
 File: ../figures/unit_step_function.png Graphic file (type png)
@@ -1275,41 +1275,52 @@ Package pdftex.def Info: ../figures/unit_step_function.png  used on input line
 312.
 (pdftex.def)             Requested size: 234.8775pt x 116.79593pt.
  [7 <../figures/response_impulse.png> <../figures/unit_step_function.png>] [8]
-<../figures/unit_step.png, id=51, 433.62pt x 216.81pt>
-File: ../figures/unit_step.png Graphic file (type png)
-<use ../figures/unit_step.png>
-Package pdftex.def Info: ../figures/unit_step.png  used on input line 377.
-(pdftex.def)             Requested size: 352.31625pt x 176.1676pt.
+<../figures/response_unit_step.png, id=51, 433.62pt x 216.81pt>
+File: ../figures/response_unit_step.png Graphic file (type png)
+<use ../figures/response_unit_step.png>
+Package pdftex.def Info: ../figures/response_unit_step.png  used on input line 
+377.
+(pdftex.def)             Requested size: 433.61894pt x 216.80946pt.
 <../figures/dump_truck_example.png, id=52, 440.1243pt x 151.0443pt>
 File: ../figures/dump_truck_example.png Graphic file (type png)
 <use ../figures/dump_truck_example.png>
 Package pdftex.def Info: ../figures/dump_truck_example.png  used on input line 
 388.
 (pdftex.def)             Requested size: 357.52917pt x 122.70705pt.
- [9 <../figures/unit_step.png>]
+ [9 <../figures/response_unit_step.png>]
+Package mdframed Info: Not enough space on this page on input line 415.
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
 (mdframed)              on input line 415.
-
-[10 <../figures/dump_truck_example.png>]
-<../figures/response_double_impact.png, id=61, 433.62pt x 216.81pt>
+ [10 <../figures/dump_truck_example.png>]
+<../figures/Arbitary_excitation_forces.png, id=61, 248.8497pt x 128.1588pt>
+File: ../figures/Arbitary_excitation_forces.png Graphic file (type png)
+<use ../figures/Arbitary_excitation_forces.png>
+Package pdftex.def Info: ../figures/Arbitary_excitation_forces.png  used on inp
+ut line 423.
+(pdftex.def)             Requested size: 248.84908pt x 128.15848pt.
+<../figures/response_double_impact.png, id=62, 433.62pt x 216.81pt>
 File: ../figures/response_double_impact.png Graphic file (type png)
 <use ../figures/response_double_impact.png>
 Package pdftex.def Info: ../figures/response_double_impact.png  used on input l
-ine 468.
+ine 482.
 (pdftex.def)             Requested size: 335.18233pt x 167.59924pt.
- [11]
+ [11 <../figures/Arbitary_excitation_forces.png>]
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 485.
+ [12]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 476.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 490.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 476.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 490.
 File: ../figures/transfer_function_system.png Graphic file (type png)
 <use ../figures/transfer_function_system.png>
 Package pdftex.def Info: ../figures/transfer_function_system.png  used on input
- line 481.
+ line 495.
 (pdftex.def)             Requested size: 199.60924pt x 48.42076pt.
- [12 <../figures/response_double_impact.png>]
-Overfull \hbox (0.57993pt too wide) detected at line 489
+
+Overfull \hbox (0.57993pt too wide) detected at line 503
 \OML/ztmcm/m/it/14.4 a[][] \OT1/ztmcm/m/n/14.4 + \OML/ztmcm/m/it/14.4 a[][] \OT
 1/ztmcm/m/n/14.4 + \OML/ztmcm/m/it/14.4 ::: \OT1/ztmcm/m/n/14.4 + \OML/ztmcm/m/
 it/14.4 a[]x\OT1/ztmcm/m/n/14.4 (\OML/ztmcm/m/it/14.4 t\OT1/ztmcm/m/n/14.4 ) = 
@@ -1318,58 +1329,55 @@ it/14.4 a[]x\OT1/ztmcm/m/n/14.4 (\OML/ztmcm/m/it/14.4 t\OT1/ztmcm/m/n/14.4 ) =
 it/14.4 b[]f\OT1/ztmcm/m/n/14.4 (\OML/ztmcm/m/it/14.4 t\OT1/ztmcm/m/n/14.4 )
  []
 
-<../figures/forced_spring_mass_damper_system.png, id=69, 190.5519pt x 79.7379pt
+[13 <../figures/response_double_impact.png>]
+<../figures/forced_spring_mass_damper_system.png, id=75, 190.5519pt x 79.7379pt
 >
 File: ../figures/forced_spring_mass_damper_system.png Graphic file (type png)
 <use ../figures/forced_spring_mass_damper_system.png>
 Package pdftex.def Info: ../figures/forced_spring_mass_damper_system.png  used 
-on input line 519.
+on input line 537.
 (pdftex.def)             Requested size: 187.89914pt x 78.62927pt.
-[13] [14 <../figures/forced_spring_mass_damper_system.png>] [15]
-<../figures/Response_to_random_input_inputs.png, id=81, 469.755pt x 216.81pt>
+ [14] [15 <../figures/forced_spring_mass_damper_system.png>]
+File: ../figures/forced_spring_mass_damper_system.png Graphic file (type png)
+<use ../figures/forced_spring_mass_damper_system.png>
+Package pdftex.def Info: ../figures/forced_spring_mass_damper_system.png  used 
+on input line 604.
+(pdftex.def)             Requested size: 178.76117pt x 74.80519pt.
+Package mdframed Info: Not enough space on this page on input line 638.
+ [16]
+Package mdframed Info: Not enough space on this page on input line 638.
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 638.
+ [17]
+<../figures/Response_to_random_input_inputs.png, id=89, 469.755pt x 216.81pt>
 File: ../figures/Response_to_random_input_inputs.png Graphic file (type png)
 <use ../figures/Response_to_random_input_inputs.png>
 Package pdftex.def Info: ../figures/Response_to_random_input_inputs.png  used o
-n input line 600.
+n input line 657.
 (pdftex.def)             Requested size: 469.75502pt x 216.80946pt.
- [16 <../figures/Response_to_random_input_inputs.png>]
-<../figures/Response_to_random_input_autocorrelation.png, id=86, 469.755pt x 21
+ [18] [19 <../figures/Response_to_random_input_inputs.png>]
+<../figures/Response_to_random_input_autocorrelation.png, id=98, 469.755pt x 21
 6.81pt>
 File: ../figures/Response_to_random_input_autocorrelation.png Graphic file (typ
 e png)
 <use ../figures/Response_to_random_input_autocorrelation.png>
 Package pdftex.def Info: ../figures/Response_to_random_input_autocorrelation.pn
-g  used on input line 635.
+g  used on input line 692.
 (pdftex.def)             Requested size: 469.75502pt x 216.80946pt.
- [17]
-<../figures/Response_to_random_input_PSD.png, id=90, 469.755pt x 216.81pt>
+ [20 <../figures/Response_to_random_input_autocorrelation.png>]
+<../figures/Response_to_random_input_PSD.png, id=103, 446.6286pt x 192.72pt>
 File: ../figures/Response_to_random_input_PSD.png Graphic file (type png)
 <use ../figures/Response_to_random_input_PSD.png>
 Package pdftex.def Info: ../figures/Response_to_random_input_PSD.png  used on i
-nput line 646.
-(pdftex.def)             Requested size: 469.75502pt x 216.80946pt.
- [18 <../figures/Response_to_random_input_autocorrelation.png>]
-<../figures/Arbitary_excitation_forces.png, id=95, 248.8497pt x 128.1588pt>
-File: ../figures/Arbitary_excitation_forces.png Graphic file (type png)
-<use ../figures/Arbitary_excitation_forces.png>
-Package pdftex.def Info: ../figures/Arbitary_excitation_forces.png  used on inp
-ut line 653.
-(pdftex.def)             Requested size: 328.82707pt x 169.35004pt.
- [19 <../figures/Response_to_random_input_PSD.png> <../figures/Arbitary_excitat
-ion_forces.png>]
+nput line 705.
+(pdftex.def)             Requested size: 469.75502pt x 202.70013pt.
+
+[21 <../figures/Response_to_random_input_PSD.png>]
 File: ../figures/forced_spring_mass_damper_system.png Graphic file (type png)
 <use ../figures/forced_spring_mass_damper_system.png>
 Package pdftex.def Info: ../figures/forced_spring_mass_damper_system.png  used 
-on input line 696.
-(pdftex.def)             Requested size: 178.76117pt x 74.80519pt.
-Package mdframed Info: Not enough space on this page on input line 729.
- [20]
-Package mdframed Info: Not enough space on this page on input line 729.
- [21]
-File: ../figures/forced_spring_mass_damper_system.png Graphic file (type png)
-<use ../figures/forced_spring_mass_damper_system.png>
-Package pdftex.def Info: ../figures/forced_spring_mass_damper_system.png  used 
-on input line 738.
+on input line 726.
 (pdftex.def)             Requested size: 178.76117pt x 74.80519pt.
 <../figures/response_to_white_noise_with_annotation.png, id=108, 469.755pt x 21
 6.81pt>
@@ -1377,13 +1385,18 @@ File: ../figures/response_to_white_noise_with_annotation.png Graphic file (type
  png)
 <use ../figures/response_to_white_noise_with_annotation.png>
 Package pdftex.def Info: ../figures/response_to_white_noise_with_annotation.png
-  used on input line 771.
+  used on input line 758.
 (pdftex.def)             Requested size: 446.90977pt x 206.26607pt.
-Package mdframed Info: Not enough space on this page on input line 774.
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
-(mdframed)              on input line 774.
+(mdframed)              on input line 760.
  [22] [23 <../figures/response_to_white_noise_with_annotation.png>]
+File: ../figures/forced_spring_mass_damper_system.png Graphic file (type png)
+<use ../figures/forced_spring_mass_damper_system.png>
+Package pdftex.def Info: ../figures/forced_spring_mass_damper_system.png  used 
+on input line 786.
+(pdftex.def)             Requested size: 178.76117pt x 74.80519pt.
+ [24] [25]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -1417,18 +1430,18 @@ Package mdframed Info: Box was splittet wrong
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 818.
- [24
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 823.
+ [26
 
 ] (4_Transfer_Function.aux) ) 
 Here is how much of TeX's memory you used:
- 24697 strings out of 492973
- 482528 string characters out of 3135923
- 543938 words of memory out of 3000000
- 28163 multiletter control sequences out of 15000+200000
+ 24710 strings out of 492973
+ 482937 string characters out of 3135923
+ 544122 words of memory out of 3000000
+ 28176 multiletter control sequences out of 15000+200000
  579969 words of font info for 130 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,10n,78p,848b,1017s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,12n,78p,848b,1017s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/
 8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progr
@@ -1439,9 +1452,9 @@ MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2
 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/ur
 w/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on 4_Transfer_Function.pdf (24 pages, 1285248 bytes).
+Output written on 4_Transfer_Function.pdf (26 pages, 1371327 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
+ 159 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 

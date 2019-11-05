@@ -441,7 +441,7 @@
 				X = \sqrt{A_s^2 + B_s^2}
 			\end{equation}	
 			\begin{equation}
-				\phi_p = \text{tan}^-1\bigg(\frac{B_s}{A_s}\bigg)
+				\phi_p = \tan^{-1}\bigg(\frac{B_s}{A_s}\bigg)
 			\end{equation}	
 			We can now derive values for our particular solution $x_p$:
 			\begin{equation}
@@ -449,7 +449,7 @@
 				\label{eq:X_damped}
 			\end{equation}	
 			\begin{equation}
-				\phi_p = \text{tan}^-1\bigg(\frac{2\zeta \omega_n \omega}{\omega_n^2 - \omega^2}\bigg)
+				\phi_p = \tan^{-1} \bigg(\frac{2\zeta \omega_n \omega}{\omega_n^2 - \omega^2}\bigg)
 			\end{equation}				
 			Now we can build a solution for the particular equation ($x_p$), therefore, the total solution becomes:
 			\begin{equation}
@@ -458,12 +458,12 @@
 			\begin{equation}
 				x(t) = Ae^{-\zeta \omega_n t}\text{sin}(\omega_d t + \phi) +  X \text{cos}(\omega t - \phi_p)
 			\end{equation}				
-			Note for larger values of $t$, the homogeneous solution approaches zero resulting in the particular solution becoming the total solution. Therefore, the particular solution is sometimes called the \textbf{steady state response} and the homogeneous solution is called the \textbf{transient response}. Solving for the constants $A$ and $\phi$ using boundary conditions ($x_0=0$ and $v_0=0$) results a total solution expressed as:
+			Note for larger values of $t$, the homogeneous solution approaches zero resulting in the particular solution becoming the total solution. Therefore, the particular solution is sometimes called the steady state response and the homogeneous solution is called the transient response. Solving for the constants $A$ and $\phi$ using boundary conditions ($x_0=0$ and $v_0=0$) results a total solution expressed as:
 			\begin{equation}
 				A = \frac{x_0 -X \text{cos}(\phi_p)}{\text{sin}(\phi)}
 			\end{equation}			 
 			\begin{equation}
-				\phi =  \text{tan}^-1\bigg(\frac{\omega_d \big( x_0 -X \text{cos}(\phi_p)\big)}{v_0 + \big(x_0 - X \text{cos}(\phi_p)\big) \zeta \omega_n - \omega X \text{sin}(\phi_p) }\bigg)
+				\phi =  \tan^{-1} \bigg(\frac{\omega_d \big( x_0 -X \text{cos}(\phi_p)\big)}{v_0 + \big(x_0 - X \text{cos}(\phi_p)\big) \zeta \omega_n - \omega X \text{sin}(\phi_p) }\bigg)
 			\end{equation}			
 			Finally, assembling all the terms:
 			\begin{equation}
@@ -474,13 +474,13 @@
 				A = \frac{x_0 -X \text{cos}(\phi_p)}{\text{sin}(\phi)}
 			\end{equation}			 
 			\begin{equation}
-				\phi =  \text{tan}^-1\bigg(\frac{\omega_d ( x_0 -X \text{cos}(\phi_p))}{v_0 + (x_0 - X \text{cos}(\phi_p)) \zeta \omega_n - \omega X \text{sin}(\phi_p) }\bigg)
+				\phi =  \text{tan}^{-1}\bigg(\frac{\omega_d ( x_0 -X \text{cos}(\phi_p))}{v_0 + (x_0 - X \text{cos}(\phi_p)) \zeta \omega_n - \omega X \text{sin}(\phi_p) }\bigg)
 			\end{equation}	
 			\begin{equation}
 				X = \frac{f_0}{\sqrt{(\omega_n^2 - \omega^2)^2 +  (2\zeta \omega_n \omega)^2}} 
 			\end{equation}	
 			\begin{equation}
-				\phi_p = \text{tan}^-1\bigg(\frac{2\zeta \omega_n \omega}{\omega_n^2 - \omega^2}\bigg)
+				\phi_p = \tan^{-1} \bigg(\frac{2\zeta \omega_n \omega}{\omega_n^2 - \omega^2}\bigg)
 				\label{eq:damped_forced_theta_p}
 			\end{equation}		
 			\begin{example}
@@ -534,7 +534,7 @@
 				X = \frac{f_0}{\sqrt{(\omega_n^2 - \omega^2)^2 +  (2\zeta \omega_n \omega)^2}} 
 			\end{equation}	
 			\begin{equation}
-				\phi_p = \text{tan}^-1\bigg(\frac{2\zeta \omega_n \omega}{\omega_n^2 - \omega^2}\bigg)
+				\phi_p = \tan^{-1} \bigg(\frac{2\zeta \omega_n \omega}{\omega_n^2 - \omega^2}\bigg)
 			\end{equation}	
 			We want to find a way to plot the responses of the system only in terms of terms of the system's natural and driving frequencies, and its damping. First, we define a frequency ratio as the dimensionless quantity 
 			\begin{equation}
@@ -554,7 +554,7 @@
 			\end{equation}				
 			in a similar fashion, if we manipulate the equation for $\phi_p$ we can get $\phi_p$ in term of $r$:
 			\begin{equation}
-				\phi_p = \text{tan}^-1\bigg(\frac{2 \zeta r}{1-r^2}\bigg)
+				\phi_p = \tan^{-1} \bigg(\frac{2 \zeta r}{1-r^2}\bigg)
 			\end{equation}	
 			If we solve for a few key values of $r$ we can get the following data points. On the board, we can solve for a few different frequency responses for a few different damping coefficients. 
 			\begin{table}[H]
@@ -739,7 +739,7 @@
 				\end{equation}
 				where:
 				\begin{equation}
-					\phi_1 = \text{tan}^-1\bigg(\frac{2\zeta \omega_n \omega_b}{\omega_n^2 - \omega_b^2}\bigg)
+					\phi_1 = \tan^{-1} \bigg(\frac{2\zeta \omega_n \omega_b}{\omega_n^2 - \omega_b^2}\bigg)
 				\end{equation}	
 				Next, the particular solution associated with $x_p^{(2)} = X^{(2)} \text{sin}(\omega_b t - \phi_1)$ can be obtained using the same method of undetermined coefficients an setting $f_0$ from equation \ref{eq:X_damped} to the driving force for $x_p^{(2)}$ in equation  \ref{eq:standard_form_base_excitation}, $\omega_n^2$. This results in:
 				\begin{equation}
@@ -756,7 +756,7 @@
 				\end{equation}
 				and:
 				\begin{equation}
-					\phi_2 = \text{tan}^-1\bigg(\frac{\omega_n}{2\zeta \omega_b}\bigg)
+					\phi_2 = \tan^{-1} \bigg(\frac{\omega_n}{2\zeta \omega_b}\bigg)
 				\end{equation}
 				where $\phi_2$ is added to account for the cos and sin terms being combined. Again, the $(t)$ has been dropped for simplicity. As before, if we want to investigate how a frequency input will affect the response (frequency response) we can substitute substitute 
 				\begin{equation}
@@ -840,7 +840,7 @@
 				\begin{equation}
 					F(t) = 	m \omega_b^2 \omega_n Y   \sqrt{\frac{\omega_n^2 + (2 \zeta \omega_b)^2 }{(\omega_n^2 - \omega_b^2)^2 +  (2\zeta \omega_n \omega_b)^2} }  \text{cos}(\omega_bt - \phi_1 - \phi_2)
 				\end{equation} 
-				Again applying 
+				where the negative sign $F(t) = -m\ddot{x}(t)$ as the force transmitted to the mass is both positive and negative and we are solving for the amplitude of the transmitted force. Again applying:
 				\begin{equation}
 					r=\frac{\omega_b}{\omega_n}
 				\end{equation} 
@@ -922,10 +922,10 @@
 					\end{equation}
 					where:
 					\begin{equation}
-						\phi_1 = \text{tan}^-1\bigg(\frac{2\zeta \omega_n \omega_b}{\omega_n^2 - \omega_b^2}\bigg)
+						\phi_1 = \tan^{-1} \bigg(\frac{2\zeta \omega_n \omega_b}{\omega_n^2 - \omega_b^2}\bigg)
 					\end{equation}	
 					\begin{equation}
-						\phi_2 = \text{tan}^-1\bigg(\frac{\omega_n}{2\zeta \omega_b}\bigg)
+						\phi_2 = \tan^{-1} \bigg(\frac{\omega_n}{2\zeta \omega_b}\bigg)
 					\end{equation}
 					Now we have, or can easily get, values for $\omega_n$, $\omega_b$, and $\zeta$. However, we do not have an expression for $Y$. We can extract the displacement (and therefore the $Y$) from the acceleration as:
 					\begin{equation}

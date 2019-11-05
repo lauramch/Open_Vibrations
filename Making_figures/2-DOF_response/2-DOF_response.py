@@ -53,7 +53,7 @@ plt.xlabel('time (s)')
 plt.xlim([0,20])
 plt.tight_layout()
 plt.legend(loc=1,ncol=3,framealpha=1,bbox_to_anchor=[0,0,1,1.09])
-plt.savefig('Example_1_2_DOF_response.png',dpi=300)
+plt.savefig('2-DOF_response.png',dpi=300)
 
 
 
