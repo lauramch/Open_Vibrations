@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.21)  13 NOV 2019 20:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.21)  15 NOV 2019 08:20
 entering extended mode
 **./Chapter_5_2_DOF_systems.tex
 (Chapter_5_2_DOF_systems.tex
@@ -1257,34 +1257,18 @@ Package pdftex.def Info: ../Figures/2-DOF-spring_mass_horizontal_FBD.png  used
 on input line 169.
 (pdftex.def)             Requested size: 265.95294pt x 73.9561pt.
  [3 <../Figures/2-DOF-spring_mass_horizontal_FBD.png>] [4] [5] [6]
-<../Figures/2-DOF-spring_mass_vertical_with_FBD.png, id=38, 309.5565pt x 231.02
-31pt>
-File: ../Figures/2-DOF-spring_mass_vertical_with_FBD.png Graphic file (type png
-)
-<use ../Figures/2-DOF-spring_mass_vertical_with_FBD.png>
-Package pdftex.def Info: ../Figures/2-DOF-spring_mass_vertical_with_FBD.png  us
-ed on input line 354.
-(pdftex.def)             Requested size: 309.55574pt x 231.02252pt.
- [7 <../Figures/2-DOF-spring_mass_vertical_with_FBD.png>]
-<../Figures/2-DOF_mode_shape.png, id=44, 469.755pt x 246.1998pt>
-File: ../Figures/2-DOF_mode_shape.png Graphic file (type png)
-<use ../Figures/2-DOF_mode_shape.png>
-Package pdftex.def Info: ../Figures/2-DOF_mode_shape.png  used on input line 39
-6.
-(pdftex.def)             Requested size: 469.75386pt x 246.19919pt.
- [8]
 File: ../Figures/2-DOF-spring_mass_horizontal.png Graphic file (type png)
 <use ../Figures/2-DOF-spring_mass_horizontal.png>
 Package pdftex.def Info: ../Figures/2-DOF-spring_mass_horizontal.png  used on i
-nput line 407.
+nput line 310.
 (pdftex.def)             Requested size: 280.16602pt x 79.7377pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--411
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
 
  []
 
 
-Overfull \hbox (4.8549pt too wide) in paragraph at lines 524--526
+Overfull \hbox (4.8549pt too wide) in paragraph at lines 427--429
 \OT1/ptm/m/n/12 For this equa-tion to be true, $\OML/ztmcm/m/it/12 [] \OT1/ztm
 cm/m/n/12 = []$\OT1/ptm/m/n/12 . There-fore, ap-ply-ing this to $\OT1/ztmcm/m/n
 /12 0 = []\OML/ztmcm/m/it/12 A[] []\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 []\OT
@@ -1292,36 +1276,54 @@ cm/m/n/12 = []$\OT1/ptm/m/n/12 . There-fore, ap-ply-ing this to $\OT1/ztmcm/m/n
 /12 []\OT1/ztmcm/m/n/12 )$
  []
 
-<../Figures/2-DOF_response.png, id=48, 433.62pt x 216.81pt>
+<../Figures/2-DOF_response.png, id=38, 433.62pt x 216.81pt>
 File: ../Figures/2-DOF_response.png Graphic file (type png)
 <use ../Figures/2-DOF_response.png>
-Package pdftex.def Info: ../Figures/2-DOF_response.png  used on input line 560.
+Package pdftex.def Info: ../Figures/2-DOF_response.png  used on input line 463.
 
 (pdftex.def)             Requested size: 402.21606pt x 201.11842pt.
-[9 <../Figures/2-DOF_mode_shape.png>]
+[7] [8]
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
-(mdframed)              on input line 563.
+(mdframed)              on input line 466.
+ [9]
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 466.
  [10]
-Package mdframed Info: Box was splittet wrong
- starting loop to iterate the splitting point
-(mdframed)              on input line 563.
- [11] [12] [13 <../Figures/2-DOF_response.png>] [14]
+<../Figures/2-DOF-spring_mass_vertical_with_FBD.png, id=52, 309.5565pt x 231.02
+31pt>
+File: ../Figures/2-DOF-spring_mass_vertical_with_FBD.png Graphic file (type png
+)
+<use ../Figures/2-DOF-spring_mass_vertical_with_FBD.png>
+Package pdftex.def Info: ../Figures/2-DOF-spring_mass_vertical_with_FBD.png  us
+ed on input line 476.
+(pdftex.def)             Requested size: 309.55574pt x 231.02252pt.
+ [11 <../Figures/2-DOF_response.png> <../Figures/2-DOF-spring_mass_vertical_wit
+h_FBD.png>]
+<../Figures/2-DOF_mode_shape.png, id=58, 469.755pt x 246.1998pt>
+File: ../Figures/2-DOF_mode_shape.png Graphic file (type png)
+<use ../Figures/2-DOF_mode_shape.png>
+Package pdftex.def Info: ../Figures/2-DOF_mode_shape.png  used on input line 51
+8.
+(pdftex.def)             Requested size: 469.75386pt x 246.19919pt.
+ [12] [13 <../Figures/2-DOF_mode_shape.png>]
+[14]
 File: ../Figures/2-DOF-spring_mass_horizontal.png Graphic file (type png)
 <use ../Figures/2-DOF-spring_mass_horizontal.png>
 Package pdftex.def Info: ../Figures/2-DOF-spring_mass_horizontal.png  used on i
-nput line 680.
+nput line 639.
 (pdftex.def)             Requested size: 280.16602pt x 79.7377pt.
  [15]
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
-(mdframed)              on input line 761.
+(mdframed)              on input line 720.
  [16] [17] (Chapter_5_2_DOF_systems.aux) ) 
 Here is how much of TeX's memory you used:
- 24588 strings out of 492973
- 480136 string characters out of 3135923
- 565426 words of memory out of 3000000
- 28082 multiletter control sequences out of 15000+200000
+ 24586 strings out of 492973
+ 480084 string characters out of 3135923
+ 564955 words of memory out of 3000000
+ 28080 multiletter control sequences out of 15000+200000
  560465 words of font info for 82 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,13n,78p,852b,1017s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1335,7 +1337,7 @@ ney2/AppData/Roaming/MiKTeX/2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on Chapter_5_2_DOF_systems.pdf (17 pages, 529659 bytes).
+Output written on Chapter_5_2_DOF_systems.pdf (17 pages, 529799 bytes).
 PDF statistics:
  110 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -270,7 +270,7 @@ and
 \begin{equation}
 	(-\omega_2^2 M  + K)\mathbf{u}_2 =0
 \end{equation}
-These expressions can be solved for the direction of the vectors $\mathbf{u}_1$ and $\mathbf{u}_2$, but not for the magnitude. To see that this is true, note that if $\mathbf{u}_1$, satisfies equation, so does the vector $a\mathbf{u}_1$ where $a$ is any nonzero number. Hence the vectors satisfying the above are of arbitrary magnitude.
+These expressions can be solved for the direction of the vectors $\mathbf{u}_1$ and $\mathbf{u}_2$, but not for the magnitude. To see that this is true, note that if $\mathbf{u}_1$, satisfies the equation, so does the vector $a\mathbf{u}_1$ where $a$ is any nonzero number. Hence the vectors satisfying the above are of arbitrary magnitude.
  
 The values obtained for $\mathbf{u}_1$ and $\mathbf{u}_2$ can now be combined with the assumed solution:
 \begin{equation}
@@ -300,103 +300,6 @@ time are determined by the elements of the vector $\mathbf{u}_1$. Hence $\mathbf
 
 
 
-
-%\begin{example}
-%Let's take a look at the same system, but this time we will use the second mass to ``tune'' the general natural frequency of the fist mass. To do so, use 
-%Considering the following system:
-%\begin{figure}[H]
-%	\centering
-%	\includegraphics[width=0.5\textwidth]{../Figures/2_DOF_spring_mass_system.png}
-%\end{figure}
-%To do so, use  $m_1$=10 kg, $m_2$=5 kg, $k_1$ = 10 N/m, and $k_2$ = 25 N/m with the initial conditions $x_{10}=1$ mm, $v_{10}=0$ mm/s, $x_{20}=0$ mm, and $v_{20}=0$ mm/s.
-%
-%\textbf{Solution}
-%
-%We have already obtained a characteristic equation for this system, given as:
-%\begin{equation}
-%m_1 m_2 \omega^4 - (m_1 k_2 + m_2 k_1 + m_2 k_2)\omega^2 + k_1 k_2 = 0
-%\end{equation}
-%This results in solutions of $\omega^2_1 = 2$ and $\omega^2_2 = 4$. Leading to:
-%\begin{equation}
-%\omega_1 \pm 0.797 \text{ rad/sec}, \hspace{2ex} \omega_2 \pm 2.08 \text{ rad/sec}
-%\end{equation}
-%Next, we need to obtain solutions for $\mathbf{u}_1$ and $\mathbf{u}_2$. Here, let $u_{21}=1$ so, 
-%\begin{equation}
-%	 \textbf{u}_1 = \begin{bmatrix} 0.87\\ 1\end{bmatrix}
-%\end{equation}
-%The same processes can be used for obtaining $\textbf{u}_1$. Again, assuming $u_{22}=1$ this can be rearranged into $\textbf{u}_2$ as:
-%\begin{equation}
-%	 \textbf{u}_2 = \begin{bmatrix} -0.57 \\ 1\end{bmatrix}
-%\end{equation}
-%Now that we have the mode shapes, we can solve for the initial conditions $A_1$ and $A_2$. Resulting in $A_1 = 0.692$ mm and $A_2 = -0.692$. Therefore, now that we have the initial conditions we can find a solution for the temporal response of each mass. Using the equations from before:
-%\begin{equation}
-%	x_1(t) = A_1 \sin (\omega_1 t + \phi_1 )u_{11} + A_2 \sin (\omega_2 t + \phi_2 )u_{12}
-%\end{equation}
-%\begin{equation}
-%	x_2(t) = A_1 \sin (\omega_1 t + \phi_1 )u_{21} + A_2 \sin (\omega_2 t + \phi_2 )u_{22}
-%\end{equation}
-%These results can be plotted as:
-%\begin{figure}[H]
-%	\centering
-%	\includegraphics[width=0.9\textwidth]{../Figures/Example_2_2_DOF_response.png}
-%\end{figure}
-%
-%It can be seen here that the ``general'' natural frequency the main mass has be reduced, all without changing the mass of the stiffness $k_1$. This was done by passing energy from the main mass $m_1$ to the much smaller mass $m_2$. Such an example can be useful when we want to alter the vibrations of a system but we are unable to alter the system itself. If damping were to be added to the system, therefore allowing energy to be extracted from the system, even more impressive results could be obtained. 
-%\end{example}
-
-\subsubsection{Mode Shapes}
-\label{sec:Mode_Shapes}
-
-Studying and characterizing the natural frequencies of a system allows for the detailed investigation of the system response. Modern vibration analysis relies heavily on the concepts of mode shapes for various engineering tasks. Mode shapes can be better understood through a graphical representation. To do this, consider the 2-DOF system presented in figure \ref{fig:2-DOF-spring_mass_vertical}(a). Assuming that $x_1<x_2$ the FBD for the system is expressed in figure figure \ref{fig:2-DOF-spring_mass_vertical}(b).
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[]{../Figures/2-DOF-spring_mass_vertical_with_FBD.png}
-	\caption{(a) 2-DOF system with two masses arranged in a vertical configuration; and (b) FBD of system.}
-	\label{fig:2-DOF-spring_mass_vertical}
-\end{figure}
-\noindent For simplicity, all masses and spring stiffness are considered equal and that $m=1$ and $k=1$. From the previous investigations in this text we know that the forces caused by gravity will cancel out. Therefore, the EOM for the system can be written as:
-\begin{eqnarray}
-m_1\ddot{x}_1 &= & -kx_1 + k(x_2-x_1) \\
-m_2\ddot{x}_2&= & -k(x_2-x_1) -kx_2 \nonumber
-\end{eqnarray}
-These equations can be written in matrix notation as:
-\begin{eqnarray}
-	\begin{bmatrix} m & 0  \\  0 & m \end{bmatrix}\begin{bmatrix} \ddot{x_1} \\  \ddot{x_2} \end{bmatrix} + \begin{bmatrix} 2k & -k  \\  -k & 2k \end{bmatrix}\begin{bmatrix} x_1 \\  x_2 \end{bmatrix} = \begin{bmatrix} 0 \\  0 \end{bmatrix}
-\end{eqnarray}
-Substituting the values of the matrices $M$ and $K$ into this expression $\det(-\omega^2 M  + K) = 0$ yields: 
-\begin{eqnarray}
-\det\begin{bmatrix} -\omega^2 m + 2k & -k  \\  -k & -\omega^2 m + 2k \end{bmatrix}=0
-\end{eqnarray}
-The determinant yields that the unknown quantity, $\omega^2$, must satisfy:
-\begin{equation}
-m^2 \omega^4 - 4km\omega^2 + 3k = 0
-\end{equation}
-Therefore, 
-\begin{equation}
-\omega_1 \pm \sqrt{\frac{k}{m}}=1 \text{ rad/sec}, \hspace{2ex} \omega_2 \pm \sqrt{\frac{3k}{m}}=\sqrt{3} \text{ rad/sec}
-\end{equation}
-Now, we need to obtain solutions for $\mathbf{u}_1$ and $\mathbf{u}_2$. Knowing $(-\omega_1^2 M  + K)\mathbf{u}_1 =0$ yields:
-\begin{equation}
-	 \begin{bmatrix} 1 & -1 \\    -1  & 1 \end{bmatrix} 
-	 \begin{bmatrix} u_{11}\\ u_{21}\end{bmatrix}=\begin{bmatrix} 0\\ 0\end{bmatrix}
-\end{equation}
-Taking the dot product of the matrix equation yields:
-\begin{equation}
-	u_{11} - u_{21}=0 \text{, and } - u_{11} + u_{21}=0
-\end{equation}
-Setting $u_{11} = 1$ results in $u_{21} = 1$ . The same processes can be performed for $\mathbf{u}_2$ to show that if we set $u_{12} = 1$, $u_{22} = -1$. Therefore, the mode shapes can be expresses as:
-\begin{equation}
-	 \begin{bmatrix} \mathbf{u}_1 & \mathbf{u}_2 \end{bmatrix} = \begin{bmatrix}  u_{11} & u_{12} \\ u_{21} & u_{22} \end{bmatrix} = \begin{bmatrix}  1 & 1 \\ 1 & -1 \end{bmatrix}
-\end{equation}
-The mode shapes at s function of time and general mode shape plots are graphically represented in figure \ref{fig:2-DOF_mode_shape}. 
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[]{../Figures/2-DOF_mode_shape.png}
-	\caption{Modes of vibration for the system shown in figure \ref{fig:2-DOF-spring_mass_vertical} showing the: (a) first mode; and (b) second mode.}
-	\label{fig:2-DOF_mode_shape}
-\end{figure}
 
 
 \begin{example}
@@ -428,7 +331,7 @@ This can then be factored into:
 \end{equation}
 This results in solutions of $\omega^2_1 = 2$ and $\omega^2_2 = 4$. Leading to:
 \begin{equation}
-\omega_1 \pm \sqrt{2} \text{ rad/sec}, \hspace{2ex} \omega_2 \pm 2 \text{ rad/sec}
+\omega_1 = \pm \sqrt{2} \text{ rad/sec}, \hspace{2ex} \omega_2 = \pm 2 \text{ rad/sec}
 \end{equation}
 Next, we need to obtain solutions for $\mathbf{u}_1$ and $\mathbf{u}_2$. Having solved for $\omega_1$ and $\omega_2$ we can obtained. First, knowing $\mathbf{u}_1 = [u_{11} u_{21}]^\text{T}$ and using $\omega_1 = \sqrt{2}$ and the follwoing equation:
 \begin{equation}
@@ -482,7 +385,7 @@ Again, assuming $u_{22}=1$  this can be rearranged into $\textbf{u}_2$ as:
 \begin{equation}
 	 \textbf{u}_2 = \begin{bmatrix} -\frac{1}{3}\\ 1\end{bmatrix}
 \end{equation}
-Where $\mathbf{u}_1$ and $\mathbf{u}_2$ represent only the directions ans shape of the mode shapes and not the magnitude of the mode shapes. 
+Where $\mathbf{u}_1$ and $\mathbf{u}_2$ represent only the directions and shape of the mode shapes and not the magnitude of the mode shapes. 
 Now that we have the mode shapes, we can solve for the initial conditions $A_1$ and $A_2$. To do this, let us use the following formulation of the solution:
 \begin{equation}
 	 \begin{bmatrix} x_1(t) \\  x_2(t) \end{bmatrix} =  \begin{bmatrix} \mathbf{u}_1 & \mathbf{u}_2 \end{bmatrix}
@@ -561,6 +464,62 @@ These results can be plotted as:
 	\caption{Temporal response for each of the rigid bodies in the 2-DOF system.}
 \end{figure}
 \end{example}
+
+
+\subsubsection{Mode Shapes}
+\label{sec:Mode_Shapes}
+
+Studying and characterizing the natural frequencies of a system allows for the detailed investigation of the system response. Modern vibration analysis relies heavily on the concepts of mode shapes for various engineering tasks. Mode shapes can be better understood through a graphical representation. To do this, consider the 2-DOF system presented in figure \ref{fig:2-DOF-spring_mass_vertical}(a). Assuming that $x_1<x_2$ the FBD for the system is expressed in figure figure \ref{fig:2-DOF-spring_mass_vertical}(b).
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[]{../Figures/2-DOF-spring_mass_vertical_with_FBD.png}
+	\caption{(a) 2-DOF system with two masses arranged in a vertical configuration; and (b) FBD of system.}
+	\label{fig:2-DOF-spring_mass_vertical}
+\end{figure}
+\noindent For simplicity, all masses and spring stiffness are considered equal and that $m=1$ and $k=1$. From the previous investigations in this text we know that the forces caused by gravity will cancel out. Therefore, the EOM for the system can be written as:
+\begin{eqnarray}
+m_1\ddot{x}_1 &= & -kx_1 + k(x_2-x_1) \\
+m_2\ddot{x}_2&= & -k(x_2-x_1) -kx_2 \nonumber
+\end{eqnarray}
+These equations can be written in matrix notation as:
+\begin{eqnarray}
+	\begin{bmatrix} m & 0  \\  0 & m \end{bmatrix}\begin{bmatrix} \ddot{x_1} \\  \ddot{x_2} \end{bmatrix} + \begin{bmatrix} 2k & -k  \\  -k & 2k \end{bmatrix}\begin{bmatrix} x_1 \\  x_2 \end{bmatrix} = \begin{bmatrix} 0 \\  0 \end{bmatrix}
+\end{eqnarray}
+Substituting the values of the matrices $M$ and $K$ into this expression $\det(-\omega^2 M  + K) = 0$ yields: 
+\begin{eqnarray}
+\det\begin{bmatrix} -\omega^2 m + 2k & -k  \\  -k & -\omega^2 m + 2k \end{bmatrix}=0
+\end{eqnarray}
+The determinant yields that the unknown quantity, $\omega^2$, must satisfy:
+\begin{equation}
+m^2 \omega^4 - 4km\omega^2 + 3k = 0
+\end{equation}
+Therefore, 
+\begin{equation}
+\omega_1 \pm \sqrt{\frac{k}{m}}=1 \text{ rad/sec}, \hspace{2ex} \omega_2 \pm \sqrt{\frac{3k}{m}}=\sqrt{3} \text{ rad/sec}
+\end{equation}
+Now, we need to obtain solutions for $\mathbf{u}_1$ and $\mathbf{u}_2$. Knowing $(-\omega_1^2 M  + K)\mathbf{u}_1 =0$ yields:
+\begin{equation}
+	 \begin{bmatrix} 1 & -1 \\    -1  & 1 \end{bmatrix} 
+	 \begin{bmatrix} u_{11}\\ u_{21}\end{bmatrix}=\begin{bmatrix} 0\\ 0\end{bmatrix}
+\end{equation}
+Taking the dot product of the matrix equation yields:
+\begin{equation}
+	u_{11} - u_{21}=0 \text{, and } - u_{11} + u_{21}=0
+\end{equation}
+Setting $u_{11} = 1$ results in $u_{21} = 1$ . The same processes can be performed for $\mathbf{u}_2$ to show that if we set $u_{12} = 1$, $u_{22} = -1$. Therefore, the mode shapes can be expresses as:
+\begin{equation}
+	 \begin{bmatrix} \mathbf{u}_1 & \mathbf{u}_2 \end{bmatrix} = \begin{bmatrix}  u_{11} & u_{12} \\ u_{21} & u_{22} \end{bmatrix} = \begin{bmatrix}  1 & 1 \\ 1 & -1 \end{bmatrix}
+\end{equation}
+The mode shapes at s function of time and general mode shape plots are graphically represented in figure \ref{fig:2-DOF_mode_shape}. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[]{../Figures/2-DOF_mode_shape.png}
+	\caption{Modes of vibration for the system shown in figure \ref{fig:2-DOF-spring_mass_vertical} showing the: (a) first mode; and (b) second mode.}
+	\label{fig:2-DOF_mode_shape}
+\end{figure}
+
 
 \subsection{Eigenvalue-based Solution for Natural Frequencies and Mode Shapes}
 
