@@ -154,7 +154,7 @@ Where the bold text denotes vectors. Therefore, the vectors $\mathbf{u}_1$ and $
 The four key components of the solution expressed in equation \ref{eq:2-DOF_solution} are:
 \begin{enumerate}
 \item $\omega_1$ and $\omega_2$ are the natural frequencies of the system. They are not the frequencies of the masses. The formulation of the solution states that each mass in general oscillates at two frequencies. Furthermore, suppose that the initial conditions
-are chosen such that A2 = 0. With such a initial condition, each mass oscillates at only
+are chosen such that A2 = 0. With such an initial condition, each mass oscillates at only
 one frequency, $\omega_1$.
 \item $A_1$ and $A_2$ are the constants of integration and determine the amplitude of the system.
 \item $\phi_1$ and $\phi_2$ represent the phase shift of the system
@@ -511,7 +511,7 @@ Setting $u_{11} = 1$ results in $u_{21} = 1$ . The same processes can be perform
 \begin{equation}
 	 \begin{bmatrix} \mathbf{u}_1 & \mathbf{u}_2 \end{bmatrix} = \begin{bmatrix}  u_{11} & u_{12} \\ u_{21} & u_{22} \end{bmatrix} = \begin{bmatrix}  1 & 1 \\ 1 & -1 \end{bmatrix}
 \end{equation}
-The mode shapes at s function of time and general mode shape plots are graphically represented in figure \ref{fig:2-DOF_mode_shape}. 
+The displacement of the masses as a function of time and the general mode shape plots are graphically represented in figure \ref{fig:2-DOF_mode_shape}. In the 2-DOF system considered here, the second mode shape has a spot at the center of the middle spring spring that does not move (i.e. has zero displacement). This point is called a node. Nodes correspond to points in the mode shape where the displacement is always zero. Furthermore, the displacement of the node points remain zero at all times, as diagrammed in the top-right of figure \ref{fig:2-DOF_mode_shape}.
 
 \begin{figure}[H]
 	\centering
@@ -523,7 +523,7 @@ The mode shapes at s function of time and general mode shape plots are graphical
 
 \subsection{Eigenvalue-based Solution for Natural Frequencies and Mode Shapes}
 
-The process of calculating the mode shapes presented in sections \ref{sec:2-DOF_derive_solution} and \ref{sec:Mode_Shapes} is long and tedious. Therefore, methods that can be easily deployed on computers are of great interest to the practitioner. A eigenvalue-based solution that takes advantage of the symmetry in the $M$ and $K$ matrices and can be easily implemented on a computer is discussed in this section. 
+The process of calculating the mode shapes presented in sections \ref{sec:2-DOF_derive_solution} and \ref{sec:Mode_Shapes} is long and tedious. Therefore, methods that can be easily deployed on computers are of great interest to the practitioner. An eigenvalue-based solution that takes advantage of the symmetry in the $M$ and $K$ matrices and can be easily implemented on a computer is discussed in this section. 
 
 \begin{review}
 
@@ -566,7 +566,7 @@ Moreover, the inverse of the diagonal matrix ($M^{1/2}$) is denoted as $M^{-1/2}
 
 \subsubsection{Deriving the Eigenvalue-based Solution}
  
-Tp derive an eigenvalue-based solution for calculating the natural frequencies and mode shapes let us consider the previously derived EOM for a undamped 2-DOF system:
+To derive an eigenvalue-based solution for calculating the natural frequencies and mode shapes let us consider the previously derived EOM for a undamped 2-DOF system:
 \begin{equation}
 M\mathbf{\ddot{x}} + K\mathbf{x} =0
 \end{equation}
@@ -584,7 +584,7 @@ As before, a solution is found by assuming a solution, taking the derivatives of
 \begin{equation}
 \mathbf{q} = \textbf{v}e^{j\omega t}
 \end{equation}
-results in a EOM in the from:
+results in an EOM in the from:
 \begin{equation}
 -\textbf{v} \omega^2 e^{j\omega t} + \widetilde{K}\textbf{v}e^{j\omega t} =0
 \end{equation}
