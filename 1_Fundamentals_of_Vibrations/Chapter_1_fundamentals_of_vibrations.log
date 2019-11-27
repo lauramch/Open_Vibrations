@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.21)  27 NOV 2019 11:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.21)  26 NOV 2019 12:44
 entering extended mode
-**./Chapter_5_2_DOF_systems.tex
-(Chapter_5_2_DOF_systems.tex
+**./Chapter_1_fundamentals_of_vibrations.tex
+(Chapter_1_fundamentals_of_vibrations.tex
 LaTeX2e <2018-04-01> patch level 5
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -1106,29 +1106,29 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 LaTeX Warning: Unused global option(s):
     [letter].
 
-(Chapter_5_2_DOF_systems.aux)
-\openout1 = `Chapter_5_2_DOF_systems.aux'.
+(Chapter_1_fundamentals_of_vibrations.aux)
+\openout1 = `Chapter_1_fundamentals_of_vibrations.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 74.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 75.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 74.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -1195,151 +1195,206 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 87.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 89
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 80
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ztmcm.fd"
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 89
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 80
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlztmcm.fd"
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 89
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 80
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsztmcm.fd"
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 89
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 80
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omxztmcm.fd"
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
-Package mdframed Info: Box was splittet wrong
- starting loop to iterate the splitting point
-(mdframed)              on input line 117.
- [1
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
+
+
+LaTeX Warning: No \author given.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+[1
 
 {C:/Users/adowney2/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 120.
-<../Figures/2-DOF-spring_mass_examples.png, id=14, 296.307pt x 163.5711pt>
-File: ../Figures/2-DOF-spring_mass_examples.png Graphic file (type png)
-<use ../Figures/2-DOF-spring_mass_examples.png>
-Package pdftex.def Info: ../Figures/2-DOF-spring_mass_examples.png  used on inp
-ut line 125.
-(pdftex.def)             Requested size: 296.30627pt x 163.5707pt.
-<../Figures/2-DOF-spring_mass_horizontal.png, id=16, 280.1667pt x 79.7379pt>
-File: ../Figures/2-DOF-spring_mass_horizontal.png Graphic file (type png)
-<use ../Figures/2-DOF-spring_mass_horizontal.png>
-Package pdftex.def Info: ../Figures/2-DOF-spring_mass_horizontal.png  used on i
-nput line 132.
-(pdftex.def)             Requested size: 280.16602pt x 79.7377pt.
- [2 <../Figures/2-DOF-spring_mass_examples.png> <../Figures/2-DOF-spring_mass_h
-orizontal.png>]
-<../Figures/2-DOF-spring_mass_horizontal_FBD.png, id=22, 265.9536pt x 73.9563pt
->
-File: ../Figures/2-DOF-spring_mass_horizontal_FBD.png Graphic file (type png)
-<use ../Figures/2-DOF-spring_mass_horizontal_FBD.png>
-Package pdftex.def Info: ../Figures/2-DOF-spring_mass_horizontal_FBD.png  used 
-on input line 169.
-(pdftex.def)             Requested size: 265.95294pt x 73.9561pt.
- [3 <../Figures/2-DOF-spring_mass_horizontal_FBD.png>] [4] [5] [6]
-File: ../Figures/2-DOF-spring_mass_horizontal.png Graphic file (type png)
-<use ../Figures/2-DOF-spring_mass_horizontal.png>
-Package pdftex.def Info: ../Figures/2-DOF-spring_mass_horizontal.png  used on i
-nput line 310.
-(pdftex.def)             Requested size: 280.16602pt x 79.7377pt.
+<../figures/Examples_of_1DOF_systems.png, id=12, 417.7206pt x 156.1032pt>
+File: ../figures/Examples_of_1DOF_systems.png Graphic file (type png)
+<use ../figures/Examples_of_1DOF_systems.png>
+Package pdftex.def Info: ../figures/Examples_of_1DOF_systems.png  used on input
+ line 112.
+(pdftex.def)             Requested size: 417.71957pt x 156.1028pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 117.
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--314
-
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[]\OT1/ptm/m/n/24.88 ``\OT1/ptm/m/n/14.4 All mod-els are wrong, but some are us
+e-ful\OT1/ptm/m/n/24.88 ''
  []
 
-
-Overfull \hbox (4.8549pt too wide) in paragraph at lines 427--429
-\OT1/ptm/m/n/12 For this equa-tion to be true, $\OML/ztmcm/m/it/12 [] \OT1/ztm
-cm/m/n/12 = []$\OT1/ptm/m/n/12 . There-fore, ap-ply-ing this to $\OT1/ztmcm/m/n
-/12 0 = []\OML/ztmcm/m/it/12 A[] []\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 []\OT
-1/ztmcm/m/n/12 ) + 2\OML/ztmcm/m/it/12 A[] []\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it
-/12 []\OT1/ztmcm/m/n/12 )$
- []
-
-<../Figures/2-DOF_response.png, id=38, 433.62pt x 216.81pt>
-File: ../Figures/2-DOF_response.png Graphic file (type png)
-<use ../Figures/2-DOF_response.png>
-Package pdftex.def Info: ../Figures/2-DOF_response.png  used on input line 463.
-
-(pdftex.def)             Requested size: 402.21606pt x 201.11842pt.
-[7] [8]
+[2 <../figures/Examples_of_1DOF_systems.png>]
+<../figures/spring_mass_model_with_point_mass.png, id=19, 399.6531pt x 124.3044
+pt>
+File: ../figures/spring_mass_model_with_point_mass.png Graphic file (type png)
+<use ../figures/spring_mass_model_with_point_mass.png>
+Package pdftex.def Info: ../figures/spring_mass_model_with_point_mass.png  used
+ on input line 125.
+(pdftex.def)             Requested size: 399.65211pt x 124.30408pt.
+<../figures/linear_spring_deformation.png, id=20, 315.8199pt x 238.2501pt>
+File: ../figures/linear_spring_deformation.png Graphic file (type png)
+<use ../figures/linear_spring_deformation.png>
+Package pdftex.def Info: ../figures/linear_spring_deformation.png  used on inpu
+t line 136.
+(pdftex.def)             Requested size: 315.81912pt x 238.24951pt.
+ [3 <../figures/spring_mass_model_with_point_mass.png>]
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
-(mdframed)              on input line 466.
- [9]
-Package mdframed Info: Box was splittet wrong
- starting loop to iterate the splitting point
-(mdframed)              on input line 466.
- [10]
-<../Figures/2-DOF-spring_mass_vertical_with_FBD.png, id=52, 309.5565pt x 231.02
-31pt>
-File: ../Figures/2-DOF-spring_mass_vertical_with_FBD.png Graphic file (type png
+(mdframed)              on input line 166.
+ [4 <../figures/linear_spring_deformation.png>]
+<../figures/spring_and_bar_mass_vertical.png, id=30, 223.3143pt x 136.1085pt>
+File: ../figures/spring_and_bar_mass_vertical.png Graphic file (type png)
+<use ../figures/spring_and_bar_mass_vertical.png>
+Package pdftex.def Info: ../figures/spring_and_bar_mass_vertical.png  used on i
+nput line 175.
+(pdftex.def)             Requested size: 223.31374pt x 136.10815pt.
+ [5 <../figures/spring_and_bar_mass_vertical.png>]
+<../figures/spring_and_bar_mass_cantilever_beam.png, id=36, 328.8285pt x 136.10
+85pt>
+File: ../figures/spring_and_bar_mass_cantilever_beam.png Graphic file (type png
 )
-<use ../Figures/2-DOF-spring_mass_vertical_with_FBD.png>
-Package pdftex.def Info: ../Figures/2-DOF-spring_mass_vertical_with_FBD.png  us
-ed on input line 476.
-(pdftex.def)             Requested size: 309.55574pt x 231.02252pt.
- [11 <../Figures/2-DOF_response.png> <../Figures/2-DOF-spring_mass_vertical_wit
-h_FBD.png>]
-<../Figures/2-DOF_mode_shape.png, id=58, 469.755pt x 246.1998pt>
-File: ../Figures/2-DOF_mode_shape.png Graphic file (type png)
-<use ../Figures/2-DOF_mode_shape.png>
-Package pdftex.def Info: ../Figures/2-DOF_mode_shape.png  used on input line 51
-8.
-(pdftex.def)             Requested size: 469.75386pt x 246.19919pt.
- [12] [13 <../Figures/2-DOF_mode_shape.png>]
-[14]
-File: ../Figures/2-DOF-spring_mass_horizontal.png Graphic file (type png)
-<use ../Figures/2-DOF-spring_mass_horizontal.png>
-Package pdftex.def Info: ../Figures/2-DOF-spring_mass_horizontal.png  used on i
-nput line 639.
-(pdftex.def)             Requested size: 280.16602pt x 79.7377pt.
- [15]
+<use ../figures/spring_and_bar_mass_cantilever_beam.png>
+Package pdftex.def Info: ../figures/spring_and_bar_mass_cantilever_beam.png  us
+ed on input line 200.
+(pdftex.def)             Requested size: 328.8277pt x 136.10815pt.
+<../figures/compressed_cantilever_rod.png, id=37, 242.3454pt x 79.0152pt>
+File: ../figures/compressed_cantilever_rod.png Graphic file (type png)
+<use ../figures/compressed_cantilever_rod.png>
+Package pdftex.def Info: ../figures/compressed_cantilever_rod.png  used on inpu
+t line 218.
+(pdftex.def)             Requested size: 242.3448pt x 79.015pt.
+Package mdframed Info: Not enough space on this page on input line 236.
+ [6 <../figures/spring_and_bar_mass_cantilever_beam.png>]
+Package mdframed Info: Not enough space on this page on input line 236.
+<../figures/equivalent_stiffness.png, id=44, 296.0661pt x 172.2435pt>
+File: ../figures/equivalent_stiffness.png Graphic file (type png)
+<use ../figures/equivalent_stiffness.png>
+Package pdftex.def Info: ../figures/equivalent_stiffness.png  used on input lin
+e 243.
+(pdftex.def)             Requested size: 296.06537pt x 172.24307pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 244.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 244.
+ [7 <../figures/compressed_cantilever_rod.png>]
+<../figures/equivalent_stiffness_series.png, id=50, 186.2157pt x 24.8127pt>
+File: ../figures/equivalent_stiffness_series.png Graphic file (type png)
+<use ../figures/equivalent_stiffness_series.png>
+Package pdftex.def Info: ../figures/equivalent_stiffness_series.png  used on in
+put line 249.
+(pdftex.def)             Requested size: 186.21524pt x 24.81262pt.
+<../figures/equivalent_stiffness_parallel.png, id=51, 133.6995pt x 54.2025pt>
+File: ../figures/equivalent_stiffness_parallel.png Graphic file (type png)
+<use ../figures/equivalent_stiffness_parallel.png>
+Package pdftex.def Info: ../figures/equivalent_stiffness_parallel.png  used on 
+input line 267.
+(pdftex.def)             Requested size: 133.69916pt x 54.20236pt.
+ [8 <../figures/equivalent_stiffness.png> <../figures/equivalent_stiffness_seri
+es.png> <../figures/equivalent_stiffness_parallel.png>]
+<../figures/equivalent_mass_and_spring_system_1.png, id=58, 392.9079pt x 240.9p
+t>
+File: ../figures/equivalent_mass_and_spring_system_1.png Graphic file (type png
+)
+<use ../figures/equivalent_mass_and_spring_system_1.png>
+Package pdftex.def Info: ../figures/equivalent_mass_and_spring_system_1.png  us
+ed on input line 294.
+(pdftex.def)             Requested size: 392.90694pt x 240.8994pt.
+<../figures/equivalent_mass_and_spring_system_2.png, id=59, 185.9748pt x 136.10
+85pt>
+File: ../figures/equivalent_mass_and_spring_system_2.png Graphic file (type png
+)
+<use ../figures/equivalent_mass_and_spring_system_2.png>
+Package pdftex.def Info: ../figures/equivalent_mass_and_spring_system_2.png  us
+ed on input line 299.
+(pdftex.def)             Requested size: 185.97433pt x 136.10815pt.
+ [9 <../figures/equivalent_mass_and_spring_system_1.png>]
+<../figures/EOM_1-DOF-mass_horizontal.png, id=64, 350.9913pt x 116.1138pt>
+File: ../figures/EOM_1-DOF-mass_horizontal.png Graphic file (type png)
+<use ../figures/EOM_1-DOF-mass_horizontal.png>
+Package pdftex.def Info: ../figures/EOM_1-DOF-mass_horizontal.png  used on inpu
+t line 322.
+(pdftex.def)             Requested size: 350.99045pt x 116.11351pt.
+ [10 <../figures/equivalent_mass_and_spring_system_2.png> <../figures/EOM_1-DOF
+-mass_horizontal.png>]
+<../figures/1-DOF-spring_mass_horizontal.png, id=70, 153.6942pt x 79.7379pt>
+File: ../figures/1-DOF-spring_mass_horizontal.png Graphic file (type png)
+<use ../figures/1-DOF-spring_mass_horizontal.png>
+Package pdftex.def Info: ../figures/1-DOF-spring_mass_horizontal.png  used on i
+nput line 359.
+(pdftex.def)             Requested size: 153.6938pt x 79.7377pt.
+<../figures/1-DOF-mass_horizontal_FBD.png, id=71, 185.9748pt x 101.4189pt>
+File: ../figures/1-DOF-mass_horizontal_FBD.png Graphic file (type png)
+<use ../figures/1-DOF-mass_horizontal_FBD.png>
+Package pdftex.def Info: ../figures/1-DOF-mass_horizontal_FBD.png  used on inpu
+t line 366.
+(pdftex.def)             Requested size: 201.10803pt x 109.67468pt.
+ [11 <../figures/1-DOF-spring_mass_horizontal.png>]
+<../figures/1-DOF-mass_vertical.png, id=76, 79.7379pt x 136.1085pt>
+File: ../figures/1-DOF-mass_vertical.png Graphic file (type png)
+<use ../figures/1-DOF-mass_vertical.png>
+Package pdftex.def Info: ../figures/1-DOF-mass_vertical.png  used on input line
+ 396.
+(pdftex.def)             Requested size: 79.7377pt x 136.10815pt.
+<../figures/1-DOF-mass_vertical_FBD.png, id=77, 199.947pt x 101.4189pt>
+File: ../figures/1-DOF-mass_vertical_FBD.png Graphic file (type png)
+<use ../figures/1-DOF-mass_vertical_FBD.png>
+Package pdftex.def Info: ../figures/1-DOF-mass_vertical_FBD.png  used on input 
+line 402.
+(pdftex.def)             Requested size: 199.9465pt x 101.41864pt.
+ [12 <../figures/1-DOF-mass_horizontal_FBD.png>]
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
-(mdframed)              on input line 720.
- [16] [17] (Chapter_5_2_DOF_systems.aux) ) 
+(mdframed)              on input line 427.
+ [13 <../figures/1-DOF-mass_vertical.png> <../figures/1-DOF-mass_vertical_FBD.p
+ng>] [14]
+(Chapter_1_fundamentals_of_vibrations.aux) ) 
 Here is how much of TeX's memory you used:
- 24586 strings out of 492973
- 480084 string characters out of 3135923
- 564955 words of memory out of 3000000
- 28080 multiletter control sequences out of 15000+200000
- 560465 words of font info for 82 fonts, out of 3000000 for 9000
+ 24668 strings out of 492973
+ 482902 string characters out of 3135923
+ 515234 words of memory out of 3000000
+ 28143 multiletter control sequences out of 15000+200000
+ 577455 words of font info for 116 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,13n,78p,852b,1017s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/en
-c/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ado
-wney2/AppData/Roaming/MiKTeX/2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Users/adow
-ney2/AppData/Roaming/MiKTeX/2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/time
-s/utmri8a.pfb>
-Output written on Chapter_5_2_DOF_systems.pdf (17 pages, 536913 bytes).
+ 67i,10n,78p,894b,1016s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/
+enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/a
+downey2/AppData/Roaming/MiKTeX/2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Users/ad
+owney2/AppData/Roaming/MiKTeX/2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
+mes/utmri8a.pfb>
+Output written on Chapter_1_fundamentals_of_vibrations.pdf (14 pages, 663522 by
+tes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
+ 121 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
 

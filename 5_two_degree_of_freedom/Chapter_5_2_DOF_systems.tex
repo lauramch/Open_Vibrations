@@ -533,7 +533,7 @@ The process of calculating the mode shapes presented in sections \ref{sec:2-DOF_
 	\end{equation}
 	where $\lambda$ is a scalar in the field $F$, known as the eigenvalue associated with the eigenvector $v$.
 
-	A matrix is positive definite if the scalar $\textbf{x}^{\text{T}}M\textbf{x}$ is positive for any non-zero vector $x$ comprised of real numbers:
+	A matrix is positive definite if the scalar $\textbf{x}^{\text{T}}A\textbf{x}$ is positive for any non-zero vector $x$ comprised of real numbers:
 	\begin{equation}
 	\textbf{x}^{\text{T}}A\textbf{x} > 0
 	\end{equation}
@@ -597,7 +597,7 @@ Knowing that $\textbf{v}\neq0$, as a vector with zeros would mean no motion is p
 \widetilde{K}\textbf{v} =  \lambda \textbf{v}
 \label{eq:eigenvalue_problem}
 \end{equation}
-where $\lambda = \omega^2 $. Or more importantly, $\omega = \sqrt{\lambda}$. As $\widetilde{K}$ is symmetric, this is a symmetric eigenvalue problem. Moreover, the vectors $\textbf{v}$ represent the eigenvalues of the system. Given that  we set $\mathbf{x}=M^{-1/2}\mathbf{q}$, the eigenvectors are not a direct representation of the mode shapes. To develop a link between the eigenvectors and mode shapes we first need to normalize the lengths of the eigenvectors obtained by solving equation \ref{eq:eigenvalue_problem} to that of a unit vector. The norm of a unit vector is defined as:
+where $\lambda = \omega^2 $. Or more importantly, $\omega = \sqrt{\lambda}$. As $\widetilde{K}$ is symmetric, this is a symmetric eigenvalue problem. Moreover, the vector $\lambda$ represent the eigenvalues of the system. Given that  we set $\mathbf{x}=M^{-1/2}\mathbf{q}$, the eigenvectors are not a direct representation of the mode shapes. To develop a link between the eigenvectors and mode shapes we first need to normalize the lengths of the eigenvectors obtained by solving equation \ref{eq:eigenvalue_problem} to that of a unit vector. The norm of a unit vector is defined as:
 \begin{equation}
 1= ||\textbf{v}|| = \sqrt{\textbf{v}^{\text{T}}\textbf{v}} = \sqrt{\sum_{i=1}^{n}(v_i^2)}
 \end{equation} 
@@ -607,7 +607,7 @@ where a scalar is used in conjunction with vector such that $\alpha\textbf{u}=1$
 \end{equation} 
 
 
-We can relate the eigenvalues to the modes shapes by a factor of the mass matrix:
+We can relate the eigenvectors to the modes shapes by a factor of the mass matrix:
 \begin{equation}
 \textbf{u}_1 = M^{-1/2}\textbf{v}_1
 \end{equation}
@@ -662,7 +662,7 @@ where $KM^{-1/2}$ is computed first to maintain symmetry. This results in:
 \end{equation}
 and:
 \begin{equation}
-	  \widetilde{K}=M^{-1/2}KM^{-1/2} =  \begin{bmatrix} \frac{1}{3} & 0 \\    0  & 1 \end{bmatrix} \begin{bmatrix} 9 & -3 \\    -1  & 3 \end{bmatrix}
+	  \widetilde{K}=M^{-1/2}KM^{-1/2} =  \begin{bmatrix} \frac{1}{3} & 0 \\    0  & 1 \end{bmatrix} \begin{bmatrix} 9 & -3 \\    -1  & 3 \end{bmatrix}  =  \begin{bmatrix} 3 & -1\\  -1  & 3 \end{bmatrix} 
 \end{equation}
 Now a solution must be obtained for the eigenvalue problem:
 \begin{equation}
@@ -719,7 +719,6 @@ and:
 Note that these the same mode shape vectors as computed in example \ref{ex:2-DOF}.
 \end{example}
 
-\subsection{Modal Analysis}
 
 \end{document}
 
