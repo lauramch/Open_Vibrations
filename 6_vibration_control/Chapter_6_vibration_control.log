@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.21)  3 DEC 2019 12:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.21)  3 DEC 2019 21:31
 entering extended mode
 **./Chapter_6_vibration_control.tex
 (Chapter_6_vibration_control.tex
@@ -1229,35 +1229,44 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 88.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 88.
-<../Figures/Vibration_nomograph.png, id=4, 398.9304pt x 486.1362pt>
+ [1
+
+{C:/Users/adowney2/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<../Figures/Vibration_nomograph.png, id=14, 398.9304pt x 486.1362pt>
 File: ../Figures/Vibration_nomograph.png Graphic file (type png)
 <use ../Figures/Vibration_nomograph.png>
 Package pdftex.def Info: ../Figures/Vibration_nomograph.png  used on input line
- 106.
-(pdftex.def)             Requested size: 398.92943pt x 486.13501pt.
- [1
-
-{C:/Users/adowney2/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2 <../F
-igures/Vibration_nomograph.png>] (Chapter_6_vibration_control.bbl) [3]
-(Chapter_6_vibration_control.aux) ) 
+ 135.
+(pdftex.def)             Requested size: 361.34999pt x 440.35956pt.
+ [2]
+<../Figures/active_vibration_control_FBD.png, id=19, 373.6359pt x 190.0701pt>
+File: ../Figures/active_vibration_control_FBD.png Graphic file (type png)
+<use ../Figures/active_vibration_control_FBD.png>
+Package pdftex.def Info: ../Figures/active_vibration_control_FBD.png  used on i
+nput line 155.
+(pdftex.def)             Requested size: 361.34999pt x 183.82251pt.
+ [3 <../Figures/Vibration_nomograph.png>] [4 <../Figures/active_vibration_contr
+ol_FBD.png>]
+(Chapter_6_vibration_control.bbl) [5] (Chapter_6_vibration_control.aux) ) 
 Here is how much of TeX's memory you used:
- 24392 strings out of 492973
- 474668 string characters out of 3135923
- 507637 words of memory out of 3000000
- 27901 multiletter control sequences out of 15000+200000
- 552465 words of font info for 67 fonts, out of 3000000 for 9000
+ 24414 strings out of 492973
+ 475079 string characters out of 3135923
+ 511694 words of memory out of 3000000
+ 27914 multiletter control sequences out of 15000+200000
+ 556543 words of font info for 77 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,6n,65p,856b,275s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips
-/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
-Users/adowney2/AppData/Roaming/MiKTeX/2.9/fonts/type1/urw/symbol/usyr.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/urw/times/utmri8a.pfb>
-Output written on Chapter_6_vibration_control.pdf (3 pages, 1597762 bytes).
+ 67i,6n,65p,1087b,275s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Pr
+ogram Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb><C:/Users/adowney2/AppData/Roaming/MiKTeX/2.9/fonts/t
+ype1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utm
+b8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Chapter_6_vibration_control.pdf (5 pages, 1710291 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
+ 55 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
